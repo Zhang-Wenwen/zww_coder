@@ -1,0 +1,1490 @@
+[ 2016-04-12T16:52:58+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo1
+ERR: 无法加载控制器:Teamindex
+
+[ 2016-04-12T21:41:39+08:00 ] 127.0.0.1 /mobile.php/Home/TeamIndex/showinfo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+
+[ 2016-04-12T21:57:38+08:00 ] 127.0.0.1 /mobile.php/Home/TeamIndex/showinfo1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0009s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036635s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] is_file(): File name is longer than the maximum allowed path length on this platform (4096): <!DOCTYPE html>
+<html>
+<head>
+	<title>天外天工作室-成员介绍</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0;" />
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="http://coder.twtstudio.com/Public/mobile/iscroll.js"></script>
+	<script src="http://coder.twtstudio.com/Public/mobile/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+        $(function () {
+            $(".pic").mouseover(function () {
+                var id = parseInt($(this).attr('id').substr(5));
+                $("#info" + id).show();
+
+                $(this).mouseout(function () {
+                    $("#info" + id).hide();
+                })
+                $("#info" + id).mouseover(function () {
+                    $("#info" + id).show();
+                });
+
+                $("#info" + id).mouseout(function () {
+                    $("#info" + id).hide();
+                });
+            });
+        });
+    </script>
+
+	<link rel="stylesheet" type="text/css" href="http://coder.twtstudio.com/Public/mobile/public.css">
+</head>
+<body>
+	<header>
+		<img src="http://coder.twtstudio.com/Public/mobile/images/logo.png">
+	</header>
+
+<div>
+	<div class="member-content">
+		<div class="list">
+        <ul>
+                       2            <li><a  href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo1?grade=2013">2013</a>
+                            </li>
+                            <li>
+                             <p>
+                           <span class="select-year"><a  href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo1?grade=2014">2014</a></span>
+                            </p>
+                            </li>
+                            <li><a  href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo1?grade=2015">2015</a>
+                            </li>
+
+                        
+
+                                </ul>
+        </div>
+
+    <div class="member">
+        <table>
+            <tbody>
+
+             <tr>
+
+                    <td>
+
+                            <div id="info2" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组郭仁杰<br>
+
+                                    软件学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584734420780.jpg.'b'"
+                                 id="photo2" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info2" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组郭仁杰<br>
+
+                                    软件学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584734420780.jpg.'b'"
+                                 id="photo2" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              --><tr>
+
+                    <td>
+
+                            <div id="info4" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组高天宇<br>
+
+                                    精仪学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584736050254.jpg.'b'"
+                                 id="photo4" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info4" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组高天宇<br>
+
+                                    精仪学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584736050254.jpg.'b'"
+                                 id="photo4" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              --><tr>
+
+                    <td>
+
+                            <div id="info6" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">设计组陈榆浩<br>
+
+                                    机械学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584736880154.jpg.'b'"
+                                 id="photo6" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info6" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">设计组陈榆浩<br>
+
+                                    机械学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584736880154.jpg.'b'"
+                                 id="photo6" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              --><tr>
+
+                    <td>
+
+                            <div id="info8" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组李河林<br>
+
+                                    机械学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584746520804.jpg.'b'"
+                                 id="photo8" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info8" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组李河林<br>
+
+                                    机械学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584746520804.jpg.'b'"
+                                 id="photo8" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              --><tr>
+
+                    <td>
+
+                            <div id="info10" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组陈恒<br>
+
+                                    软件学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584760280145.jpg.'b'"
+                                 id="photo10" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info10" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组陈恒<br>
+
+                                    软件学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584760280145.jpg.'b'"
+                                 id="photo10" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              --><tr>
+
+                    <td>
+
+                            <div id="info12" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组王海弛<br>
+
+                                    软件学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584764280830.jpg.'b'"
+                                 id="photo12" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info12" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">程序组王海弛<br>
+
+                                    软件学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584764280830.jpg.'b'"
+                                 id="photo12" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              --><tr>
+
+                    <td>
+
+                            <div id="info14" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">移动组鲍一心<br>
+
+                                    计算机学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14594900930453.jpg.'b'"
+                                 id="photo14" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info14" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">移动组鲍一心<br>
+
+                                    计算机学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14594900930453.jpg.'b'"
+                                 id="photo14" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              --><tr>
+
+                    <td>
+
+                            <div id="info16" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">移动组金虹旭<br>
+
+                                    计算机学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14594901510025.jpg.'b'"
+                                 id="photo16" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info16" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">移动组金虹旭<br>
+
+                                    计算机学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14594901510025.jpg.'b'"
+                                 id="photo16" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              -->            </tbody>
+        </table>
+    </div>
+
+    </div>
+
+    <div class="member-group">
+    	 
+                  
+         <table>
+        <tbody>
+           <tr>
+            <td><a href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo2?teamer_group='程序组'" >程序</a></td>
+            <td><a href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo2?teamer_group='产品组'" >产品</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo2?teamer_group='前端组'">前端</a></td>
+            <td><a href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo2?teamer_group='设计组'">设计</a></td>
+          </tr>
+</tbody>
+      </table>
+
+    	
+    </div>
+
+
+</div>
+
+	<footer>
+		<ul>
+			<li>
+				<a href="/index.php/home/member/index">团队分工</a>
+			</li>
+			<li>
+				<a href="/index.php/home/project/index">项目成果</a>
+			</li>
+			<li >
+            <a href="/index.php/home/Index/index"><img src="/Public/mobile/images2/home-icon.png" class="home-icon"></a>
+           </li>
+			<li>
+				<a href="/index.php/Home/TeamIndex/showinfo1">成员介绍</a>
+			</li>
+			<li>
+				<a href="/index.php/home/about/index">关于我们</a>
+			</li>
+		</ul>
+	</footer>
+
+    <script type="text/javascript">
+    (function($) {
+  var options, Events, Touch;
+  options = {
+    x: 20,
+    y: 20
+  };
+  Events = ['swipe', 'swipeLeft', 'swipeRight', 'swipeUp', 'swipeDown', 'tap', 'longTap', 'drag'];
+  Events.forEach(function(eventName) {
+    $.fn[eventName] = function() {
+      var touch = new Touch($(this), eventName);
+      touch.start();
+      if (arguments[1]) {
+        options = arguments[1]
+      }
+      return this.on(eventName, arguments[0])
+    }
+  });
+  Touch = function() {
+    var status, ts, tm, te;
+    this.target = arguments[0];
+    this.e = arguments[1]
+  };
+  Touch.prototype.framework = function(e) {
+    e.preventDefault();
+    var events;
+    if (e.changedTouches) events = e.changedTouches[0];
+    else events = e.originalEvent.touches[0];
+    return events
+  };
+  Touch.prototype.start = function() {
+    var self = this;
+    self.target.on("touchstart",
+    function(event) {
+      event.preventDefault();
+      var temp = self.framework(event);
+      var d = new Date();
+      self.ts = {
+        x: temp.pageX,
+        y: temp.pageY,
+        d: d.getTime()
+      }
+    });
+    self.target.on("touchmove",
+    function(event) {
+      event.preventDefault();
+      var temp = self.framework(event);
+      var d = new Date();
+      self.tm = {
+        x: temp.pageX,
+        y: temp.pageY
+      };
+      if (self.e == "drag") {
+        self.target.trigger(self.e, self.tm);
+        return
+      }
+    });
+    self.target.on("touchend",
+    function(event) {
+      event.preventDefault();
+      var d = new Date();
+      if (!self.tm) {
+        self.tm = self.ts
+      }
+      self.te = {
+        x: self.tm.x - self.ts.x,
+        y: self.tm.y - self.ts.y,
+        d: (d - self.ts.d)
+      };
+      self.tm = undefined;
+      self.factory()
+    })
+  };
+  Touch.prototype.factory = function() {
+    var x = Math.abs(this.te.x);
+    var y = Math.abs(this.te.y);
+    var t = this.te.d;
+    var s = this.status;
+    if (x < 5 && y < 5) {
+      if (t < 300) {
+        s = "tap"
+      } else {
+        s = "longTap"
+      }
+    } else if (x < options.x && y > options.y) {
+      if (t < 250) {
+        if (this.te.y > 0) {
+          s = "swipeDown"
+        } else {
+          s = "swipeUp"
+        }
+      } else {
+        s = "swipe"
+      }
+    } else if (y < options.y && x > options.x) {
+      if (t < 250) {
+        if (this.te.x > 0) {
+          s = "swipeLeft"
+        } else {
+          s = "swipeRight"
+        }
+      } else {
+        s = "swipe"
+      }
+    }
+    if (s == this.e) {
+      this.target.trigger(this.e);
+      return
+    }
+  }
+})(window.jQuery || window.Zepto);
+    </script>
+</body>
+</html> /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Template.class.php 第 96 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.014694s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008857s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-04-12T21:58:27+08:00 ] 127.0.0.1 /mobile.php/Home/TeamIndex/showinfo1?grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000688s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000809s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-04-12T21:58:44+08:00 ] 127.0.0.1 /mobile.php/Home/TeamIndex/showinfo2?teamer_group=%27%E5%89%8D%E7%AB%AF%E7%BB%84%27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '前端组' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_group = '前端组' )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 97 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 99 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 100 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 166 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 168 行.
+NOTIC: [8] Undefined variable: obj /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Runtime/Cache/Home/e2296026475a086b1d7549d466683ac9.php 第 169 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] is_file(): File name is longer than the maximum allowed path length on this platform (4096): <!DOCTYPE html>
+<html>
+<head>
+	<title>天外天工作室-成员介绍</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0;" />
+	<meta charset="utf-8">
+
+	<script type="text/javascript" src="http://coder.twtstudio.com/Public/mobile/iscroll.js"></script>
+	<script src="http://coder.twtstudio.com/Public/mobile/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+        $(function () {
+            $(".pic").mouseover(function () {
+                var id = parseInt($(this).attr('id').substr(5));
+                $("#info" + id).show();
+
+                $(this).mouseout(function () {
+                    $("#info" + id).hide();
+                })
+                $("#info" + id).mouseover(function () {
+                    $("#info" + id).show();
+                });
+
+                $("#info" + id).mouseout(function () {
+                    $("#info" + id).hide();
+                });
+            });
+        });
+    </script>
+
+	<link rel="stylesheet" type="text/css" href="http://coder.twtstudio.com/Public/mobile/public.css">
+</head>
+<body>
+	<header>
+		<img src="http://coder.twtstudio.com/Public/mobile/images/logo.png">
+	</header>
+
+<div>
+	<div class="member-content">
+		<div class="list">
+        <ul>
+                   </ul>
+        </div>
+
+    <div class="member">
+        <table>
+            <tbody>
+
+             <tr>
+
+                    <td>
+
+                            <div id="info2" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">前端组刘新迪<br>
+
+                                    软件学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584737690629.PNG.'b'"
+                                 id="photo2" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+<!--
+                <tr>
+
+                    <td>
+
+                            <div id="info2" class="hidden">
+
+                                <p class="info-right"> &nbsp <br>
+
+                                    <br>
+                                    <br>
+                                </p>
+
+                                <p class="info-right-text">前端组刘新迪<br>
+
+                                    软件学院<br>
+                                    <br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="http://coder.twtstudio.com/upload//14584737690629.PNG.'b'"
+                                 id="photo2" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        
+                </tr>
+              -->            </tbody>
+        </table>
+    </div>
+
+    </div>
+
+    <div class="member-group">
+    	 
+                    <table>
+        <tbody>
+          <tr>
+            <td><a href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo2?teamer_group='程序组'" >程序</a></td>
+            <td><a href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo2?teamer_group='产品组'">产品</a></td>
+          </tr>
+          <tr>
+            <td><a href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo2?teamer_group='前端组'" class="active">前端</a></td>
+            <td><a href="http://coder.twtstudio.com/index.php/Home/TeamIndex/showinfo2?teamer_group='设计组'" >设计</a></td>
+          </tr>
+</tbody>
+      </table>
+
+
+           
+
+    	
+    </div>
+
+
+</div>
+
+	<footer>
+		<ul>
+			<li>
+				<a href="/index.php/home/member/index">团队分工</a>
+			</li>
+			<li>
+				<a href="/index.php/home/project/index">项目成果</a>
+			</li>
+			<li >
+            <a href="/index.php/home/Index/index"><img src="/Public/mobile/images2/home-icon.png" class="home-icon"></a>
+           </li>
+			<li>
+				<a href="/index.php/Home/TeamIndex/showinfo1">成员介绍</a>
+			</li>
+			<li>
+				<a href="/index.php/home/about/index">关于我们</a>
+			</li>
+		</ul>
+	</footer>
+
+    <script type="text/javascript">
+    (function($) {
+  var options, Events, Touch;
+  options = {
+    x: 20,
+    y: 20
+  };
+  Events = ['swipe', 'swipeLeft', 'swipeRight', 'swipeUp', 'swipeDown', 'tap', 'longTap', 'drag'];
+  Events.forEach(function(eventName) {
+    $.fn[eventName] = function() {
+      var touch = new Touch($(this), eventName);
+      touch.start();
+      if (arguments[1]) {
+        options = arguments[1]
+      }
+      return this.on(eventName, arguments[0])
+    }
+  });
+  Touch = function() {
+    var status, ts, tm, te;
+    this.target = arguments[0];
+    this.e = arguments[1]
+  };
+  Touch.prototype.framework = function(e) {
+    e.preventDefault();
+    var events;
+    if (e.changedTouches) events = e.changedTouches[0];
+    else events = e.originalEvent.touches[0];
+    return events
+  };
+  Touch.prototype.start = function() {
+    var self = this;
+    self.target.on("touchstart",
+    function(event) {
+      event.preventDefault();
+      var temp = self.framework(event);
+      var d = new Date();
+      self.ts = {
+        x: temp.pageX,
+        y: temp.pageY,
+        d: d.getTime()
+      }
+    });
+    self.target.on("touchmove",
+    function(event) {
+      event.preventDefault();
+      var temp = self.framework(event);
+      var d = new Date();
+      self.tm = {
+        x: temp.pageX,
+        y: temp.pageY
+      };
+      if (self.e == "drag") {
+        self.target.trigger(self.e, self.tm);
+        return
+      }
+    });
+    self.target.on("touchend",
+    function(event) {
+      event.preventDefault();
+      var d = new Date();
+      if (!self.tm) {
+        self.tm = self.ts
+      }
+      self.te = {
+        x: self.tm.x - self.ts.x,
+        y: self.tm.y - self.ts.y,
+        d: (d - self.ts.d)
+      };
+      self.tm = undefined;
+      self.factory()
+    })
+  };
+  Touch.prototype.factory = function() {
+    var x = Math.abs(this.te.x);
+    var y = Math.abs(this.te.y);
+    var t = this.te.d;
+    var s = this.status;
+    if (x < 5 && y < 5) {
+      if (t < 300) {
+        s = "tap"
+      } else {
+        s = "longTap"
+      }
+    } else if (x < options.x && y > options.y) {
+      if (t < 250) {
+        if (this.te.y > 0) {
+          s = "swipeDown"
+        } else {
+          s = "swipeUp"
+        }
+      } else {
+        s = "swipe"
+      }
+    } else if (y < options.y && x > options.x) {
+      if (t < 250) {
+        if (this.te.x > 0) {
+          s = "swipeLeft"
+        } else {
+          s = "swipeRight"
+        }
+      } else {
+        s = "swipe"
+      }
+    }
+    if (s == this.e) {
+      this.target.trigger(this.e);
+      return
+    }
+  }
+})(window.jQuery || window.Zepto);
+    </script>
+</body>
+</html> /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Template.class.php 第 96 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.006929s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003529s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.003652s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+

@@ -1,0 +1,132 @@
+[ 2016-08-22T08:39:47+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:39:47+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='‰∫ßÂ?Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '‰∫ßÂ?Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '‰∫ßÂ?Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:39:47+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:39:47+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='ËÆæË?Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'ËÆæË?Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'ËÆæË?Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:39:48+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:39:48+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='Á®??Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'Á®??Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'Á®??Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:41:10+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:41:10+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='‰∫ßÂ?Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '‰∫ßÂ?Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '‰∫ßÂ?Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:41:10+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:41:10+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='ËÆæË?Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'ËÆæË?Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'ËÆæË?Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:41:10+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:41:10+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='Á®??Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'Á®??Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'Á®??Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:41:10+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:41:10+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='???Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '???Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '???Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:42:50+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:42:50+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='‰∫ßÂ?Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '‰∫ßÂ?Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '‰∫ßÂ?Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:42:50+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:42:50+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='ËÆæË?Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'ËÆæË?Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'ËÆæË?Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:42:50+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:42:50+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='Á®??Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'Á®??Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = 'Á®??Áª? ) LIMIT 1  
+
+[ 2016-08-22T08:42:50+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-08-22T08:42:50+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='???Áª?
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '???Áª? ) LIMIT 1  
+ERR: :
+ [ SQLËØ≠Âè• ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '???Áª? ) LIMIT 1  
+

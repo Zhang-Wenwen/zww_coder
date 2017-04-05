@@ -1,0 +1,1 @@
+a:8:{i:0;s:2:"id";i:1;s:8:"pic_name";i:2;s:7:"pic_loc";i:3;s:8:"pic_link";i:4;s:10:"pic_showid";i:5;s:10:"pic_isshow";s:3:"_pk";s:2:"id";s:5:"_type";a:6:{s:2:"id";s:11:"smallint(5)";s:8:"pic_name";s:11:"varchar(50)";s:7:"pic_loc";s:12:"varchar(200)";s:8:"pic_link";s:12:"varchar(200)";s:10:"pic_showid";s:11:"varchar(10)";s:10:"pic_isshow";s:10:"varchar(5)";}}

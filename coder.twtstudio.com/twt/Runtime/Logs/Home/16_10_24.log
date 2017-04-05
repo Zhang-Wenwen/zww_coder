@@ -1,0 +1,3 @@
+[ 2016-10-24T17:48:35+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo1?grade=2013
+ERR: 无法加载控制器:Teamindex
+

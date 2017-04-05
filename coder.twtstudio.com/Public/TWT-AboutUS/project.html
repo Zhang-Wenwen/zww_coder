@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=2.0,user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="public.css">
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <title>天外天工作室-项目成果</title>
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.left_nav').click(function () {
+                //点击的导航栏编号
+                var no = parseInt($(this).attr('id').substr(3));
+
+                //添加切换动画
+                $('.show1').addClass('disappear');
+                //动画结束事件效果
+                $('.disappear').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+                    $('.show1').removeClass('disappear');
+                    var prev_no = parseInt($('.show1').attr('class').substr(3, 1));
+                    for (var i = 0; i < 5; i++) {
+                        var temp = (prev_no + i) % 10;
+                        $(".pic" + temp).removeClass('show' + (i + 1));
+                        $(".pic" + ((no + i) % 10)).addClass('show' + (i + 1));
+                    }
+                });
+
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="nav" style="margin-bottom:40px;">
+    <img src="images\logo.png">
+
+    <div class="navlist">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">项目成果</a></li>
+            <li><a href="#">团队分工</a></li>
+            <li><a href="#">成员介绍</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content">
+    <div class="side">
+        <ul>
+            <li><a class="left_nav" id="nav1" href="#">问津</a></li>
+            <li><a class="left_nav" id="nav2" href="#">微北洋</a></li>
+            <li><a class="left_nav" id="nav3" href="#">天津大学党建</a></li>
+            <li><a class="left_nav" id="nav4" href="#">天外天新闻</a></li>
+            <li><a class="left_nav" id="nav5" href="#">天外天网盘</a></li>
+            <li><a class="left_nav" id="nav6" href="#">天外天影视</a></li>
+            <li><a class="left_nav" id="nav7" href="#">天外天商城</a></li>
+            <li><a class="left_nav" id="nav8" href="#">天外天软件</a></li>
+            <li><a class="left_nav" id="nav9" href="#">就业指导中心</a></li>
+            <li><a class="left_nav" id="nav10" href="#">形势与政策考试</a></li>
+        </ul>
+    </div>
+
+    <div class="picture">
+        <ul>
+            <li class="pic1 show1">
+                <img src="images\weibeiyang.png">
+            </li>
+            <li class="pic2 show2">
+                <img src="images\wenjin.png">
+            </li>
+            <li class="pic3 show3">
+                <img src="images\weibeiyang.png">
+            </li>
+            <li class="pic4 show4">
+                <img src="images\wenjin.png">
+            </li>
+            <li class="pic5 show5">
+                <img src="images\weibeiyang.png">
+            </li>
+            <li class="pic6">
+                <img src="images\weibeiyang.png">
+            </li>
+            <li class="pic7">
+                <img src="images\weibeiyang.png">
+            </li>
+            <li class="pic8">
+                <img src="images\weibeiyang.png">
+            </li>
+            <li class="pic9">
+                <img src="images\wenjin.png">
+            </li>
+            <li class="pic0">
+                <img src="images\wenjin.png">
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="pub_footer">
+    <a href="#" class="http">http://www.twt.edu.cn/</a>
+    <a href="#" class="img"><img src="images\footer.png"></a>
+
+    <p>天外天工作室©2000-2015 津 ICP 备000017号</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,1361 @@
+[ 2016-04-28T21:44:50+08:00 ] 127.0.0.1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-04-28T21:44:51+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-04-28T21:44:56+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0140s ]
+SQL: SELECT `id`,`password` FROM `tp_user` WHERE `username` = 'admin2' LIMIT 1   [ RunTime:0.0114s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-04-28T21:44:57+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_index_pic` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_index_pic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-04-28T21:45:11+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017169s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2016-04-28T21:45:55+08:00 ] 127.0.0.1 /admin.php/Home/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013474s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.013635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-04-28T21:46:52+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0009s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','大声的','2014','软件','程序组','14618512120748.png.\'b\'','','') [ RunTime:0.0813s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000671s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000640s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-04-28T22:03:15+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: grade /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/TeamController.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2013 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2013 ) LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000710s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000783s ]
+
+[ 2016-04-28T22:03:18+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table?grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0006s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011404s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011475s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-04-28T22:03:24+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table/grade/2014/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0008s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 10,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-04-28T22:03:27+08:00 ] 127.0.0.1 /admin.php/Home/Team/dinfo?teamer_id=130&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( id=130 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: DELETE FROM `tp_teamer` WHERE ( id=130 ) [ RunTime:0.0857s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade=2014 )  [ RunTime:0.0003s ]
+SQL: UPDATE `tp_teamer` SET `is_new_grade`='1' WHERE `id` = 109 [ RunTime:0.0083s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021923s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.022131s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-04-28T22:03:46+08:00 ] 127.0.0.1 /admin.php/Home/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000513s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-04-28T22:04:16+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000677s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0008s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','可好','2014','软件','移动组','14618522560416.png.\'b\'','','') [ RunTime:0.0482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011872s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011952s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000675s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-04-28T22:10:59+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0006s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: grade /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/TeamController.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2013 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2013 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-04-28T22:11:00+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table?grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-04-28T22:11:02+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table/grade/2014/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0008s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011959s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-04-28T22:11:04+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table/grade/2014/p/2.html?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2016-04-28T22:11:07+08:00 ] 127.0.0.1 /admin.php/Home/Team/dinfo?teamer_id=131&grade=2014
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( id=131 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `tp_teamer` WHERE ( id=131 ) [ RunTime:0.0724s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade=2014 )  [ RunTime:0.0003s ]
+SQL: UPDATE `tp_teamer` SET `is_new_grade`='1' WHERE `id` = 109 [ RunTime:0.0313s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2014 ) LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014993s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000893s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.001064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000741s ]
+
+[ 2016-04-28T22:11:18+08:00 ] 127.0.0.1 /admin.php/Home/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009422s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000552s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-04-28T22:15:23+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','陈丁辰','2015','教育学院','程序组','14618529230034.jpg.\'b\'','','') [ RunTime:0.1118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000389s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000520s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-04-28T22:18:05+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0006s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','王龙龙','2013','机械学院','移动组','14618530840183.jpg.\'b\'','','') [ RunTime:0.0631s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000524s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000650s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-04-28T22:20:36+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0006s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','张亦弛','2014','信息学院','程序组','14618532360870.png.\'b\'','','') [ RunTime:0.0642s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000673s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2016-04-28T22:23:53+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0006s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','郑飞','2012','软件学院','程序组','14618534330242.png.\'b\'','','') [ RunTime:0.0405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000677s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000644s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-04-28T22:25:18+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0006s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','黄咏','2012','经管学部','移动组','14618535180808.png.\'b\'','','') [ RunTime:0.0733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000745s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000715s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-04-28T22:27:25+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','秦昱博','2012','经管学部','移动组','14618536450466.png.\'b\'','','') [ RunTime:0.0609s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000741s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2016-04-28T22:29:02+08:00 ] 127.0.0.1 /admin.php/Home/Index/home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-04-28T22:29:05+08:00 ] 127.0.0.1 /admin.php/Home/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000665s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-04-28T22:30:10+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','马志炜','2012','精仪学院','移动组','14618538100649.png.\'b\'','','') [ RunTime:0.1183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000719s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2016-04-28T22:31:29+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','吴格林','2014','软件学院','移动组','14618538890463.png.\'b\'','','') [ RunTime:0.0346s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000671s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+
+[ 2016-04-28T22:33:34+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0006s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','牛昭悦','2012','机械学院','设计组','14618540140051.png.\'b\'','','') [ RunTime:0.0538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000681s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2016-04-28T22:34:50+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','鲁素苗','2012','机械学院','设计组','14618540900894.png.\'b\'','','') [ RunTime:0.0332s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000673s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2016-04-28T22:45:53+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: grade /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/TeamController.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2013 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2013 ) LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011543s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-04-28T22:45:55+08:00 ] 127.0.0.1 /admin.php/Home/Team/show_update
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `tp_teamer_admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_teamer_admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1cd52bde61a0ad36f7c1df3888ee2580.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030742s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010745s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010912s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-04-28T22:45:59+08:00 ] 127.0.0.1 /admin.php/Home/Team/show_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `tp_teamer_admin` [ RunTime:0.0005s ]
+SQL: UPDATE `tp_teamer_admin` SET `show_num`='10',`show_grade`='2012-2013-2014-2015' WHERE `id` = 1 [ RunTime:0.0063s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] is_file(): File name is longer than the maximum allowed path length on this platform (4096): <!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>天外天Coder后台管理系统</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="/Public/amaze_assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/Public/amaze_assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="/Public/amaze_assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/Public/amaze_assets/css/admin.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+    以获得更好的体验！</p>
+<![endif]-->
+
+<!-- top start -->
+<header class="am-topbar admin-header">
+    <div class="am-topbar-brand">
+    <a href="/admin.php/Home/Index/home"><span class="am-icon-home"> <strong>天外天Coder</strong> <small>后台管理系统 &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    </small></a>
+    <small><span>前台页面：</span></small>
+    <small><a href="/index.php/Home/Index/index" target="_blank"><span class="am-icon-home"></span> 首页</a></small>
+    <small><a href="/index.php/Home/Project/index" target="_blank"><span class="am-icon-file"></span> 项目成果</a>
+    </small>
+    <small><a href="/index.php/Home/TeamIndex/showinfo1" target="_blank"><span class="am-icon-file"></span>
+        团队分工</a></small>
+</div>
+
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+        data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+<div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+        <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                <span class="am-icon-users"></span> 管理员 <span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+                <li><a href="/admin.php/Home/change/change"><span class="am-icon-cog"></span> 修改密码</a></li>
+                <li><a href="/admin.php/Home/logout/index"><span class="am-icon-power-off"></span> 退出</a></li>
+            </ul>
+        </li>
+        <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen"><span
+                class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+    </ul>
+</div>
+</header>
+<!-- top end -->
+
+<div class="am-cf admin-main">
+    <!-- sidebar start -->
+    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+    <div class="am-offcanvas-bar admin-offcanvas-bar">
+        <ul class="am-list admin-sidebar-list">
+            <li><a href="/admin.php/Home/Index/home"><span class="am-icon-home"></span> 后台首页</a></li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>
+                    编辑首页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+                    <li><a href="/admin.php/Home/Index/add" class="am-cf"><span class="am-icon-check"></span> 添加轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/index"><span class="am-icon-puzzle-piece"></span> 编辑轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/sort"><span class="am-icon-puzzle-piece"></span> 轮播排序</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/modifyword"><span class="am-icon-th"></span> 编辑文字</a></li>
+                </ul>
+            </li>
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}"><span class="am-icon-file"></span>
+                    编辑项目成果页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav1">
+                    <li><a href="/admin.php/Home/Project/add" class="am-cf"><span class="am-icon-check"></span>
+                        添加成果</a></li>
+                    <li><a href="/admin.php/Home/Project/index"><span class="am-icon-puzzle-piece"></span>
+                        编辑成果</a></li>
+                    <li><a href="/admin.php/Home/Project/sort"><span class="am-icon-th"></span> 成果排序</a></li>
+                </ul>
+            </li>
+
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"><span class="am-icon-file"></span>
+                    编辑团队分工页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav2">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/index" class="am-cf"><span
+                            class="am-icon-check"></span> 添加成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/member_table"><span
+                            class="am-icon-puzzle-piece"></span> 编辑成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/show_update"><span
+                            class="am-icon-puzzle-piece"></span> 页面设置</a></li>
+                </ul>
+            </li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav3'}"><span class="am-icon-file"></span>
+                    编辑关于我们页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav3">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/About/index" class="am-cf"><span
+                            class="am-icon-check"></span>编辑</a></li>
+                  
+                </ul>
+            </li>
+            <li><a href="/admin.php/Home/Change/change"><span class="am-icon-sign-out"></span> 修改密码</a></li>
+            <li><a href="/admin.php/Home/logout/index"><span class="am-icon-sign-out"></span> 注销</a></li>
+        </ul>
+
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+
+        </div>
+    </div>
+</div>
+<!-- sidebar end -->
+
+
+<!-- content start -->
+<div class="admin-content">
+    <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">页面显示</strong></div>
+    </div>
+    设置成功    <div class="am-tabs am-margin" data-am-tabs>
+        <ul class="am-tabs-nav am-nav am-nav-tabs">
+
+
+            <li><a href="#tab3">设置</a></li>
+        </ul>
+
+        <div class="am-tabs-bd">
+
+            <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+
+            </div>
+
+
+            <div class="am-tab-panel am-fade" id="tab3">
+                <form class="am-form" action="http://coder.twtstudio.com/admin.php/Home/Team/show_save" method="post">
+                    <div class="am-g am-margin-top-sm">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            每页显示成员数
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4 am-u-end">
+                            <input type="text" name="new_num" value="10" class="am-input-sm">
+                        </div>
+                    </div>
+
+                    <div class="am-g am-margin-top-sm">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            年级列表
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4 am-u-end">
+                            <input name="new_grade" value="2012-2013-2014-2015" style="width:305px"
+                                   class="am-input-sm">
+                        </div>
+                        <p class="am-form-help">请输入年级，用 - 隔开，如2012-2013-2014</p>
+                    </div>
+
+                    <div class="am-margin">
+                        <input type="submit" class="am-btn am-btn-primary am-btn-xs" value="修改">
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+</div>
+<!-- content end -->
+
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="/Public/amaze_assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/Public/amaze_assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="/Public/amaze_assets/js/amazeui.min.js"></script>
+<script src="/Public/amaze_assets/js/app.js"></script>
+</body>
+</html> /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Template.class.php 第 96 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007626s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020380s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000016s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.020544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2016-04-28T22:46:36+08:00 ] 127.0.0.1 /admin.php/Home/Team/show_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `tp_teamer_admin` [ RunTime:0.0006s ]
+SQL: UPDATE `tp_teamer_admin` SET `show_num`='8',`show_grade`='2012-2013-2014-2015' WHERE `id` = 1 [ RunTime:0.1405s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] is_file(): File name is longer than the maximum allowed path length on this platform (4096): <!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>天外天Coder后台管理系统</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="/Public/amaze_assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/Public/amaze_assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="/Public/amaze_assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/Public/amaze_assets/css/admin.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+    以获得更好的体验！</p>
+<![endif]-->
+
+<!-- top start -->
+<header class="am-topbar admin-header">
+    <div class="am-topbar-brand">
+    <a href="/admin.php/Home/Index/home"><span class="am-icon-home"> <strong>天外天Coder</strong> <small>后台管理系统 &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    </small></a>
+    <small><span>前台页面：</span></small>
+    <small><a href="/index.php/Home/Index/index" target="_blank"><span class="am-icon-home"></span> 首页</a></small>
+    <small><a href="/index.php/Home/Project/index" target="_blank"><span class="am-icon-file"></span> 项目成果</a>
+    </small>
+    <small><a href="/index.php/Home/TeamIndex/showinfo1" target="_blank"><span class="am-icon-file"></span>
+        团队分工</a></small>
+</div>
+
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+        data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+<div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+        <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                <span class="am-icon-users"></span> 管理员 <span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+                <li><a href="/admin.php/Home/change/change"><span class="am-icon-cog"></span> 修改密码</a></li>
+                <li><a href="/admin.php/Home/logout/index"><span class="am-icon-power-off"></span> 退出</a></li>
+            </ul>
+        </li>
+        <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen"><span
+                class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+    </ul>
+</div>
+</header>
+<!-- top end -->
+
+<div class="am-cf admin-main">
+    <!-- sidebar start -->
+    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+    <div class="am-offcanvas-bar admin-offcanvas-bar">
+        <ul class="am-list admin-sidebar-list">
+            <li><a href="/admin.php/Home/Index/home"><span class="am-icon-home"></span> 后台首页</a></li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>
+                    编辑首页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+                    <li><a href="/admin.php/Home/Index/add" class="am-cf"><span class="am-icon-check"></span> 添加轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/index"><span class="am-icon-puzzle-piece"></span> 编辑轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/sort"><span class="am-icon-puzzle-piece"></span> 轮播排序</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/modifyword"><span class="am-icon-th"></span> 编辑文字</a></li>
+                </ul>
+            </li>
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}"><span class="am-icon-file"></span>
+                    编辑项目成果页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav1">
+                    <li><a href="/admin.php/Home/Project/add" class="am-cf"><span class="am-icon-check"></span>
+                        添加成果</a></li>
+                    <li><a href="/admin.php/Home/Project/index"><span class="am-icon-puzzle-piece"></span>
+                        编辑成果</a></li>
+                    <li><a href="/admin.php/Home/Project/sort"><span class="am-icon-th"></span> 成果排序</a></li>
+                </ul>
+            </li>
+
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"><span class="am-icon-file"></span>
+                    编辑团队分工页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav2">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/index" class="am-cf"><span
+                            class="am-icon-check"></span> 添加成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/member_table"><span
+                            class="am-icon-puzzle-piece"></span> 编辑成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/show_update"><span
+                            class="am-icon-puzzle-piece"></span> 页面设置</a></li>
+                </ul>
+            </li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav3'}"><span class="am-icon-file"></span>
+                    编辑关于我们页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav3">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/About/index" class="am-cf"><span
+                            class="am-icon-check"></span>编辑</a></li>
+                  
+                </ul>
+            </li>
+            <li><a href="/admin.php/Home/Change/change"><span class="am-icon-sign-out"></span> 修改密码</a></li>
+            <li><a href="/admin.php/Home/logout/index"><span class="am-icon-sign-out"></span> 注销</a></li>
+        </ul>
+
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+
+        </div>
+    </div>
+</div>
+<!-- sidebar end -->
+
+
+<!-- content start -->
+<div class="admin-content">
+    <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">页面显示</strong></div>
+    </div>
+    设置成功    <div class="am-tabs am-margin" data-am-tabs>
+        <ul class="am-tabs-nav am-nav am-nav-tabs">
+
+
+            <li><a href="#tab3">设置</a></li>
+        </ul>
+
+        <div class="am-tabs-bd">
+
+            <div class="am-tab-panel am-fade am-in am-active" id="tab1">
+
+            </div>
+
+
+            <div class="am-tab-panel am-fade" id="tab3">
+                <form class="am-form" action="http://coder.twtstudio.com/admin.php/Home/Team/show_save" method="post">
+                    <div class="am-g am-margin-top-sm">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            每页显示成员数
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4 am-u-end">
+                            <input type="text" name="new_num" value="8" class="am-input-sm">
+                        </div>
+                    </div>
+
+                    <div class="am-g am-margin-top-sm">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            年级列表
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4 am-u-end">
+                            <input name="new_grade" value="2012-2013-2014-2015" style="width:305px"
+                                   class="am-input-sm">
+                        </div>
+                        <p class="am-form-help">请输入年级，用 - 隔开，如2012-2013-2014</p>
+                    </div>
+
+                    <div class="am-margin">
+                        <input type="submit" class="am-btn am-btn-primary am-btn-xs" value="修改">
+
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+</div>
+<!-- content end -->
+
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="/Public/amaze_assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/Public/amaze_assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="/Public/amaze_assets/js/amazeui.min.js"></script>
+<script src="/Public/amaze_assets/js/app.js"></script>
+</body>
+</html> /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Template.class.php 第 96 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007594s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006785s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000711s ]
+

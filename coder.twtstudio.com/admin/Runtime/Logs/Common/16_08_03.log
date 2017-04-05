@@ -1,0 +1,1074 @@
+[ 2016-08-03T17:12:29+08:00 ] 127.0.0.1 /admin.php/%22onmouseover=alert%282272%29%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:"onmouseover=alert(2272)>
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/>+ACJ-+AD4APB-SCRIPT/TYPE=TEXT/VBSCRIPT+AD7-MSGBOX(123)+AA0APB-/SCRIPT+AD7-
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+ERR: 无法加载模块:>+ACJ-+AD4APB-SCRIPT
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/global.asa+.htr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:Global.asa+
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/%3E+ACJ-+AD4APB-SCRIPT/TYPE=TEXT/VBSCRIPT+AD7-MSGBOX(123)+AA0APB-/SCRIPT+AD7-
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:>+ACJ-+AD4APB-SCRIPT
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/null.htw?CiWebHitsFile=/global.asa%20&CiRestriction=none&CiHiliteType=Full
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+ERR: 无法加载模块:Null
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/NonExistentFile.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:NonExistentFile
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/global.asa\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+ERR: 无法加载模块:Global.asa\
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/global.asax+.htr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+ERR: 无法加载模块:Global.asax+
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/null.htw?CiWebHitsFile=/global.asax%20&CiRestriction=none&CiHiliteType=Full
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:Null
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/global.asax\
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+ERR: 无法加载模块:Global.asax\
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/test_page89815.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+ERR: 无法加载模块:Test_page89815
+
+[ 2016-08-03T17:14:39+08:00 ] 127.0.0.1 /admin.php/globals.jsa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+ERR: 无法加载模块:Globals
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/Northwind?sql=SELECT+contactname,+phone+FROM+Customers+FOR+XML&root=%3Cscript%3Ealert(2327)%3C/script%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+ERR: 无法加载模块:Northwind
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/WEB-INF./web.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+ERR: 无法加载模块:WEB-INF.
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/WEB-INF/web.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+ERR: 无法加载模块:WEB-INF
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/iissamples/sdk/asp/interaction/ServerVariables_Jscript.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Iissamples
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/trace.axd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 无法加载模块:Trace
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/NR/System/Access/ManualLogin.asp?REASONTXT=%3Cscript%3Ealert(2340)%3C/script%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+ERR: 无法加载模块:NR
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/phpmyadmin/sql.php?server=000&cfgServers[000][host]=hello&btnDrop=No&goto=/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Robots
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/msadc/msadcs.dll
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+ERR: 无法加载模块:Msadc
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/WS_FTP.LOG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:WS_FTP
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/phpmyadmin/sql.php3?server=000&cfgServers[000][host]=hello&btnDrop=No&goto=/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+ERR: 无法加载模块:Phpmyadmin
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/_vti_cnf/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+ERR: 无法加载模块:_vti_cnf
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/RCS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+ERR: 无法加载模块:RCS
+
+[ 2016-08-03T17:14:40+08:00 ] 127.0.0.1 /admin.php/CVS/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+ERR: 无法加载模块:CVS
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/adSamples/config/site.csc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+ERR: 无法加载模块:AdSamples
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/msadc/Samples/Selector/ShowCode.asp?source=/msadc/../../../../../boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+ERR: 无法加载模块:Msadc
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/AdvWorks/equipment/catalog_type.asp?ProductType=|shell(%22cmd+/c+dir+c:%22)|
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:AdvWorks
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+ERR: 无法加载模块:����
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c../boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:..�..�..�..�..�..�..�..�..�..�..�..�..
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+ERR: 无法加载模块:����
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c../boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000634s ]
+ERR: 无法加载模块:..��..��..��..��..��..��..��..��..��..��..��..��..
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/etc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+ERR: 无法加载模块:%2e%2e
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/home%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%afetc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+ERR: 无法加载模块:Home��..��..��..��..��..��..��..��..��..��..��..��..��etc
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/winnt/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载模块:����
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+ERR: 无法加载模块:����
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/cgi-bin/htimage.exe?2,2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+ERR: 无法加载模块:Cgi-bin
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c../winnt/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载模块:..�..�..�..�..�..�..�..�..�..�..�..�..
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/home%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fetc/passwd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 无法加载模块:Home%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c../winnt/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+ERR: 无法加载模块:..��..��..��..��..��..��..��..��..��..��..��..��..
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/iissamples/exair/howitworks/codebrws.asp?source=/msadc/../../../../../boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+ERR: 无法加载模块:Iissamples
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c..%c1%1c../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+ERR: 无法加载模块:..�..�..�..�..�..�..�..�..�..�..�..�..
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/iissamples/sdk/asp/docs/CodeBrws.asp?Source=/iissamples/sdk/asp/docs/%c0%ae./%c0%ae./%c0%ae./%c0%ae./%c0%ae./%c0%ae./winnt/win.ini%c0%80.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+ERR: 无法加载模块:Iissamples
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/scripts/iisadmin/bdir.htr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Scripts
+
+[ 2016-08-03T17:14:41+08:00 ] 127.0.0.1 /admin.php/null.htw?CiWebHitsFile=/default.htm&CiRestriction=%22%3Cscript%3Ealert(2358)%3C/script%3E%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 无法加载模块:Null
+
+[ 2016-08-03T17:14:42+08:00 ] 127.0.0.1 /admin.php/null.htw?CiWebHitsFile=/index.htm&CiRestriction=%22%3Cscript%3Ealert(2360)%3C/script%3E%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+ERR: 无法加载模块:Null
+
+[ 2016-08-03T17:14:42+08:00 ] 127.0.0.1 /admin.php/null.htw?CiWebHitsFile=/index.html&CiRestriction=%22%3Cscript%3Ealert(2361)%3C/script%3E%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+ERR: 无法加载模块:Null
+
+[ 2016-08-03T17:14:42+08:00 ] 127.0.0.1 /admin.php/..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+ERR: 无法加载模块:..��..��..��..��..��..��..��..��..��..��..��..��..
+
+[ 2016-08-03T17:14:42+08:00 ] 127.0.0.1 /admin.php/%5C/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载模块:\
+
+[ 2016-08-03T17:14:42+08:00 ] 127.0.0.1 /admin.php/exchange/forms/ipm/note/cmpTitle.asp?tab=%22%2Balert%282364%29%3B%7D%20setImportance%281%29%3B%3C%2Fscript%3E&att=0&imp=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Exchange
+
+[ 2016-08-03T17:14:42+08:00 ] 127.0.0.1 /admin.php/NonExistentFile.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:NonExistentFile
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Home\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\boot
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\winnt\win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Home\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\winnt\win
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\windows\win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Home\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\windows\win
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/WS_FTP.LOG
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+ERR: 无法加载模块:WS_FTP
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%afboot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+ERR: 无法加载模块:Home��..��..��..��..��..��..��..��..��..��..��..��..��boot
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c../boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+ERR: 无法加载模块:..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%afwinnt/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+ERR: 无法加载模块:Home��..��..��..��..��..��..��..��..��..��..��..��..��winnt
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%afwindows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+ERR: 无法加载模块:Home��..��..��..��..��..��..��..��..��..��..��..��..��windows
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c../winnt/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+ERR: 无法加载模块:..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fboot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+ERR: 无法加载模块:Home%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fboot
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c../windows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+ERR: 无法加载模块:..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c..
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fwinnt/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Home%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwinnt
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252fwindows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Home%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2fwindows
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cboot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\boot
+
+[ 2016-08-03T17:14:43+08:00 ] 127.0.0.1 /admin.php/home%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cwinnt/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\winnt
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/struts-virtdir/%3Cscript%3Ealert(2372)%3C/script%3E.do
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Struts-virtdir
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/home%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5C..%5Cwindows/win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\windows
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/home%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5cwinnt%5cwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\winnt\win
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/home%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5cwindows%5cwin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\windows\win
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/home%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5c%2e%2e%5cboot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\boot
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/test.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/admin.php3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/test.php3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/admin.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/test.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/admin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/test.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:44+08:00 ] 127.0.0.1 /admin.php/admin.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.cgi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/%3Coot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+ERR: 无法加载模块:
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.cfm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.cfm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.pl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.pw
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.dbf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.udl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.shtml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.conf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.cfg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/test.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:Test
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.data
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.dat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/home\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+ERR: 无法加载模块:Home\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\boot
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000496s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/home\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+ERR: 无法加载模块:Home\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\winnt\\win
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.pl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/home\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 无法加载模块:Home\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\..\\windows\\win
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/home\..\..\..\..\..\..\..\..\..\..\..\..\boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\boot
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/home\..\..\..\..\..\..\..\..\..\..\..\..\winnt\win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\winnt\win
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin/admin.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/home\..\..\..\..\..\..\..\..\..\..\..\..\windows\win.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+ERR: 无法加载模块:Home\..\..\..\..\..\..\..\..\..\..\..\..\windows\win
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin/admin.aspx
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin/admin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:45+08:00 ] 127.0.0.1 /admin.php/admin/admin.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:46+08:00 ] 127.0.0.1 /admin.php/admin.jsp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+ERR: 无法加载模块:Admin
+
+[ 2016-08-03T17:14:46+08:00 ] 127.0.0.1 /admin.php/ViewCode.asp?source=/../../../../../../boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:ViewCode
+
+[ 2016-08-03T17:14:47+08:00 ] 127.0.0.1 /admin.php/Winmsdp.exe?source=/../../../../../../boot.ini
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+ERR: 无法加载模块:Winmsdp
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/servervariables_vbscript.asp
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+ERR: 无法加载模块:Servervariables_vbscript
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/order.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000486s ]
+ERR: 无法加载模块:Order
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/register.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+ERR: 无法加载模块:Register
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/output-build.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+ERR: 无法加载模块:Output-build
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/order.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+ERR: 无法加载模块:Order
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/register.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Register
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+ERR: 无法加载模块:Order
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Register
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/registration.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+ERR: 无法加载模块:Registration
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/sitemap.xml
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+ERR: 无法加载模块:Sitemap
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/registration.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+ERR: 无法加载模块:Registration
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/sitemap.gz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+ERR: 无法加载模块:Sitemap
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/registration.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+ERR: 无法加载模块:Registration
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/sqlnet.log
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:Sqlnet
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/sitemap.xml.gz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+ERR: 无法加载模块:Sitemap.xml
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/registrations.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+ERR: 无法加载模块:Registrations
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/sqlnet.trc
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+ERR: 无法加载模块:Sqlnet
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/registrations.htm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Registrations
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/registrations.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+ERR: 无法加载模块:Registrations
+
+[ 2016-08-03T17:14:50+08:00 ] 127.0.0.1 /admin.php/connect.asp?server=%3Cscript%3Ealert(2414)%3C/script%3E
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+ERR: 无法加载模块:Connect
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/default
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+ERR: 无法加载模块:Default
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.zip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/WFDir91594/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:WFDir91594
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:Index
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.gz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Main
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/logout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+ERR: 无法加载模块:Logout
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.zip
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+ERR: 无法加载模块:Login
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.gz
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.rar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.ace
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.lha
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.lzh
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.tar
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:21+08:00 ] 127.0.0.1 /admin.php/admin.php.arj
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+ERR: 无法加载模块:Admin.php
+
+[ 2016-08-03T17:15:22+08:00 ] 127.0.0.1 /admin.php/content.vbs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+ERR: 无法加载模块:Content
+
+[ 2016-08-03T17:15:22+08:00 ] 127.0.0.1 /admin.php/engine.vbs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+ERR: 无法加载模块:Engine
+
+[ 2016-08-03T17:15:22+08:00 ] 127.0.0.1 /admin.php/DBTools.vbs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:DBTools
+
+[ 2016-08-03T17:15:22+08:00 ] 127.0.0.1 /admin.php/http
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+ERR: 无法加载模块:Http
+
+[ 2016-08-03T17:15:22+08:00 ] 127.0.0.1 /admin.php/httpsecure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+ERR: 无法加载模块:Httpsecure
+
+[ 2016-08-03T17:15:22+08:00 ] 127.0.0.1 /admin.php/flex2gateway/http
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+ERR: 无法加载模块:Flex2gateway
+
+[ 2016-08-03T17:15:22+08:00 ] 127.0.0.1 /admin.php/flex2gateway/httpsecure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+ERR: 无法加载模块:Flex2gateway
+
+[ 2016-08-03T17:15:23+08:00 ] 127.0.0.1 /admin.php/http
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:Http
+
+[ 2016-08-03T17:15:23+08:00 ] 127.0.0.1 /admin.php/http
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+ERR: 无法加载模块:Http
+
+[ 2016-08-03T17:15:23+08:00 ] 127.0.0.1 /admin.php/httpsecure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:Httpsecure
+
+[ 2016-08-03T17:15:23+08:00 ] 127.0.0.1 /admin.php/httpsecure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:Httpsecure
+
+[ 2016-08-03T17:15:23+08:00 ] 127.0.0.1 /admin.php/flex2gateway/http
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+ERR: 无法加载模块:Flex2gateway
+
+[ 2016-08-03T17:15:23+08:00 ] 127.0.0.1 /admin.php/flex2gateway/http
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:Flex2gateway
+
+[ 2016-08-03T17:15:23+08:00 ] 127.0.0.1 /admin.php/flex2gateway/httpsecure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:Flex2gateway
+
+[ 2016-08-03T17:15:23+08:00 ] 127.0.0.1 /admin.php/flex2gateway/httpsecure
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 无法加载模块:Flex2gateway
+
+[ 2016-08-03T17:16:21+08:00 ] 127.0.0.1 /admin.php/"><script>alert(2427)</script>
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+ERR: 无法加载模块:">alert(2427)
+
+[ 2016-08-03T17:16:21+08:00 ] 127.0.0.1 /admin.php/%22%3e%3cscript%3ealert(2428)%3c/script%3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+ERR: 无法加载模块:">alert(2428)
+
+[ 2016-08-03T17:16:21+08:00 ] 127.0.0.1 /admin.php/%3cimg%20src%3d%22javascript%3aalert(2431)%22%3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+ERR: 无法加载模块:
+
+[ 2016-08-03T17:16:21+08:00 ] 127.0.0.1 /admin.php/NonExistentFile.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+ERR: 无法加载模块:NonExistentFile
+
+[ 2016-08-03T17:16:21+08:00 ] 127.0.0.1 /admin.php/%22%3e%3cscript%3ealert(2438)%3c/script%3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+ERR: 无法加载模块:">alert(2438)
+
+[ 2016-08-03T17:16:22+08:00 ] 127.0.0.1 /admin.php/%3cimg%20src%3d%22javascript%3aalert(2440)%22%3e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+ERR: 无法加载模块:
+
+[ 2016-08-03T17:16:22+08:00 ] 127.0.0.1 /admin.php/ztprobeqn000025
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+ERR: 无法加载模块:Ztprobeqn000025
+
+[ 2016-08-03T17:16:22+08:00 ] 127.0.0.1 /admin.php/'Aztprobeqn000025
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+ERR: 无法加载模块:'Aztprobeqn000025
+
+[ 2016-08-03T17:16:22+08:00 ] 127.0.0.1 /admin.php/%22Aztprobeqn000025
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+ERR: 无法加载模块:"Aztprobeqn000025
+

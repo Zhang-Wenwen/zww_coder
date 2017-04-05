@@ -1,0 +1,173 @@
+.fan-sm {
+  position: absolute;
+  top: 200px;
+
+  &:before, &:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+  }
+
+  // 黑线
+  &:before {
+    border-right: 1px solid rgba(0, 0, 0, .4);
+    margin-left: -1px;
+    height: 300px;
+  }
+
+  // 彩线
+  &:after {
+    border-right: 4px solid transparent;
+    margin-left: -2px;
+    height: 0;
+  }
+
+  @mixin fan-sm-size($i) {
+    @if $i > 1 {
+      @include fan-sm-size($i - 1)
+    }
+
+    &.fan-#{$i} {
+      height: 20px + 10 * $i;
+      width: 20px + 10 * $i;
+
+      &:before, &:after {
+        bottom: (20px + 10 * $i) / 2;
+      }
+    }
+  }
+  @include fan-sm-size(5);
+
+  div, img, span {
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+  }
+
+  div {
+    z-index: 102;
+  }
+
+  span {
+    z-index: 101;
+    border-radius: 50%;
+    opacity: 0;
+  }
+}
+
+@keyframes fan-sm-1 {
+  0% { transform: rotate(0deg); opacity: 1 }
+  90% { transform: rotate(-3240deg); opacity: 1 }
+  100% { opacity: 0 }
+}
+
+@keyframes fan-sm-2 {
+  0% { opacity: 0 }
+  20% { opacity: 1; transform: scale(1) } // .2s
+  100% { transform: scale(.1) } // 1s
+}
+
+@keyframes fan-sm-3 {
+  0% { height: 0 }
+  50% { height: 60px }
+  100% { height: 0 }
+}
+
+.main-logo {
+  width: 720px;
+  margin: 0 auto;
+  svg {
+    width: 100%;
+    margin-top: 300px;
+  }
+
+  .main-fan {
+    position: relative;
+  }
+
+  .load-1 & {
+    .fan-sm {
+      transition: transform 1s ease-in-out;
+      img {
+        opacity: 1;
+      }
+      span {
+        opacity: 0;
+      }
+    }
+  }
+
+  .load-2 & {
+    .fan-sm {
+      &:before {
+        transition: opacity .4s ease-in-out;
+        opacity: 0;
+      }
+      img {
+        animation: fan-sm-1 2s ease-in;
+        animation-fill-mode: backwards;
+        opacity: 0;
+      }
+      span {
+        animation: fan-sm-2 1.125s linear 1.75s;
+        transform: scale(.15);
+        opacity: 1;
+      }
+    }
+  }
+
+  .load-3 & {
+    .fan-sm {
+      transition: transform 1s ease-in-out;
+      &:after {
+        animation: fan-sm-3 1.5s ease-in-out;
+      }
+    }
+  }
+
+  .load-4 & {
+    .fan-sm {
+      transition: opacity .4s ease-in-out 2s;
+      opacity: 0;
+    }
+  }
+  @mixin main-logo($id, $length, $color) {
+    .c-#{$id} {
+      &:after {
+        border-color: $color;
+      }
+      span {
+        background: $color;
+      }
+    }
+
+    .t-#{$id} {
+      fill: transparent;
+      stroke: $color;
+      stroke-width: 3;
+      stroke-dasharray: $length;
+      stroke-dashoffset: $length;
+      stroke-linecap: round;
+
+      transition: stroke-dashoffset 2s ease-out, fill .4s ease-in-out 2s;
+
+      .load-4 & {
+        stroke-dashoffset: 0;
+        fill: $color;
+      }
+    }
+  }
+
+  @include main-logo(1, 176, $fan-red)
+  @include main-logo(2, 395, $fan-yellow)
+  @include main-logo(3, 176, $fan-green)
+  @include main-logo(4, 251, $fan-blue)
+  @include main-logo(5, 176, $fan-red)
+  @include main-logo(6, 240, $fan-yellow)
+  @include main-logo(7, 159, $fan-green)
+  @include main-logo(8, 112, $fan-blue)
+  @include main-logo(9, 158, $fan-red)
+}

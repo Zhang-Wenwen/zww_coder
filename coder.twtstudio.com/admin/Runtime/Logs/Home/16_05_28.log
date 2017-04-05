@@ -1,0 +1,1679 @@
+[ 2016-05-28T18:52:06+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+
+[ 2016-05-28T18:52:07+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006147s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000680s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-05-28T18:52:09+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`password` FROM `tp_user` WHERE `username` = 'admin2' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005094s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-05-28T18:52:10+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_index_pic` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_index_pic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-05-28T18:53:18+08:00 ] 127.0.0.1 /admin.php/Home/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012098s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000510s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000602s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000632s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-05-28T18:55:51+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','姚子粲','2013','文法学院','产品组','14644329510476.jpg.\'b\'','','') [ RunTime:0.0522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000702s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2016-05-28T18:57:50+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','余海波','2015','教育学院','设计组','14644330700330.jpg.\'b\'','','') [ RunTime:0.0426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000677s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2016-05-28T18:59:12+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0008s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','孙俊韬','2013','软件学院','移动组','14644331520601.jpg.\'b\'','','') [ RunTime:0.0497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000539s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000726s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-05-28T20:46:52+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006756s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+
+[ 2016-05-28T20:46:54+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-05-28T20:46:54+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+
+[ 2016-05-28T20:46:55+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006194s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2016-05-28T20:46:56+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`password` FROM `tp_user` WHERE `username` = 'admin2' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041095s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2016-05-28T20:46:57+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_index_pic` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_index_pic`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-05-28T20:47:02+08:00 ] 127.0.0.1 /admin.php/Home/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000504s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-05-28T20:51:08+08:00 ] 127.0.0.1 /admin.php/Home/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000417s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000568s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-05-28T20:53:41+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0008s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','李洋','2015','电信学院','程序组','14644400210958.png.\'b\'','','') [ RunTime:0.0529s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000734s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000015s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000906s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2016-05-28T21:05:20+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0008s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: grade /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/TeamController.class.php 第 83 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2013 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2013 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-05-28T21:05:36+08:00 ] 127.0.0.1 /admin.php/Home/Team/member_table?grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0010s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2015 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2015 ) LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2016-05-28T21:05:39+08:00 ] 127.0.0.1 /admin.php/Home/Team/updateinfo?teamer_id=152&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( id = 152 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000415s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] is_file(): File name is longer than the maximum allowed path length on this platform (4096): <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html class="no-js">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>天外天Coder后台管理系统</title>
+
+    <meta name="description" content="这是一�?index 页面">
+
+    <meta name="keywords" content="index">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="renderer" content="webkit">
+
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <link rel="icon" type="image/png" href="/Public/amaze_assets/i/favicon.png">
+
+    <link rel="apple-touch-icon-precomposed" href="/Public/amaze_assets/i/app-icon72x72@2x.png">
+
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+
+    <link rel="stylesheet" href="/Public/amaze_assets/css/amazeui.min.css"/>
+
+    <link rel="stylesheet" href="/Public/amaze_assets/css/admin.css">
+    <style>
+            .error {
+                font-size: 18px;
+                font-weight: bold;
+                color: red;
+                margin:10px 0
+            }
+          
+            
+        </style>
+
+</head>
+
+<body>
+
+<!--[if lte IE 9]>
+
+<p class="browsehappy">你正在使�?strong>过时</strong>的浏览器，Amaze UI 暂不支持�?�?<a href="http://browsehappy.com/" target="_blank">升级浏览�?/a>
+
+    以获得更好的体验�?/p>
+
+<![endif]-->
+
+
+<!-- top start -->
+
+<header class="am-topbar admin-header">
+
+    <div class="am-topbar-brand">
+    <a href="/admin.php/Home/Index/home"><span class="am-icon-home"> <strong>天外天Coder</strong> <small>后台管理系统 &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    </small></a>
+    <small><span>前台页面：</span></small>
+    <small><a href="/index.php/Home/Index/index" target="_blank"><span class="am-icon-home"></span> 首页</a></small>
+    <small><a href="/index.php/Home/Project/index" target="_blank"><span class="am-icon-file"></span> 项目成果</a>
+    </small>
+    <small><a href="/index.php/Home/TeamIndex/showinfo1" target="_blank"><span class="am-icon-file"></span>
+        团队分工</a></small>
+</div>
+
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+        data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+<div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+        <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                <span class="am-icon-users"></span> 管理员 <span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+                <li><a href="/admin.php/Home/change/change"><span class="am-icon-cog"></span> 修改密码</a></li>
+                <li><a href="/admin.php/Home/logout/index"><span class="am-icon-power-off"></span> 退出</a></li>
+            </ul>
+        </li>
+        <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen"><span
+                class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+    </ul>
+</div>
+
+</header>
+
+<!-- top end -->
+
+
+<div class="am-cf admin-main">
+
+    <!-- sidebar start -->
+
+    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+    <div class="am-offcanvas-bar admin-offcanvas-bar">
+        <ul class="am-list admin-sidebar-list">
+            <li><a href="/admin.php/Home/Index/home"><span class="am-icon-home"></span> 后台首页</a></li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>
+                    编辑首页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+                    <li><a href="/admin.php/Home/Index/add" class="am-cf"><span class="am-icon-check"></span> 添加轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/index"><span class="am-icon-puzzle-piece"></span> 编辑轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/sort"><span class="am-icon-puzzle-piece"></span> 轮播排序</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/modifyword"><span class="am-icon-th"></span> 编辑文字</a></li>
+                </ul>
+            </li>
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}"><span class="am-icon-file"></span>
+                    编辑项目成果页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav1">
+                    <li><a href="/admin.php/Home/Project/add" class="am-cf"><span class="am-icon-check"></span>
+                        添加成果</a></li>
+                    <li><a href="/admin.php/Home/Project/index"><span class="am-icon-puzzle-piece"></span>
+                        编辑成果</a></li>
+                    <li><a href="/admin.php/Home/Project/sort"><span class="am-icon-th"></span> 成果排序</a></li>
+                </ul>
+            </li>
+
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"><span class="am-icon-file"></span>
+                    编辑团队分工页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav2">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/index" class="am-cf"><span
+                            class="am-icon-check"></span> 添加成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/member_table"><span
+                            class="am-icon-puzzle-piece"></span> 编辑成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/show_update"><span
+                            class="am-icon-puzzle-piece"></span> 页面设置</a></li>
+                </ul>
+            </li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav3'}"><span class="am-icon-file"></span>
+                    编辑关于我们页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav3">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/About/index" class="am-cf"><span
+                            class="am-icon-check"></span>编辑</a></li>
+                  
+                </ul>
+            </li>
+            <li><a href="/admin.php/Home/Change/change"><span class="am-icon-sign-out"></span> 修改密码</a></li>
+            <li><a href="/admin.php/Home/logout/index"><span class="am-icon-sign-out"></span> 注销</a></li>
+        </ul>
+
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+
+        </div>
+    </div>
+
+</div>
+
+<!-- sidebar end -->
+
+
+<!-- content start -->
+
+<div class="admin-content">
+
+    <div class="am-cf am-padding">
+
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">更新成员信息</strong></div>
+
+    </div>
+
+
+    <hr/>
+
+
+    <div class="am-g">
+
+
+        <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
+
+
+        </div>
+
+
+        <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+
+            <form class="am-form am-form-horizontal"
+                  action="http://coder.twtstudio.com/admin.php/Home/Team/saveinfo?teamer_id=152&grade=2015"
+                  method="post" enctype="multipart/form-data" id="upload_form" >
+
+                <div class="am-form-group">
+
+                    <label for="user-name" class="am-u-sm-3 am-form-label">姓名 </label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_name" value="李洋">
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">组别</label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_group" value="程序组">
+
+                    </div>
+
+                </div>
+
+
+                <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">学院</label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_school" value="电信学院">
+
+                    </div>
+
+                </div>
+                
+                 <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">毕业去向</label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_go" value="">
+
+                    </div>
+
+                </div>
+
+                <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">个人主页</label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_mainpage_link" value="">
+
+                    </div>
+
+                </div>
+
+
+                <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">年级 </label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_grade" value="2015">
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="am-form-group">
+
+
+                    <label class="am-u-sm-3 am-form-label">更改头像</label>
+
+                    <div class="am-u-sm-9">
+
+                    <input type="hidden" id="x1" name="x1"autocomplete="off" />
+                    <input type="hidden" id="y1" name="y1" autocomplete="off"/>
+                    <input type="hidden" id="x2" name="x2"autocomplete="off" />
+                    <input type="hidden" id="y2" name="y2"autocomplete="off" />
+                    
+                    <input type="file" name="image_file" id="image_file" onchange="fileSelectHandler()" />
+
+                    <div class="error">注意：上传前，先截图</div>
+                    <div class="step2">
+                        <img id="preview" />
+                            <div class="info">
+                            <ul>
+                                <li><label>文件大小</label> <input type="text" id="filesize" name="filesize" class="input" autocomplete="off" /></li>
+                                <input type="hidden" id="filetype" name="filetype" class="input"autocomplete="off"/>
+                                 <input type="hidden" id="filedim" name="filedim" class="input"autocomplete="off"/>
+                                <input type="hidden" id="w" name="w" class="input"autocomplete="off"/>
+                                 <input type="hidden" id="h" name="h" class="input"autocomplete="off"/>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                  </div>
+
+
+                    </div>
+
+
+                
+
+
+                <div class="am-form-group">
+
+                    <div class="am-u-sm-9 am-u-sm-push-3">
+
+                        <input type="submit" class="am-btn am-btn-primary" value="修改">
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+<!-- content end -->
+
+
+<!--[if lt IE 9]>
+
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+
+<script src="/Public/amaze_assets/js/amazeui.ie8polyfill.min.js"></script>
+
+<![endif]-->
+
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<script src="/Public/amaze_assets/js/jquery.min.js"></script>
+
+<!--<![endif]-->
+
+<script src="/Public/amaze_assets/js/amazeui.min.js"></script>
+
+<script src="/Public/amaze_assets/js/app.js"></script>
+<script type="text/javascript" src="http://www.sucaihuo.com/Public/js/other/jquery.js"></script> 
+<script src="http://coder.twtstudio.com/Public/cut/js/jquery.Jcrop.min.js"></script>
+<script src="http://coder.twtstudio.com/Public/cut/js/script.js"></script>
+
+</body>
+
+</html> /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Template.class.php 第 96 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.007019s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006150s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000484s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.006272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-05-28T21:06:04+08:00 ] 127.0.0.1 /admin.php/Home/Team/saveinfo?teamer_id=152&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `tp_teamer` SET `teamer_photo_loc`='14644407640780.png.\'b\'',`teamer_name`='李洋',`teamer_grade`='2015',`teamer_group`='程序组',`teamer_school`='电信学院',`teamer_go`='' WHERE `id` = 152 [ RunTime:0.0435s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2015 ) LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2015 ) LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] is_file(): File name is longer than the maximum allowed path length on this platform (4096): <!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>天外天Coder后台管理系统</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="/Public/amaze_assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/Public/amaze_assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="/Public/amaze_assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/Public/amaze_assets/css/admin.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+    以获得更好的体验！</p>
+<![endif]-->
+
+<!-- top start -->
+<header class="am-topbar admin-header">
+    <div class="am-topbar-brand">
+    <a href="/admin.php/Home/Index/home"><span class="am-icon-home"> <strong>天外天Coder</strong> <small>后台管理系统 &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    </small></a>
+    <small><span>前台页面：</span></small>
+    <small><a href="/index.php/Home/Index/index" target="_blank"><span class="am-icon-home"></span> 首页</a></small>
+    <small><a href="/index.php/Home/Project/index" target="_blank"><span class="am-icon-file"></span> 项目成果</a>
+    </small>
+    <small><a href="/index.php/Home/TeamIndex/showinfo1" target="_blank"><span class="am-icon-file"></span>
+        团队分工</a></small>
+</div>
+
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+        data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+<div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+        <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                <span class="am-icon-users"></span> 管理员 <span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+                <li><a href="/admin.php/Home/change/change"><span class="am-icon-cog"></span> 修改密码</a></li>
+                <li><a href="/admin.php/Home/logout/index"><span class="am-icon-power-off"></span> 退出</a></li>
+            </ul>
+        </li>
+        <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen"><span
+                class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+    </ul>
+</div>
+</header>
+<!-- top end -->
+
+<div class="am-cf admin-main">
+    <!-- sidebar start -->
+    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+    <div class="am-offcanvas-bar admin-offcanvas-bar">
+        <ul class="am-list admin-sidebar-list">
+            <li><a href="/admin.php/Home/Index/home"><span class="am-icon-home"></span> 后台首页</a></li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>
+                    编辑首页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+                    <li><a href="/admin.php/Home/Index/add" class="am-cf"><span class="am-icon-check"></span> 添加轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/index"><span class="am-icon-puzzle-piece"></span> 编辑轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/sort"><span class="am-icon-puzzle-piece"></span> 轮播排序</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/modifyword"><span class="am-icon-th"></span> 编辑文字</a></li>
+                </ul>
+            </li>
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}"><span class="am-icon-file"></span>
+                    编辑项目成果页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav1">
+                    <li><a href="/admin.php/Home/Project/add" class="am-cf"><span class="am-icon-check"></span>
+                        添加成果</a></li>
+                    <li><a href="/admin.php/Home/Project/index"><span class="am-icon-puzzle-piece"></span>
+                        编辑成果</a></li>
+                    <li><a href="/admin.php/Home/Project/sort"><span class="am-icon-th"></span> 成果排序</a></li>
+                </ul>
+            </li>
+
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"><span class="am-icon-file"></span>
+                    编辑团队分工页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav2">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/index" class="am-cf"><span
+                            class="am-icon-check"></span> 添加成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/member_table"><span
+                            class="am-icon-puzzle-piece"></span> 编辑成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/show_update"><span
+                            class="am-icon-puzzle-piece"></span> 页面设置</a></li>
+                </ul>
+            </li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav3'}"><span class="am-icon-file"></span>
+                    编辑关于我们页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav3">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/About/index" class="am-cf"><span
+                            class="am-icon-check"></span>编辑</a></li>
+                  
+                </ul>
+            </li>
+            <li><a href="/admin.php/Home/Change/change"><span class="am-icon-sign-out"></span> 修改密码</a></li>
+            <li><a href="/admin.php/Home/logout/index"><span class="am-icon-sign-out"></span> 注销</a></li>
+        </ul>
+
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+
+        </div>
+    </div>
+</div>
+<!-- sidebar end -->
+
+
+<!-- content start -->
+<div class="admin-content">
+    <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">成员列表</strong></div>
+    </div>
+
+    <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-6">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <button type="button" class="am-btn am-btn-default"><a
+                                href="http://coder.twtstudio.com/admin.php/Home/Team/member_table?grade=2012">
+                            2012</a></button><button type="button" class="am-btn am-btn-default"><a
+                                href="http://coder.twtstudio.com/admin.php/Home/Team/member_table?grade=2013">
+                            2013</a></button><button type="button" class="am-btn am-btn-default"><a
+                                href="http://coder.twtstudio.com/admin.php/Home/Team/member_table?grade=2014">
+                            2014</a></button><button type="button" class="am-btn am-btn-default"><a
+                                href="http://coder.twtstudio.com/admin.php/Home/Team/member_table?grade=2015">
+                            2015</a></button>                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="am-g">
+        <div class="am-u-sm-12">
+            <form class="am-form">
+                <table class="am-table am-table-striped am-table-hover table-main">
+                    <thead>
+                    <tr>
+                        <th class="table-id">姓名</th>
+                        <th class="table-title">学院</th>
+                        <th class="table-type">年级</th>
+                        <th class="table-type">毕业去向</th>
+                        <th class="table-author am-hide-sm-only">组别</th>
+                        <th class="table-date am-hide-sm-only">照片</th>
+                        <th class="table-set">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+
+
+                            <td>杨兴锋</td>
+                            <td>软件学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">程序组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14583773750391.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=108&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=108&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td>陈丁辰</td>
+                            <td>教育学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">程序组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14618529230034.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=132&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=132&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td>边臣雅</td>
+                            <td>机械学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">产品组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14643494100661.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=146&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=146&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td> 谢娟</td>
+                            <td>软件学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">产品组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14643497820370.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=147&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=147&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td>余海波</td>
+                            <td>教育学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">设计组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14644330700330.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=150&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=150&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td>李洋</td>
+                            <td>电信学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">程序组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14644407640780.png.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=152&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=152&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>                    </tbody>
+                </table>
+                <div class="am-cf">
+                    共 6 条记录
+
+                    <div class="am-fr">
+                        <ul class="am-pagination">
+
+
+                            <li><div> <<  >> </div></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr/>
+                <p>注：.....</p>
+            </form>
+        </div>
+
+    </div>
+</div>
+</div>
+<!-- content end -->
+
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="/Public/amaze_assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/Public/amaze_assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="/Public/amaze_assets/js/amazeui.min.js"></script>
+<script src="/Public/amaze_assets/js/app.js"></script>
+</body>
+</html> /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Template.class.php 第 96 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010570s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008835s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.008981s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-05-28T21:06:51+08:00 ] 127.0.0.1 /admin.php/Home/Team/dinfo?teamer_id=152&grade=2015
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( id=152 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: DELETE FROM `tp_teamer` WHERE ( id=152 ) [ RunTime:0.0399s ]
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade=2015 )  [ RunTime:0.0005s ]
+SQL: UPDATE `tp_teamer` SET `is_new_grade`='1' WHERE `id` = 108 [ RunTime:0.0078s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = 2015 ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: link_page /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Page.class.php 第 141 行.
+SQL: SELECT * FROM `tp_teamer` WHERE ( teamer_grade = 2015 ) LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] is_file(): File name is longer than the maximum allowed path length on this platform (4096): <!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>天外天Coder后台管理系统</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="/Public/amaze_assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/Public/amaze_assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="/Public/amaze_assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/Public/amaze_assets/css/admin.css">
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+    以获得更好的体验！</p>
+<![endif]-->
+
+<!-- top start -->
+<header class="am-topbar admin-header">
+    <div class="am-topbar-brand">
+    <a href="/admin.php/Home/Index/home"><span class="am-icon-home"> <strong>天外天Coder</strong> <small>后台管理系统 &nbsp
+        &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    </small></a>
+    <small><span>前台页面：</span></small>
+    <small><a href="/index.php/Home/Index/index" target="_blank"><span class="am-icon-home"></span> 首页</a></small>
+    <small><a href="/index.php/Home/Project/index" target="_blank"><span class="am-icon-file"></span> 项目成果</a>
+    </small>
+    <small><a href="/index.php/Home/TeamIndex/showinfo1" target="_blank"><span class="am-icon-file"></span>
+        团队分工</a></small>
+</div>
+
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
+        data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+        class="am-icon-bars"></span></button>
+
+<div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+    <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+        <li class="am-dropdown" data-am-dropdown>
+            <a class="am-dropdown-toggle" data-am-dropdown-toggle href="javascript:;">
+                <span class="am-icon-users"></span> 管理员 <span class="am-icon-caret-down"></span>
+            </a>
+            <ul class="am-dropdown-content">
+                <li><a href="/admin.php/Home/change/change"><span class="am-icon-cog"></span> 修改密码</a></li>
+                <li><a href="/admin.php/Home/logout/index"><span class="am-icon-power-off"></span> 退出</a></li>
+            </ul>
+        </li>
+        <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen"><span
+                class="am-icon-arrows-alt"></span> <span class="admin-fullText">开启全屏</span></a></li>
+    </ul>
+</div>
+</header>
+<!-- top end -->
+
+<div class="am-cf admin-main">
+    <!-- sidebar start -->
+    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+    <div class="am-offcanvas-bar admin-offcanvas-bar">
+        <ul class="am-list admin-sidebar-list">
+            <li><a href="/admin.php/Home/Index/home"><span class="am-icon-home"></span> 后台首页</a></li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span>
+                    编辑首页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+                    <li><a href="/admin.php/Home/Index/add" class="am-cf"><span class="am-icon-check"></span> 添加轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/index"><span class="am-icon-puzzle-piece"></span> 编辑轮播</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/sort"><span class="am-icon-puzzle-piece"></span> 轮播排序</a>
+                    </li>
+                    <li><a href="/admin.php/Home/Index/modifyword"><span class="am-icon-th"></span> 编辑文字</a></li>
+                </ul>
+            </li>
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}"><span class="am-icon-file"></span>
+                    编辑项目成果页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav1">
+                    <li><a href="/admin.php/Home/Project/add" class="am-cf"><span class="am-icon-check"></span>
+                        添加成果</a></li>
+                    <li><a href="/admin.php/Home/Project/index"><span class="am-icon-puzzle-piece"></span>
+                        编辑成果</a></li>
+                    <li><a href="/admin.php/Home/Project/sort"><span class="am-icon-th"></span> 成果排序</a></li>
+                </ul>
+            </li>
+
+
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"><span class="am-icon-file"></span>
+                    编辑团队分工页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav2">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/index" class="am-cf"><span
+                            class="am-icon-check"></span> 添加成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/member_table"><span
+                            class="am-icon-puzzle-piece"></span> 编辑成员</a></li>
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/Team/show_update"><span
+                            class="am-icon-puzzle-piece"></span> 页面设置</a></li>
+                </ul>
+            </li>
+            <li class="admin-parent">
+                <a class="am-cf" data-am-collapse="{target: '#collapse-nav3'}"><span class="am-icon-file"></span>
+                    编辑关于我们页</a>
+                <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav3">
+                    <li><a href="http://coder.twtstudio.com/admin.php/Home/About/index" class="am-cf"><span
+                            class="am-icon-check"></span>编辑</a></li>
+                  
+                </ul>
+            </li>
+            <li><a href="/admin.php/Home/Change/change"><span class="am-icon-sign-out"></span> 修改密码</a></li>
+            <li><a href="/admin.php/Home/logout/index"><span class="am-icon-sign-out"></span> 注销</a></li>
+        </ul>
+
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+
+        </div>
+    </div>
+</div>
+<!-- sidebar end -->
+
+
+<!-- content start -->
+<div class="admin-content">
+    <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">成员列表</strong></div>
+    </div>
+
+    <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-6">
+            <div class="am-btn-toolbar">
+                <div class="am-btn-group am-btn-group-xs">
+                    <button type="button" class="am-btn am-btn-default"><a
+                                href="http://coder.twtstudio.com/admin.php/Home/Team/member_table?grade=2012">
+                            2012</a></button><button type="button" class="am-btn am-btn-default"><a
+                                href="http://coder.twtstudio.com/admin.php/Home/Team/member_table?grade=2013">
+                            2013</a></button><button type="button" class="am-btn am-btn-default"><a
+                                href="http://coder.twtstudio.com/admin.php/Home/Team/member_table?grade=2014">
+                            2014</a></button><button type="button" class="am-btn am-btn-default"><a
+                                href="http://coder.twtstudio.com/admin.php/Home/Team/member_table?grade=2015">
+                            2015</a></button>                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="am-g">
+        <div class="am-u-sm-12">
+            <form class="am-form">
+                <table class="am-table am-table-striped am-table-hover table-main">
+                    <thead>
+                    <tr>
+                        <th class="table-id">姓名</th>
+                        <th class="table-title">学院</th>
+                        <th class="table-type">年级</th>
+                        <th class="table-type">毕业去向</th>
+                        <th class="table-author am-hide-sm-only">组别</th>
+                        <th class="table-date am-hide-sm-only">照片</th>
+                        <th class="table-set">操作</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <tr>
+
+
+                            <td>杨兴锋</td>
+                            <td>软件学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">程序组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14583773750391.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=108&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=108&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td>陈丁辰</td>
+                            <td>教育学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">程序组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14618529230034.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=132&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=132&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td>边臣雅</td>
+                            <td>机械学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">产品组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14643494100661.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=146&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=146&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td> 谢娟</td>
+                            <td>软件学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">产品组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14643497820370.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=147&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=147&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr><tr>
+
+
+                            <td>余海波</td>
+                            <td>教育学院</a></td>
+                            <td>2015</td>
+                             <td></td>
+                            <td class="am-hide-sm-only">设计组</td>
+                            <td class="am-hide-sm-only"><a
+                                    href="http://coder.twtstudio.com/admin.php/Home/Team/see_photo?photo_loc=14644330700330.jpg.'b'">查看
+                            </td>
+                            <td>
+                                <div class="am-btn-toolbar">
+                                    <div class="am-btn-group am-btn-group-xs">
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                class="am-icon-pencil-square-o"></span> <a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/updateinfo?teamer_id=150&grade=2015">编辑</a>
+                                        </button>
+
+                                        <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                            <span class="am-icon-trash-o"></span><a
+                                                href="http://coder.twtstudio.com/admin.php/Home/Team/dinfo?teamer_id=150&grade=2015">
+                                            删除</a></button>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>                    </tbody>
+                </table>
+                <div class="am-cf">
+                    共 5 条记录
+
+                    <div class="am-fr">
+                        <ul class="am-pagination">
+
+
+                            <li><div> <<  >> </div></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr/>
+                <p>注：.....</p>
+            </form>
+        </div>
+
+    </div>
+</div>
+</div>
+<!-- content end -->
+
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="/Public/amaze_assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="/Public/amaze_assets/js/jquery.min.js"></script>
+<!--<![endif]-->
+<script src="/Public/amaze_assets/js/amazeui.min.js"></script>
+<script src="/Public/amaze_assets/js/app.js"></script>
+</body>
+</html> /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Template.class.php 第 96 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.011911s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010244s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000012s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-05-28T21:07:00+08:00 ] 127.0.0.1 /admin.php/Home/Team/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000558s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000011s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-05-28T21:07:42+08:00 ] 127.0.0.1 /admin.php/Home/Team/getele2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+SQL: SHOW COLUMNS FROM `tp_teamer` [ RunTime:0.0009s ]
+SQL: SELECT `teamer_grade` FROM `tp_teamer` WHERE ( is_new_grade=1 )  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( is_new_grade=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `tp_teamer` (`is_new_grade`,`teamer_name`,`teamer_grade`,`teamer_school`,`teamer_group`,`teamer_photo_loc`,`teamer_go`,`teamer_mainpage_link`) VALUES ('0','李洋','2015','电信学院','程序组','14644408620241.png.\'b\'','','') [ RunTime:0.0091s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009879s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000673s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.000617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000014s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+

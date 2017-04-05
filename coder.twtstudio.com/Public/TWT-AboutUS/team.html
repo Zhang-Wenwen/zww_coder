@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=2.0,user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="public.css">
+    <link rel="stylesheet" type="text/css" href="team.css">
+
+    <title>天外天工作室-团队分工</title>
+
+
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+
+            //每10毫秒检查一下是否需要换字
+            setTimeout("change_text()", 10);
+
+            $(".point").mouseover(function () {
+                $('.zhuan').addClass('paused');
+                $('.monitor').addClass('paused');
+                var font = parseFloat($('.monitor').css('font-size'));
+                font = font.toFixed(1);
+                if (font > 20.4 && font < 23.4) {
+                    $(".change").html($("#part1").html());
+                }
+                else if (font >= 23.4 && font <= 26.4) {
+                    $(".change").html($("#part2").html());
+                }
+                else {
+                    $(".change").html($("#part3").html());
+                }
+            });
+
+            $(".point").mouseout(function () {
+                $('.zhuan').removeClass('paused');
+                $('.monitor').removeClass('paused');
+            });
+
+        });
+        //根据转盘位置，切换右边的字
+        function change_text() {
+            var font = parseFloat($('.monitor').css('font-size'));
+            font = font.toFixed(1);
+            if (font > 20.4 && font < 23.4) {
+                $(".change").html($("#part1").html());
+            }
+            else if (font >= 23.4 && font <= 26.4) {
+                $(".change").html($("#part2").html());
+            }
+            else {
+                $(".change").html($("#part3").html());
+            }
+            setTimeout("change_text()", 10);
+        }
+
+    </script>
+
+
+</head>
+<body>
+<div class="nav">
+    <img src="images\logo.png">
+
+    <div class="navlist">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">项目成果</a></li>
+            <li><a href="#">团队分工</a></li>
+            <li><a href="#">成员介绍</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="content">
+    <div id="zhuan">
+        <img src="images\zhuan.png" class="zhuan">
+    </div>
+    <img src="images\point.png" class="point">
+
+    <div class="change">
+        <p id='content'><span style="font-size=1.5vw">面子的担当</span><br>
+            负责网站的设觉设计，将网站和APP的需求转化成图形界面，需要设计者运用创意和逻辑将网站的功能、美观度、用户的需求体验做一个很好的结合</p>
+    </div>
+</div>
+
+<!-- 下面的p元素用于判断动画进度，不用管 -->
+<p class="monitor" style=""></p>
+<!--下面的div里写对应的html -->
+<div id="part1" style="display:none;"><p><span style="font-size=1.5vw">面子的担当</span><br>
+    负责网站的设觉设计，将网站和APP的需求转化成图形界面，需要设计者运用创意和逻辑将网站的功能、美观度、用户的需求体验做一个很好的结合</p></div>
+<div id="part2" style="display:none;"><p><span style="font-size=1.5vw">实力的展现</span><br>
+    负责网站的设觉设计，将网站和APP的需求转化成图形界面，需要设计者运用创意和逻辑将网站的功能、美观度、用户的需求体验做一个很好的结合</p></div>
+<div id="part3" style="display:none;"><p><span style="font-size=1.5vw">不懈的努力</span><br>
+    负责网站的设觉设计，将网站和APP的需求转化成图形界面，需要设计者运用创意和逻辑将网站的功能、美观度、用户的需求体验做一个很好的结合</p></div>
+
+
+<div class="pub_footer">
+    <a href="#" class="http">http://www.twt.edu.cn/</a>
+    <a href="#" class="img"><img src="images\footer.png"></a>
+
+    <p>天外天工作室©2000-2015 津 ICP 备000017号</p>
+</div>
+
+</body>
+</html>

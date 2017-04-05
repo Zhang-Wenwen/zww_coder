@@ -1,0 +1,214 @@
+[ 2016-08-11T14:21:14+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+
+[ 2016-08-11T14:21:15+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+
+[ 2016-08-11T14:23:33+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-08-11T14:23:42+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 71 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 73 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 73 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 74 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 75 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 75 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 77 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 77 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 81 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `twt_person` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Model.class.php 第 1250 行.
+NOTIC: [8] Undefined index: auto /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Model.class.php 第 1192 行.
+SQL: INSERT INTO `twt_person` (`realname`,`college`,`major`,`phone`,`grade`,`reason`,`group`,`stime`,`studentid`) VALUES (NULL,NULL,NULL,'15022000180',NULL,'test','产品组','2016-08-11 14:23:42',NULL) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-08-11T14:24:01+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 72 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 72 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 72 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 73 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 74 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 76 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 76 行.
+NOTIC: [8] Undefined variable: result /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 80 行.
+NOTIC: [8] Trying to get property of non-object /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 80 行.
+SQL: SHOW COLUMNS FROM `twt_person` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Model.class.php 第 1250 行.
+NOTIC: [8] Undefined index: auto /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Model.class.php 第 1192 行.
+SQL: INSERT INTO `twt_person` (`realname`,`college`,`major`,`phone`,`grade`,`reason`,`group`,`stime`,`studentid`) VALUES (NULL,NULL,NULL,'15022000180',NULL,'test','产品组','2016-08-11 14:24:01',NULL) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-08-11T14:26:21+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `twt_person` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: validate /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Model.class.php 第 1250 行.
+NOTIC: [8] Undefined index: auto /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Model.class.php 第 1192 行.
+SQL: INSERT INTO `twt_person` (`realname`,`college`,`major`,`phone`,`grade`,`reason`,`group`,`stime`,`studentid`) VALUES ('郭祥','机械工程学院','能源与动力工程','15022000180','2013','test','产品组','2016-08-11 14:26:21','3013201308') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-08-11T14:31:01+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-08-11T14:34:14+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000696s ]
+
+[ 2016-08-11T14:34:47+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-08-11T14:41:28+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-08-11T14:42:21+08:00 ] 127.0.0.1 /index.php/home/api/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+NOTIC: [8] Undefined index: HTTP_REFERER /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Common/Util/TWTAPIHelper.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2016-08-11T14:53:29+08:00 ] 127.0.0.1 /index.php/home/api/submit/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-08-11T14:53:38+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-08-11T18:36:28+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-08-11T18:36:40+08:00 ] 127.0.0.1 /index.php/home/api/submit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+NOTIC: [8] A session had already been started - ignoring session_start() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/mobile/Home/Controller/ApiController.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `twt_person` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Model.class.php 第 1250 行.
+NOTIC: [8] Undefined index: auto /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/ThinkPHP/Library/Think/Model.class.php 第 1192 行.
+SQL: INSERT INTO `twt_person` (`realname`,`college`,`major`,`phone`,`grade`,`reason`,`group`,`stime`,`studentid`) VALUES ('曾广天','建筑工程学院','水利水电工程','15986398310','2016','各种宣传和体验中感受到天外天工作室的强大，我希望能加入这样一个分工明确的工作团体，向各位大神学习从设计技术到合作攻关的技能和优秀品质，和各位大神一起把自己的想法表达出来。之所以想加入设计组是因为我并没有什么技术基础，而倾向于从事科学和艺术相结合的东西。','设计组','2016-08-11 18:36:40','3016205214') [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+

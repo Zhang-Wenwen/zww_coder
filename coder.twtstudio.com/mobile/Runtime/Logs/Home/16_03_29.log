@@ -1,0 +1,18 @@
+[ 2016-03-29T17:05:29+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo1?grade=hyh
+ERR: 1054:Unknown column 'hyh' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = hyh ) LIMIT 1  
+ERR: 1054:Unknown column 'hyh' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = hyh ) LIMIT 1  
+
+[ 2016-03-29T17:15:06+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo1?grade=hk
+ERR: 1054:Unknown column 'hk' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = hk ) LIMIT 1  
+ERR: 1054:Unknown column 'hk' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = hk ) LIMIT 1  
+
+[ 2016-03-29T17:15:25+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo1?grade=olkmn
+ERR: 1054:Unknown column 'olkmn' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = olkmn ) LIMIT 1  
+ERR: 1054:Unknown column 'olkmn' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_grade = olkmn ) LIMIT 1  
+

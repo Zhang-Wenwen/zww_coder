@@ -1,0 +1,1897 @@
+[ 2016-04-22T09:19:46+08:00 ] 127.0.0.1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-04-22T09:19:47+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-04-22T09:19:48+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006072s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2016-04-22T09:20:17+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`password` FROM `tp_user` WHERE `username` = 'admin' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005113s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-04-22T09:20:20+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-04-22T09:20:30+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`password` FROM `tp_user` WHERE `username` = 'admin2' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-04-22T09:20:32+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_index_pic` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_index_pic`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-04-22T09:20:33+08:00 ] 127.0.0.1 /admin.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+
+[ 2016-04-22T09:20:40+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-04-22T09:20:40+08:00 ] 127.0.0.1 /admin.php/home/about/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006598s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-04-22T09:22:01+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000524s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2016-04-22T09:24:00+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: UPDATE `tp_about` SET `first_col`='2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品，涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：“全国高校十佳服务网站”第一名<br>
+2010年：第四届全国高校百佳网站“最佳新闻宣传奖”<br>
+2012年：第五届全国高校百佳网站“最佳就业服务奖”、“最佳学生创意奖”<br>
+2013年：第六届全国高校百佳网站“最佳学生创意奖”、“最佳技术应用奖”<br>
+2014年：第七届全国高校百佳网站“群众路线实践教育专题”特别奖<br>
+2015年：首批“教育部大学生网络文化工作室”  <br>                                                                                                                                                                                                                                                                                                                                              ' WHERE `id` = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-04-22T09:24:00+08:00 ] 127.0.0.1 /admin.php/home/about/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+
+[ 2016-04-22T09:24:01+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011730s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011807s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-04-22T09:24:05+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-04-22T09:25:08+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-04-22T09:25:23+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: UPDATE `tp_about` SET `first_col`='2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                            ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                            ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：“全国高校十佳服务网站”第一名<br>
+2010年：第四届全国高校百佳网站“最佳新闻宣传奖”<br>
+2012年：第五届全国高校百佳网站“最佳就业服务奖”、“最佳学生创意奖”<br>
+2013年：第六届全国高校百佳网站“最佳学生创意奖”、“最佳技术应用奖”<br>
+2014年：第七届全国高校百佳网站“群众路线实践教育专题”特别奖<br>
+2015年：首批“教育部大学生网络文化工作室”  <br>                                                                                                                                                                                                                                                                                                                                                                          ' WHERE `id` = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-04-22T09:25:25+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-04-22T09:25:42+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0007s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+                                10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+                                网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+                                天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+                                天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                        ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                        ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：“全国高校十佳服务网站”第一名<br>
+2010年：第四届全国高校百佳网站“最佳新闻宣传奖”<br>
+2012年：第五届全国高校百佳网站“最佳就业服务奖”、“最佳学生创意奖”<br>
+2013年：第六届全国高校百佳网站“最佳学生创意奖”、“最佳技术应用奖”<br>
+2014年：第七届全国高校百佳网站“群众路线实践教育专题”特别奖<br>
+2015年：首批“教育部大学生网络文化工作室”  <br>                                                                                                                                                                                                                                                                                                                                                                                                      ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-04-22T09:25:43+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-04-22T09:26:13+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0007s ]
+SQL: UPDATE `tp_about` SET `first_col`='2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                    ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                    ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：“全国高校十佳服务网站”第一名<br>
+2010年：第四届全国高校百佳网站“最佳新闻宣传奖”<br>
+2012年：第五届全国高校百佳网站“最佳就业服务奖”、“最佳学生创意奖”<br>
+2013年：第六届全国高校百佳网站“最佳学生创意奖”、“最佳技术应用奖”<br>
+2014年：第七届全国高校百佳网站“群众路线实践教育专题”特别奖<br>
+2015年：首批“教育部大学生网络文化工作室”  <br>                                                                                                                                                                                                                                                                                                                                                                                                                                  ' WHERE `id` = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-04-22T09:26:15+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008758s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-04-22T09:26:45+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0007s ]
+SQL: UPDATE `tp_about` SET `first_col`='    2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+    10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+    网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+    天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+    天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：“全国高校十佳服务网站”第一名<br>
+2010年：第四届全国高校百佳网站“最佳新闻宣传奖”<br>
+2012年：第五届全国高校百佳网站“最佳就业服务奖”、“最佳学生创意奖”<br>
+2013年：第六届全国高校百佳网站“最佳学生创意奖”、“最佳技术应用奖”<br>
+2014年：第七届全国高校百佳网站“群众路线实践教育专题”特别奖<br>
+2015年：首批“教育部大学生网络文化工作室”  <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                              ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-04-22T09:26:46+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-04-22T09:27:48+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0005s ]
+SQL: UPDATE `tp_about` SET `first_col`=' &nbsp;&nbsp;&nbsp;&nbsp;2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                            ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：“全国高校十佳服务网站”第一名<br>
+2010年：第四届全国高校百佳网站“最佳新闻宣传奖”<br>
+2012年：第五届全国高校百佳网站“最佳就业服务奖”、“最佳学生创意奖”<br>
+2013年：第六届全国高校百佳网站“最佳学生创意奖”、“最佳技术应用奖”<br>
+2014年：第七届全国高校百佳网站“群众路线实践教育专题”特别奖<br>
+2015年：首批“教育部大学生网络文化工作室”  <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-04-22T09:27:49+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008942s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000549s ]
+
+[ 2016-04-22T09:28:05+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-04-22T09:28:40+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: UPDATE `tp_about` SET `first_col`='2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                        ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：“全国高校十佳服务网站”第一名<br>
+2010年：第四届全国高校百佳网站“最佳新闻宣传奖”<br>
+2012年：第五届全国高校百佳网站“最佳就业服务奖”、“最佳学生创意奖”<br>
+2013年：第六届全国高校百佳网站“最佳学生创意奖”、“最佳技术应用奖”<br>
+2014年：第七届全国高校百佳网站“群众路线实践教育专题”特别奖<br>
+2015年：首批“教育部大学生网络文化工作室”  <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-04-22T09:28:41+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-04-22T09:30:00+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0005s ]
+SQL: UPDATE `tp_about` SET `first_col`='2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                    ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：“全国高校十佳服务网站”第一名<br>
+2010年：第四届全国高校百佳网站“最佳新闻宣传奖”<br>
+2012年：第五届全国高校百佳网站“最佳就业服务奖”、“最佳学生创意奖”<br>
+2013年：第六届全国高校百佳网站“最佳学生创意奖”、“最佳技术应用奖”<br>
+2014年：第七届全国高校百佳网站“群众路线实践教育专题”特别奖<br>
+2015年：首批“教育部大学生网络文化工作室”  <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005234s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-04-22T09:30:01+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010161s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-04-22T09:31:13+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0007s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津市高校思想政治教育网站建设工程“优秀示范网站”<br>
+2006-2007年：连续两年获评“全国十佳高校新闻网”<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国高校百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国高校百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ' WHERE `id` = 1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-04-22T09:31:14+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-04-22T09:31:38+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                                                2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                            ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+2006-2007年：连续两年获评全国十佳高校新闻网<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国高校百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国高校百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005053s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-04-22T09:31:40+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-04-22T09:32:25+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0005s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                                                                                2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                                                        ',`sec_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ',`third_col`='                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+2006-2007年：连续两年获评全国十佳高校新闻网<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ' WHERE `id` = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-04-22T09:32:26+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2016-04-22T09:34:56+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0005s ]
+SQL: UPDATE `tp_about` SET `first_col`=' 2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                                                                                    ',`sec_col`='开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团队100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ',`third_col`='2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+2006-2007年：连续两年获评全国十佳高校新闻网<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ' WHERE `id` = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-04-22T09:34:58+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-04-22T09:37:51+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0005s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                 2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+&ndsp;&ndsp;&ndsp;&ndsp;&ndsp;&ndsp;天外天工作室目前下设产品组、设计组、前端组、程序开发组、移动开发组，形成l了从产品创意产生到开发再到后续推广运营的完善网络的产品生命周期。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                                                                                                                ',`sec_col`='                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团队100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',`third_col`='                                2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+2006-2007年：连续两年获评全国十佳高校新闻网<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ' WHERE `id` = 1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-04-22T09:37:52+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-04-22T09:38:28+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                                                 2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;天外天工作室目前下设产品组、设计组、前端组、程序开发组、移动开发组，形成l了从产品创意产生到开发再到后续推广运营的完善网络的产品生命周期。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                                                                                                                                            ',`sec_col`='                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团队100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ',`third_col`='                                                                2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+2006-2007年：连续两年获评全国十佳高校新闻网<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ' WHERE `id` = 1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-04-22T09:38:29+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2016-04-22T09:38:56+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                                                                                 2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+      天外天工作室目前下设产品组、设计组、前端组、程序组、移动组，形成l了从产品创意产生到开发再到后续推广运营的完善网络的产品生命周期。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                                                                                                                                                                        ',`sec_col`='                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团队100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ',`third_col`='                                                                                                2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+2006-2007年：连续两年获评全国十佳高校新闻网<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ' WHERE `id` = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-04-22T09:38:57+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-04-22T09:39:10+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0008s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                                                                                                                 2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+      天外天工作室目前下设产品组、设计组、前端组、程序组、移动组，形成了从产品创意产生到开发再到后续推广运营的完善网络的产品生命周期。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                                                                                                                                                                                                    ',`sec_col`='                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团队100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ',`third_col`='                                                                                                                                2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+2006-2007年：连续两年获评全国十佳高校新闻网<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-04-22T09:39:11+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000543s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-04-22T09:43:04+08:00 ] 127.0.0.1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_index_pic` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_index_pic`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-04-22T15:40:50+08:00 ] 127.0.0.1 /admin.php/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000144s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008100s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+
+[ 2016-04-22T15:40:51+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-04-22T15:41:39+08:00 ] 127.0.0.1 /admin.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`password` FROM `tp_user` WHERE `username` = 'admin2' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-04-22T15:41:40+08:00 ] 127.0.0.1 /admin.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::show() should be compatible with that of Think\Controller::show() /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Home/Controller/IndexController.class.php 第 7 行.
+SQL: SHOW COLUMNS FROM `tp_index_pic` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_index_pic`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-04-22T15:41:43+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2016-04-22T15:42:08+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0005s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                                                                                                                                                 2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+      天外天工作室目前下设产品组、设计组、前端组、程序组、移动组，形成了从产品创意产生到开发再到后续推广运营的完善网络的产品生命周期。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',`sec_col`='                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团队100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ',`third_col`='                                                                                                                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+2006-2007年：连续两年获评全国十佳高校新闻网<br>
+2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+2008年：全国高校十佳服务网站第一名<br>
+2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+2012年：第五届全国百佳网站最佳就业服务奖、最佳学生创意奖<br>
+2013年：第六届全国百佳网站最佳学生创意奖、最佳技术应用奖<br>
+2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005299s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000505s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000559s ]
+
+[ 2016-04-22T15:42:09+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2016-04-22T15:42:29+08:00 ] 127.0.0.1 /admin.php/Home/About/about_save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0006s ]
+SQL: UPDATE `tp_about` SET `first_col`='                                                                                                                                                                                                 2000年6月8日，天外天网站正式上线，天外天工作室也随即成立。
+<br>
+       10几年来，天外天工作室以网络思想政治教育为主要建设方向，开发了党建、形势与政策答题、新闻、社区、问卷、投票、商城、微北洋APP、问津APP等众多网络产品。
+<br>
+      网络产品涵盖教育、资讯、服务、生活、娱乐等领域，为天大师生提供全方位的网络服务。
+<br>
+      天外天工作室目前下设产品组、设计组、前端组、程序组、移动组，形成了从产品创意产生到开发再到后续推广运营的完善网络的产品生命周期。
+<br>
+      天外天工作室毕业生多就职于阿里巴巴、百度、腾讯等知名互联网公司。
+<br>
+      天外天工作室于2015年1月获批首批教育部大学生网络文化工作室。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ',`sec_col`='                                                                                                                                                                                                开发网络产品200余个
+<br><br>
+注册用户80余万
+<br><br>
+日访问量超过2万人
+<br><br>
+天外天首页访问量超过一亿次
+<br><br>
+线上服务器22台
+<br><br>
+在校网络开发人员90余人
+<br><br>
+学生记者团队100余人
+<br><br>
+新媒体团队20余人
+<br><br>
+培养优秀毕业生近两万人
+<br><br>
+线上服务器22台
+<br><br>
+新老校区工作室面积近300平米<br><br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ',`third_col`='                                                                                                                                                                                                      2004年：天津高校思想政治教育网站建设工程优秀示范网站<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2006-2007年：连续两年获评全国十佳高校新闻网<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2007-2014年：连续7年获评全国高校百佳校园网站荣誉称号<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2008年：全国高校十佳服务网站第一名<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2010年：第四届全国高校百佳网站最佳新闻宣传奖<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2012年：第五届全国百佳网站最佳就业服务奖、最佳学生创意奖<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2013年：第六届全国百佳网站最佳学生创意奖、最佳技术应用奖<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2014年：第七届全国高校百佳网站群众路线实践教育专题特别奖<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2015年：首批教育部大学生网络文化工作室 <br>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ' WHERE `id` = 1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006652s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-04-22T15:42:30+08:00 ] 127.0.0.1 /admin.php/Home/About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `tp_about` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_about` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+NOTIC: [8] Undefined variable: state /home/ftp/1520/twtcoder-20140316-KwC/coder.twtstudio.com/admin/Runtime/Cache/Home/1e5ddf61b5256d7da2f3fe91790169a9.php 第 133 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+

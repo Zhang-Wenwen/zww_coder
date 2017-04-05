@@ -1,0 +1,6 @@
+[ 2016-11-08T22:08:40+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo1
+ERR: 无法加载控制器:Teamindex
+
+[ 2016-11-08T22:09:44+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo2
+ERR: 无法加载控制器:Teamindex
+

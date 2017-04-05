@@ -1,0 +1,72 @@
+[ 2016-04-01T17:57:25+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo1
+ERR: 无法加载控制器:Teamindex
+
+[ 2016-04-01T17:57:25+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo2
+ERR: 无法加载控制器:Teamindex
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%3B+WAITFOR+DELAY+%270%3A0%3A0%27%3B--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; WAITFOR DELAY '0:0:0';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'; WAITFOR DELAY '0:0:0';--  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; WAITFOR DELAY '0:0:0';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'; WAITFOR DELAY '0:0:0';--  ) LIMIT 1  
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%3B+WAITFOR+DELAY+%270%3A0%3A16%27%3B--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; WAITFOR DELAY '0:0:16';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'; WAITFOR DELAY '0:0:16';--  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; WAITFOR DELAY '0:0:16';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'; WAITFOR DELAY '0:0:16';--  ) LIMIT 1  
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%3B+WAITFOR+DELAY+%270%3A0%3A0%27%3B--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; WAITFOR DELAY '0:0:0';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'; WAITFOR DELAY '0:0:0';--  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '; WAITFOR DELAY '0:0:0';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'; WAITFOR DELAY '0:0:0';--  ) LIMIT 1  
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'+and+1%3D2+or+sleep%2816%29%3D0+limit+1+--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组' and 1=2 or sleep(16)=0 limit 1 --  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'limit 1 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组' and 1=2 or sleep(16)=0 limit 1 --  ) LIMIT 1  
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%27%3B+WAITFOR+DELAY+%270%3A0%3A0%27%3B--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组''; WAITFOR DELAY '0:0:0';--  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组''; WAITFOR DELAY '0:0:0';--  ) LIMIT 1  
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%27%3B+WAITFOR+DELAY+%270%3A0%3A16%27%3B--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:16';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组''; WAITFOR DELAY '0:0:16';--  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:16';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组''; WAITFOR DELAY '0:0:16';--  ) LIMIT 1  
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%27%3B+WAITFOR+DELAY+%270%3A0%3A0%27%3B--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组''; WAITFOR DELAY '0:0:0';--  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0:0:0';--  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组''; WAITFOR DELAY '0:0:0';--  ) LIMIT 1  
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%27+and+1%3D2+or+sleep%2816%29%3D0+limit+1+--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''设计组'' and 1=2 or sleep(16)=0 limit 1 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'' and 1=2 or sleep(16)=0 limit 1 --  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''设计组'' and 1=2 or sleep(16)=0 limit 1 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'' and 1=2 or sleep(16)=0 limit 1 --  ) LIMIT 1  
+
+[ 2016-04-01T17:59:07+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%27+where+sleep%280%29%3D0+--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''设计组'' where sleep(0)=0 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'' where sleep(0)=0 --  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''设计组'' where sleep(0)=0 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'' where sleep(0)=0 --  ) LIMIT 1  
+
+[ 2016-04-01T17:59:08+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%27+where+sleep%2816%29%3D0+limit+1+--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''设计组'' where sleep(16)=0 limit 1 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'' where sleep(16)=0 limit 1 --  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''设计组'' where sleep(16)=0 limit 1 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'' where sleep(16)=0 limit 1 --  ) LIMIT 1  
+
+[ 2016-04-01T17:59:08+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='%E8%AE%BE%E8%AE%A1%E7%BB%84'%27+where+sleep%280%29%3D0+--+
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''设计组'' where sleep(0)=0 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'' where sleep(0)=0 --  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''设计组'' where sleep(0)=0 --  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设计组'' where sleep(0)=0 --  ) LIMIT 1  
+

@@ -1,0 +1,51 @@
+[ 2016-11-30T11:57:57+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo2?teamer_group='%E5%89%8D%E7%AB%AF%E7%BB%84'
+ERR: 无法加载控制器:Teamindex
+
+[ 2016-11-30T15:07:22+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-11-30T15:07:23+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='产�?�?
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '产�?�? ) LIMIT 1  
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '产�?�? ) LIMIT 1  
+
+[ 2016-11-30T15:07:23+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-11-30T15:07:23+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='设�?�?
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设�?�? ) LIMIT 1  
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '设�?�? ) LIMIT 1  
+
+[ 2016-11-30T15:07:23+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-11-30T15:07:23+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='�??�?
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '�??�? ) LIMIT 1  
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '�??�? ) LIMIT 1  
+
+[ 2016-11-30T15:07:23+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='?????
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''????? ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '????? ) LIMIT 1  
+
+[ 2016-11-30T15:07:24+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo2?teamer_group='???�?
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '???�? ) LIMIT 1  
+ERR: :
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tp_teamer` WHERE ( teamer_group = '???�? ) LIMIT 1  
+
