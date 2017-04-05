@@ -1,6 +1,0 @@
-[ 2017-01-03T05:40:32+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo1
-ERR: 无法加载控制器:Teamindex
-
-[ 2017-01-03T11:43:33+08:00 ] 127.0.0.1 /index.php/home/teamindex/showinfo2?teamer_group='%E5%89%8D%E7%AB%AF%E7%BB%84'
-ERR: 无法加载控制器:Teamindex
-

@@ -1,6 +1,0 @@
-[ 2016-09-02T17:28:03+08:00 ] 127.0.0.1 /
-ERR: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
-
-[ 2016-09-02T17:34:38+08:00 ] 127.0.0.1 /
-ERR: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
-

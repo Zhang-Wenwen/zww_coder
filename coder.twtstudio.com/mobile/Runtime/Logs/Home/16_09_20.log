@@ -1,6 +1,0 @@
-[ 2016-09-20T18:58:00+08:00 ] 127.0.0.1 /index.php/home/project/index
-ERR: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
-
-[ 2016-09-20T18:58:04+08:00 ] 127.0.0.1 /index.php/Home/TeamIndex/showinfo1
-ERR: SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2)
-
