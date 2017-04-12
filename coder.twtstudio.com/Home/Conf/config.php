@@ -2,6 +2,7 @@
 return array(
     //远程测试服务器数据库配置
     'DB_TYPE' => 'mysqli', //数据库类型
+    'DB_HOST' => '202.113.13.173',
     'DB_NAME' => 'com_twt_coder', //数据库名
     'DB_USER' => 'com_twt_coder', //连接数据库帐号
     'DB_PWD' => 'qupCrJl3DAUz', //连接数据库密码
