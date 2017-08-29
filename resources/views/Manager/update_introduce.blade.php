@@ -1,12 +1,16 @@
 @extends('layouts.banner')
+    <link rel="stylesheet" href="/Trumbowyg/dist/ui/trumbowyg.min.css">
+    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="/Trumbowyg/dist/trumbowyg.js"></script>
+    <script type="text/javascript">
+window.jQuery || document.write("<script src='../js/jquery1x.min.js'>"+"<"+"/script>");
+    </script>
 @section('content')
     <br>
     <br>
     <h3>
         {{$introduce->Model}}
         </h3>
-    <link rel="stylesheet" href="/Trumbowyg/dist/ui/trumbowyg.min.css">
-    <script src="/Trumbowyg/dist/trumbowyg.js"></script>
     <form role="form" action="{{url('manager/update/introduce')}}{{'/'.$introduce->id}}" method="POST" >
         {{csrf_field()}}
     模块名称：<br>

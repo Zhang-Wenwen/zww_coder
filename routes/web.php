@@ -30,6 +30,8 @@ Route::group(['middleware'=>['web']],function () {
     Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
          Route::get('/','ManagerController@index');
 
+        Route::get('/home','ManagerController@index');
+
         Route::get('/message_board', 'ManagerController@message');
 
         Route::get('/team','ManagerController@team');
@@ -49,6 +51,8 @@ Route::group(['middleware'=>['web']],function () {
         Route::get('/member', 'ManagerController@member');
 
         Route::get('/update/{table}/{id}', 'ManagerController@update_view');
+
+        Route::get('/milestones', 'ManagerController@milestones');
 });
 
 

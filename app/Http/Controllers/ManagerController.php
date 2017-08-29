@@ -184,4 +184,10 @@ class ManagerController extends Controller
             'team'=>$member
         ]);
     }
+    public function milestones(){
+        $milestones=Milestone::all()->toArray();
+        return view('Manager.milestones',[
+            'milestones'=>$milestones
+        ]);
+    }
 }
