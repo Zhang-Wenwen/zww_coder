@@ -185,7 +185,11 @@ class ManagerController extends Controller
         ]);
     }
     public function milestones(){
-        $milestones=Milestone::all()->toArray();
+        $milestones=Milestone::paginate(6);
+        foreach ($milestones as $key=>$value)
+        {
+            $value->events;
+        }
         return view('Manager.milestones',[
             'milestones'=>$milestones
         ]);

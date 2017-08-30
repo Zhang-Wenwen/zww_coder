@@ -21,7 +21,7 @@ class CoderController  extends Controller
 {
     public function member(){
         $members = Member::all()->toArray();
-       shuffle($members);
+        shuffle($members);
         return response()->json($members);
     }
     public function personal_info(){
@@ -38,13 +38,17 @@ class CoderController  extends Controller
         return response()->json($message_board);
     }
     public function milestones(){
-        $milestones=Milestone::all()->toArray();
+        $milestones=Milestone::all();
+        foreach ($milestones as $key=>$value)
+        {
+            $value->events;
+        }
         return response()->json($milestones);
     }
 
     public function introduce(){
         $introduce=DB::table('introduce')->get();
-        return response()->json( $introduce);
+        return response()->json($introduce);
     }
     public function form(Request $request){
         $message=new Message_board;
