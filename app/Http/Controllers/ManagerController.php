@@ -50,6 +50,12 @@ class ManagerController extends Controller
             'team'=>$team
         ]);
     }
+    public function projects(){
+        $projects=Project::paginate(3);
+        return view('Manager.projects',[
+            'projects'=>$projects
+        ]);
+    }
     public function update_team($id){
         $team=Team::find($id);
         return view('Manager.update_team',[
@@ -72,7 +78,10 @@ class ManagerController extends Controller
             ]);
         }
         if($table=='milestones'){
-            $milestone=Milestone::orderBy('year','desc')->paginate(6);
+            $milestone=Milestone::find($id);
+            return view('Manager.update_milestones',[
+                'milestones'=>$milestone
+            ]);
         }
     }
     public function update($table,$id,Request $request)
@@ -83,6 +92,18 @@ class ManagerController extends Controller
                 ->update(['Model'=>$request->input('model')],
                          ['content'=>$request->input('editor')]);
             return redirect()->action('ManagerController@index');
+        }
+        if($table=='milestones'){
+            $milestones=Milestone::find($id);
+            $milestones->year = $request->input('year');
+            $milestones->events = $request->input('events');
+            $bool = $milestones->save();
+            if ($bool) {
+                return redirect()->action('ManagerController@milestones');
+            } else {
+                abort("修改未成功，请稍后重试");
+//                return redirect()->action('ManagerController@milestones');
+            }
         }
         if ($request->file('file') != null) {
             if ($request->isMethod('POST')) {
@@ -168,8 +189,22 @@ class ManagerController extends Controller
             if ($bool) {
                 return redirect()->action('ManagerController@team');
             } else {
-                abort("修改未成功，请稍后重试");
-                return redirect()->action('ManagerController@team');
+                abort("添加未成功，请稍后重试");
+//                return redirect()->action('ManagerController@team');
+            }
+        }
+    }
+    public function add_np(Request $request,$table){
+        if($table=='milestones'){
+            $milestones=new Milestone();
+            $milestones->year=$request->input('year');
+            $milestones->events=$request->input('events');
+            $bool=$milestones->save();
+            if ($bool) {
+                return redirect()->action('ManagerController@milestones');
+            } else {
+                abort("添加未成功，请稍后重试");
+//                return redirect()->action('ManagerController@milestones');
             }
         }
     }

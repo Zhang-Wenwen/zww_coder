@@ -39,9 +39,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="manager/team">team</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+                {{--<li class="nav-item">--}}
+                    {{--<a class="nav-link" href="#">Contact</a>--}}
+                {{--</li>--}}
             </ul>
         </div>
     </div>

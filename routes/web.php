@@ -42,18 +42,23 @@ Route::group(['middleware'=>['web']],function () {
 
         Route::get('/update_member/{id}', 'ManagerController@update_member');
 
-        Route::post('/update/{table}/{id}', 'ManagerController@update');
-
         Route::get('/add/{table}', 'ManagerController@add_view');
 
         Route::post('/add/{table}', 'ManagerController@add');
+
+        Route::post('/add_np/{table}', 'ManagerController@add_np');
 
         Route::get('/member', 'ManagerController@member');
 
         Route::get('/update/{table}/{id}', 'ManagerController@update_view');
 
+        Route::post('/update/{table}/{id}', 'ManagerController@update');
+
         Route::get('/milestones', 'ManagerController@milestones');
-});
+
+        Route::get('/projects', 'ManagerController@projects');
+
+    });
 
 
 
