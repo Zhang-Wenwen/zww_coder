@@ -1,40 +1,46 @@
 @extends('layouts.banner')
 @section('content')
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                  天外天大事记
-                </div>
-                <!-- .panel-heading -->
-                <div class="panel-body">
-                    <div class="panel-group" id="accordion">
-                        @foreach($milestones as $key=>$value)
-                        <div class="panel panel-default" >
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                   <a data-toggle="collapse" data-parent="#accordion" >{{$value->time}}</a>
-                                </h4>
-                            </div>
-                            <a data-toggle="collapse" data-parent="#accordion" href="{{url('manager/add/introduce')}}{{'/'.$value->id}}">添加时间</a>
-                            <div id="collapseOne" class="panel-collapse collapse in" >
-                                @foreach($value->events as $key=>$value)
-                              <div class="panel-body">
-                                  {{$value->events}}
-                                    <br>
-                                  <a class="panel-body" href="{{url('manager/add/events')}}{{'/'.$value->id}}">添加事件</a>
-                                </div>
-                                @endforeach
-                            </div>
-                        </div>
-                        @endforeach
-                    </div>
-                </div>
-                <!-- .panel-body -->
-            </div>
-            <!-- /.panel -->
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <i class="fa fa-bar-chart-o fa-fw"></i> 天外天大事记
         </div>
-        <!-- /.col-lg-12 -->
+        <!-- /.panel-heading -->
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-16">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover table-striped">
+                            <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Event</th>
+                                <th>Update</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            @foreach($milestones as $key=>$value)
+                            <tr>
+                                <td>{{$value->year}}</td>
+                                <td>{{$value->events}}</td>
+                                <td>  <a href="{{url('manager/update/events')}}{{'/'.$value->id}}">update event</a></td>
+                                @endforeach
+                                <div style="text-align: center ;font-size: large"class="panel-heading">
+                                    <a  href="{{url('manager/add/events')}}">添加时间和事件</a>
+                                </div>
+                            </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!-- /.table-responsive -->
+
+                </div>
+                <!-- /.col-lg-4 (nested) -->
+                <!-- /.col-lg-8 (nested) -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.panel-body -->
     </div>
-    {{$milestones->links()}}
+
     @endsection

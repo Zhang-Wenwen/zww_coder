@@ -38,11 +38,7 @@ class CoderController  extends Controller
         return response()->json($message_board);
     }
     public function milestones(){
-        $milestones=Milestone::all();
-        foreach ($milestones as $key=>$value)
-        {
-            $value->events;
-        }
+        $milestones=Milestone::orderBy('year','desc')->get();
         return response()->json($milestones);
     }
 

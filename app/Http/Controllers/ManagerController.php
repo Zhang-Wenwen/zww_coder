@@ -71,6 +71,9 @@ class ManagerController extends Controller
                 'introduce'=>$introduce
             ]);
         }
+        if($table=='milestones'){
+            $milestone=Milestone::orderBy('year','desc')->paginate(6);
+        }
     }
     public function update($table,$id,Request $request)
     {
@@ -177,6 +180,10 @@ class ManagerController extends Controller
         if($table=='member'){
             return view('Manager.add_member');
         }
+        if ($table=='events')
+        {
+            return view('Manager.add_milestone');
+        }
     }
     public function member(){
         $member = Member::paginate(5);
@@ -185,11 +192,7 @@ class ManagerController extends Controller
         ]);
     }
     public function milestones(){
-        $milestones=Milestone::paginate(6);
-        foreach ($milestones as $key=>$value)
-        {
-            $value->events;
-        }
+        $milestones=Milestone::orderBy('year','desc')->paginate(6);
         return view('Manager.milestones',[
             'milestones'=>$milestones
         ]);
