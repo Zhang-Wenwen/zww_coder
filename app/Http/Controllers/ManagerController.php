@@ -83,6 +83,12 @@ class ManagerController extends Controller
                 'milestones'=>$milestone
             ]);
         }
+        if($table=='projects'){
+            $projects=Project::find($id);
+            return view('Manager.update_projects',[
+                'projects'=>$projects
+            ]);
+        }
     }
     public function update($table,$id,Request $request)
     {
@@ -152,6 +158,28 @@ class ManagerController extends Controller
             } else {
                 abort("修改未成功，请稍后重试");
                 return redirect()->action('ManagerController@member');
+            }
+        }
+        if ($table=="projects") {
+            $this->validate($request,[
+                'file'=>'size:557*234',
+            ]);
+            $projects = Project::find($id);
+            $projects->name = $request->input('name');
+            $projects->desc = $request->input('desc');
+            $projects->type = $request->input('type');
+            $projects->link = $request->input('link');
+            if($request->input('type')!=null)
+            {
+                $projects->type = $request->input('type');
+            }
+            else  $projects->type = Project::find($id)->value('type');
+            $bool = $projects->save();
+            if ($bool) {
+                return redirect()->action('ManagerController@projects');
+            } else {
+                abort("修改未成功，请稍后重试");
+                return redirect()->action('ManagerController@projects');
             }
         }
     }

@@ -67,7 +67,9 @@
                 <h4 class="text-shadow text-white">(0 为web， 1 为app) <br>此产品为：{{$value->type}}</h4>
                 <p class="lead card-text text-shadow text-white w-50 d-none d-lg-block">{{$value->desc}}</p>
                 <a href="{{$value->link}}" class="btn btn-secondary">网站链接：{{$value->link}}</a>
-                {{--<a href="{{$value->link}}" class="btn btn-secondary">网站链接：{{$value->link}}</a>--}}
+                <br>
+                <br>
+                <a href="{{url('manager/update/projects')}}{{'/'.$value->id}}" class="btn btn-secondary" >修改内容</a>
             </div>
         </div>
     </div>
