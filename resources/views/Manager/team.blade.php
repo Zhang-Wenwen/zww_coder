@@ -74,6 +74,7 @@
 {{--            <small>{{$value->text}}</small>--}}
             <p>{{$value->text}}</p>
         </div>
+            <a href="{{url('manager/delete/team')}}{{'/'.$value->id}}">删除</a>
             @endforeach
         <div class="col-lg-4 col-sm-6 text-center mb-4">
             <a href="{{url('manager/add/team')}}">

@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 class Member extends Model
 {
     protected  $table='Members';
-    public $timestamps=false;
+    public $timestamps=true;
 }

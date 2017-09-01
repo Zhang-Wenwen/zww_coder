@@ -38,6 +38,8 @@ Route::group(['middleware'=>['web']],function () {
 
         Route::get('/delete_np/{table}/{id}', 'ManagerController@delete_np');
 
+        Route::get('/delete/{table}/{id}', 'ManagerController@delete');
+
         Route::get('/update_team/{id}', 'ManagerController@update_team');
 
         Route::get('/update_member/{id}', 'ManagerController@update_member');
@@ -58,10 +60,8 @@ Route::group(['middleware'=>['web']],function () {
 
         Route::get('/projects', 'ManagerController@projects');
 
+        Route::get('/Aregister', 'RegisterController@register');
+
+        Auth::routes();
     });
-
-
-
-
-Auth::routes();
 

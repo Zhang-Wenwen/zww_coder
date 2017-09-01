@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="/manager/team">Team
+                    <a class="nav-link text-uppercase text-expanded" href="/manager/home">Home
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -70,13 +70,13 @@
                 <br>
                 <br>
                 <a href="{{url('manager/update/projects')}}{{'/'.$value->id}}" class="btn btn-secondary" >修改内容</a>
+                <a href="{{url('manager/delete/projects')}}{{'/'.$value->id}}" class="btn btn-secondary">删除</a>
             </div>
         </div>
     </div>
     @endforeach
-
     <!-- Pagination -->
-
+        <a href="{{url('manager/add/projects')}}" class="btn btn-secondary">添加新产品</a>
             <ul class="pagination justify-content-center mb-0">
                 <li class="page-item">
           {{$projects->links()}}

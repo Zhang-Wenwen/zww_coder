@@ -73,6 +73,7 @@
                 </h3>
                 {{--            <small>{{$value->text}}</small>--}}
                 <p>{{$value->major}}</p>
+                <a href="{{url('manager/delete/members')}}{{'/'.$value->id}}">删除</a>
             </div>
         @endforeach
         <div class="col-lg-4 col-sm-6 text-center mb-4">

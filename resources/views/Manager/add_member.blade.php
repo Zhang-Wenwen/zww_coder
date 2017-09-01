@@ -9,7 +9,7 @@
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-6">
-                            <form role="form" action="{{url('/manager/add/member')}}" method="POST" enctype="multipart/form-data">
+                            <form role="form" action="{{url('/manager/add/members')}}" method="POST" enctype="multipart/form-data">
                                 {{csrf_field()}}
                                 <div class="form-group">
                                     <h1> 基本信息</h1>
@@ -17,11 +17,15 @@
                                     <input type="text" class="form-control" id="inputSuccess" name="name" value=""required>
                                     <div class="form-group has-warning">
                                         <label class="control-label" for="inputWarning">学院专业</label>
-                                        <input type="text" class="form-control" id="inputWarning" name="majro" value=""required>
+                                        <input type="text" class="form-control" id="inputWarning" name="major" value=""required>
                                     </div>
                                     <div class="form-group has-error">
                                         <label class="control-label" for="inputError">所属组别</label>
                                         <input type="text" class="form-control" id="inputError" name="group" value=""required>
+                                    </div>
+                                    <div class="form-group has-error">
+                                        <label class="control-label" for="inputError">年级</label>
+                                        <input type="text" class="form-control" id="inputError" name="grade" value=""required>
                                     </div>
                                     <label>选择照片（为了保持照片比列，请尽量上传1：1的照片哦）</label>
                                     <input type="file" name="file" value="" required>

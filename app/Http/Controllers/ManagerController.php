@@ -38,20 +38,26 @@ class ManagerController extends Controller
     }
     public function delete_np($table,$id){
         $bool=DB::table($table)->where('id',$id)->delete();
-        if($bool==1){
-          return  redirect()->action('ManagerController@index');
+        if($bool)
+        {
+            return redirect()->back()->withInput()->withErrors('删除成功！');
         }
-        else
-            echo "删除失败，请重试";
+       else   return redirect()->back()->withInput()->withErrors('删除失败！');
+    }
+    public function delete($table,$id){
+        $filename= DB::table($table)->where('id', $id)->value('pic');
+        storage::disk('public')->delete($filename);
+        DB::table($table)->where('id', $id)->delete();
+        return redirect()->back()->withInput()->withErrors('删除成功');
     }
     public function team( ){
-        $team = Team::paginate(5);
+        $team = Team::orderBy('created_at','desc')->paginate(5);
         return view('Manager.team',[
             'team'=>$team
         ]);
     }
     public function projects(){
-        $projects=Project::paginate(3);
+        $projects=Project::orderBy('updated_at','desc')->paginate(3);
         return view('Manager.projects',[
             'projects'=>$projects
         ]);
@@ -117,8 +123,8 @@ class ManagerController extends Controller
                 if ($file->isValid()) {
                     $ext = $file->getClientOriginalExtension();
                     $realpath = $file->getRealPath();
-//                    $originfile=DB::table($table)->value('pic');
-//                    $bool= Storage::delete($originfile); ////  删除文件没有成功,不知道为什么=^=
+                    $originfile=DB::table($table)->value('pic');
+                    Storage::disk('public')->delete($originfile);
                     $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
                     Storage::disk('public')->put($filename, file_get_contents($realpath));
                     DB::table($table)->where('id', $id)
@@ -203,8 +209,8 @@ class ManagerController extends Controller
             $team->group = $request->input('group');
             $team->duty = $request->input('duty');
             $team->tag = $request->input('tag');
-            $team->pic = $request->input('pic');
-            $team->pic = $request->input('optionsRadios');
+            $team->pic = $request->file('file')->getFilename();
+            $team->type = $request->input('optionsRadios');
             if($request->input('optionsRadios')!=null)
             {
                 $team->type = $request->input('optionsRadios');
@@ -219,6 +225,41 @@ class ManagerController extends Controller
             } else {
                 abort("添加未成功，请稍后重试");
 //                return redirect()->action('ManagerController@team');
+            }
+        }
+        if ($table == 'projects') {
+            $projects=new Project();
+            $projects->name = $request->input('name');
+            $projects->desc = $request->input('desc');
+            $projects->link = $request->input('link');
+            $projects->pic = $request->file('file')->getFilename();
+            if($request->input('type')!=null)
+            {
+                $projects->type = $request->input('type');
+            }
+            else
+            {
+                $projects->type = 1;
+            }
+            $bool =  $projects->save();
+            if ($bool) {
+                return redirect()->action('ManagerController@projects');
+            } else {
+                abort('哎呀呀，出错啦，再来一次吧');
+            }
+        }
+        if($table=='members'){
+            $member=new Member();
+            $member->name = $request->input('name');
+            $member->group = $request->input('group');
+            $member->major = $request->input('major');
+            $member->pic = $request->file('file')->getFilename();
+            $member->grade = $request->input('grade');
+            $bool =  $member->save();
+            if ($bool) {
+                return redirect()->action('ManagerController@member');
+            } else {
+                abort('哎呀呀，出错啦，再来一次吧');
             }
         }
     }
@@ -247,9 +288,13 @@ class ManagerController extends Controller
         {
             return view('Manager.add_milestone');
         }
+        if ($table=='projects')
+        {
+            return view('Manager.add_projects');
+        }
     }
     public function member(){
-        $member = Member::paginate(5);
+        $member = Member::orderBy('created_at','desc')->paginate(5);
         return view('Manager.member',[
             'team'=>$member
         ]);
