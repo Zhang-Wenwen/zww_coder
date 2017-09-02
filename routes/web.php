@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Middleware\Core;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(['middleware'=>['web']],function () {
+Route::group(['middleware'=>['Core']],function () {
     Route::get('/member', 'CoderController@member');
 
     Route::get('/personal_info', 'CoderController@personal_info');
@@ -60,8 +60,12 @@ Route::group(['middleware'=>['web']],function () {
 
         Route::get('/projects', 'ManagerController@projects');
 
-        Route::get('/Aregister', 'RegisterController@register');
+        Route::get('/Aregister', function (){
+            return view('auth.register');
+        });
 
-        Auth::routes();
+        Route::post('/Aregister', 'RegisterController@register');
+
     });
 
+        Auth::routes();
