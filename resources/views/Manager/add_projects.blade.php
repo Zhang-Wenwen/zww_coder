@@ -33,6 +33,7 @@
                                         <select class="form-control" name="type" required>
                                             <option>1</option>
                                             <option>0</option>
+                                            <option>3</option>
                                         </select>
                                     </div>
                                     <div class="form-group">

@@ -70,6 +70,6 @@ class RegisterController extends Controller
             return $this->redirectTo();
         }
 
-        return property_exists($this, 'redirectTo') ? $this->redirectTo : '/manager/home';
+        return property_exists($this, 'redirectTo') ? $this->redirectTo : '/manager';
     }
 }

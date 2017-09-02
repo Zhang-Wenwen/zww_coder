@@ -64,7 +64,7 @@
             <img class="card-img img-fluid w-100" style="height: 450px;width: 600px" src="/storage/app/public/{{$value->pic}}" alt="">
             <div class="card-img-overlay bg-overlay">
                 <h2 class="card-title text-shadow text-white text-uppercase mb-0">{{$value->name}}</h2>
-                <h4 class="text-shadow text-white">(0 为web， 1 为app) <br>此产品为：{{$value->type}}</h4>
+                <h4 class="text-shadow text-white">(0 为web， 1 为app ，3 为都是) <br>此产品为：{{$value->type}}</h4>
                 <p class="lead card-text text-shadow text-white w-50 d-none d-lg-block">{{$value->desc}}</p>
                 <a href="{{$value->link}}" class="btn btn-secondary">网站链接：{{$value->link}}</a>
                 <br>

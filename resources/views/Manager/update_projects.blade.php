@@ -29,10 +29,11 @@
                                         <input type="file" type="text" name="file">
                                     </div>
                                     <div class="form-group">
-                                        <label>选择类型（1 为web，0 为app）</label>
+                                        <label>选择类型（1 为web，0 为app， 3 为两者都是）</label>
                                         <select class="form-control" name="type" required>
                                             <option>1</option>
                                             <option>0</option>
+                                            <option>3</option>
                                         </select>
                                     </div>
                                     <div class="form-group">
