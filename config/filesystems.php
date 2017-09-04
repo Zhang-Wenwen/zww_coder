@@ -55,6 +55,11 @@ return [
             'visibility' => 'public',
         ],
 
+        'Qrcode' => [       //建立本地端空间,用于二维码的储存
+            'driver' => 'local',
+            'root' => storage_path('app/Qrcode'),
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_KEY'),

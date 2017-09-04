@@ -84,6 +84,10 @@
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
+                        <a href="{{url('/manager/Qrcode')}}"><i class="fa fa-files-o fa-fw"></i> Qrcodes<span class="fa arrow"></span></a>
+                        <!-- /.nav-second-level -->
+                    </li>
+                    <li>
                         <a href="{{url('/manager/Aregister')}}"><i class="fa fa-files-o fa-fw"></i> Register<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>

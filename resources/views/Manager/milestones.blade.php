@@ -24,9 +24,11 @@
                                 <td>{{$value->events}}</td>
                                 <td>  <a href="{{url('manager/update/milestones')}}{{'/'.$value->id}}">update event</a></td>
                                 @endforeach
+                                <div class="alert alert-info">
                                 <div style="text-align: center ;font-size: large"class="panel-heading">
                                     <a  href="{{url('manager/add/events')}}">添加时间和事件</a>
                                 </div>
+                                    </div>
                             </tr>
                             </tbody>
                         </table>

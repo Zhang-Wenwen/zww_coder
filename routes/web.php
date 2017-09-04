@@ -20,6 +20,7 @@ Route::group(['middleware'=>['Core']],function () {
     Route::get('/message_board', 'CoderController@message_board');
     Route::get('/milestones', 'CoderController@milestones');
     Route::get('/introduce', 'CoderController@introduce');
+    Route::get('/Qrcode', 'CoderController@Qrcode');
 
     Route::get('/form', function () {
         return view('form');
@@ -66,6 +67,15 @@ Route::group(['middleware'=>['Core']],function () {
 
         Route::post('/Aregister', 'RegisterController@register');
 
+        Route::get('/add_Qrcode', function (){
+            return view('manager.add_Qrcode');
+        });
+
+        Route::post('/add_Qrcode', 'ManagerController@add_Qrcode');
+
+        Route::get('/Qrcode', 'ManagerController@Qrcode');
+
+        Route::get('/delete_Qrcode/{id}', 'ManagerController@delete_Qrcode');
     });
 
         Auth::routes();

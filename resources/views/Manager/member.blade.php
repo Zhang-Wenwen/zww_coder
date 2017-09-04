@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 {{--@extends('layouts.banner')--}}
+
 <head>
 
     <meta charset="utf-8">
@@ -59,7 +60,7 @@
     </p>
     <!-- Team Members Row -->
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-md-8 col-md-offset-2">
             <h2 class="my-4">Our Members</h2>
         </div>
         @foreach($team as $key=>$value)

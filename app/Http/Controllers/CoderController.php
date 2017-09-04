@@ -14,9 +14,11 @@ use App\Message_board;
 use App\Milestone;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Auth;
-use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Facades\Validator;
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
+//use Illuminate\Auth;
+//use Illuminate\Support\Facades\Storage;
+//use Illuminate\Support\Facades\Validator;
+
 class CoderController  extends Controller
 {
     public function member(){
@@ -53,5 +55,8 @@ class CoderController  extends Controller
         $message->text=$request->input('text');
         $message->save();
         return response()->json($message);
+    }
+    public function Qrcode(){
+//        $
     }
 }

@@ -17,7 +17,7 @@ use App\Backup;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Storage;
-
+use SimpleSoftwareIO\QrCode\Facades\QrCode;
 class ManagerController extends Controller
 {
     public function __construct(){
@@ -232,7 +232,8 @@ class ManagerController extends Controller
             $projects->name = $request->input('name');
             $projects->desc = $request->input('desc');
             $projects->link = $request->input('link');
-            $projects->pic = $request->file('file')->getFilename();
+            $filename=$request->file('file')->getFilename();
+            $projects->pic ='/storage/app/Qrcode'.$filename;
             if($request->input('type')!=null)
             {
                 $projects->type = $request->input('type');
@@ -304,5 +305,40 @@ class ManagerController extends Controller
         return view('Manager.milestones',[
             'milestones'=>$milestones
         ]);
+    }
+    public function add_Qrcode(Request $request){
+        $this->validate($request,[
+            'name'=>'required|unique:qrcode,name|max:255',
+            'link'=>'required|unique:qrcode,link|max:255',
+            'desc'=>'required|max:255',
+        ]);
+        $link=$request->input('link');
+        $name=$request->input('name');
+        $desc=$request->input('desc');
+        QrCode::format('png')->size(94)->color(0,161,233)->generate($link,public_path('/storage/app/Qrcode'.'/'.$name.'.'.'png'));
+        $Qrcode='/storage/app/Qrcode'.'/'.$name.'.'.'png';
+        DB::table('qrcode')->insert([
+            'name'=>$name,
+            'link'=>$link,
+            'desc'=>$desc,
+            'Qrcode'=>$Qrcode
+        ]);
+       return redirect()->action('ManagerController@Qrcode');
+    }
+    public function Qrcode(){
+        $qrcodes=DB::table('qrcode')->paginate(6);
+        return view('Manager.qrcode',[
+            'qrcodes'=>$qrcodes
+        ]);
+    }
+    public function delete_Qrcode($id){
+        $originfile=DB::table('qrcode')->value('Qrcode');
+        Storage::disk('Qrcode')->delete($originfile);
+        $bool=DB::table('qrcode')->where('id',$id)->delete();
+        if($bool)
+        {
+            return redirect()->back()->withInput()->withErrors('删除成功！');
+        }
+        else   return redirect()->back()->withInput()->withErrors('删除失败！');
     }
 }
