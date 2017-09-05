@@ -24,6 +24,8 @@ window.jQuery || document.write("<script src='../js/jquery1x.min.js'>"+"<"+"/scr
         <button type="submit" class="btn btn-primary">
             Submit
         </button>
+        <script src="/Trumbowyg/dist/trumbowyg.js"></script>
+        <script src="/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js"></script>
         <script>
             $('#editor').trumbowyg({
                 btns: [

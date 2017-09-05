@@ -99,10 +99,12 @@ class ManagerController extends Controller
     public function update($table,$id,Request $request)
     {
         if($table=='introduce'){
-                DB::table($table)
+            $bool=DB::table($table)
                 ->where('id',$id)
-                ->update(['Model'=>$request->input('model')],
-                         ['content'=>$request->input('editor')]);
+                ->update([
+                    'Model'=>$request->input('model'),
+                    'content'=>$request->input('editor')
+                ]);
             return redirect()->action('ManagerController@index');
         }
         if($table=='milestones'){

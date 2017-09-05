@@ -21,7 +21,6 @@ Route::group(['middleware'=>['Core']],function () {
     Route::get('/milestones', 'CoderController@milestones');
     Route::get('/introduce', 'CoderController@introduce');
     Route::get('/Qrcode', 'CoderController@Qrcode');
-
     Route::get('/form', function () {
         return view('form');
     });

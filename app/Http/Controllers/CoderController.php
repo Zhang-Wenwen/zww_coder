@@ -14,7 +14,7 @@ use App\Message_board;
 use App\Milestone;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use SimpleSoftwareIO\QrCode\Facades\QrCode;
+//use SimpleSoftwareIO\QrCode\Facades\QrCode;
 //use Illuminate\Auth;
 //use Illuminate\Support\Facades\Storage;
 //use Illuminate\Support\Facades\Validator;
@@ -57,6 +57,7 @@ class CoderController  extends Controller
         return response()->json($message);
     }
     public function Qrcode(){
-//        $
+        $Qrcodes=DB::table('qrcode')->get();
+        return response()->json($Qrcodes);
     }
 }
