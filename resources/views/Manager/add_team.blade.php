@@ -34,6 +34,11 @@
                                     <label>选择照片（为了保持照片比列，请尽量上传1：1的照片哦）</label>
                                     <input type="file" name="file" value="" required>
                                 </div>
+                                @if($errors->first('file') !=null)
+                                    <div class="alert alert-success">
+                                        {{ $errors->first('file') }}
+                                    </div>
+                                @endif
                                 <div class="form-group">
                                     <label>学长寄语</label>
                                     <textarea class="form-control" name="text" rows="3" required></textarea>

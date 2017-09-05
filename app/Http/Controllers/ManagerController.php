@@ -24,7 +24,7 @@ class ManagerController extends Controller
         $this->middleware('auth');
     }
     public function index(){
-        $introduce=DB::table('introduce')->paginate(2);
+        $introduce=DB::table('introduce')->paginate(3);
         return view('Manager.home',[
             'introduce'=>$introduce
         ]);
@@ -99,7 +99,7 @@ class ManagerController extends Controller
     public function update($table,$id,Request $request)
     {
         if($table=='introduce'){
-            $bool=DB::table($table)
+            DB::table($table)
                 ->where('id',$id)
                 ->update([
                     'Model'=>$request->input('model'),
@@ -119,22 +119,29 @@ class ManagerController extends Controller
 //                return redirect()->action('ManagerController@milestones');
             }
         }
-        if ($request->file('file') != null) {
-            if ($request->isMethod('POST')) {
-                $file = $request->file('file');
-                if ($file->isValid()) {
-                    $ext = $file->getClientOriginalExtension();
-                    $realpath = $file->getRealPath();
-                    $originfile=DB::table($table)->value('pic');
-                    Storage::disk('public')->delete($originfile);
-                    $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
-                    Storage::disk('public')->put($filename, file_get_contents($realpath));
-                    DB::table($table)->where('id', $id)
-                        ->update(['pic' => $filename]);
-                }
-            } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
-        }
         if ($table == 'team') {
+            $this->validate($request,[
+                'file'=>'size:557*234',
+            ]);
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $originfile=DB::table($table)->value('pic');
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        if ($bool)
+                        {
+                            Storage::disk('public')->delete($originfile);
+                        }
+                        $path='/storage/app/public/'.$filename;
+                        DB::table($table)->where('id', $id)
+                            ->update(['pic' => $path]);
+                    }
+                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+            }
             $team = Team::find($id);
             $team->name = $request->input('name');
             $team->text = $request->input('text');
@@ -155,6 +162,28 @@ class ManagerController extends Controller
              }
          }
         if ($table=="members"){
+            $this->validate($request,[
+                'file'=>'size:557*234',
+            ]);
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $originfile=DB::table($table)->value('pic');
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        if ($bool)
+                        {
+                            Storage::disk('public')->delete($originfile);
+                        }
+                        $path='/storage/app/public/'.$filename;
+                        DB::table($table)->where('id', $id)
+                            ->update(['pic' => $path]);
+                    }
+                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+            }
             $member=Member::find($id);
             $member->name = $request->input('name');
             $member->group = $request->input('group');
@@ -172,6 +201,25 @@ class ManagerController extends Controller
             $this->validate($request,[
                 'file'=>'size:557*234',
             ]);
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $originfile=DB::table($table)->value('pic');
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        if ($bool)
+                        {
+                            Storage::disk('public')->delete($originfile);
+                        }
+                        $path='/storage/app/public/'.$filename;
+                        DB::table($table)->where('id', $id)
+                            ->update(['pic' => $path]);
+                    }
+                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+            }
             $projects = Project::find($id);
             $projects->name = $request->input('name');
             $projects->desc = $request->input('desc');
@@ -192,18 +240,21 @@ class ManagerController extends Controller
         }
     }
     public function add(Request $request,$table){
-        if ($request->file('file') != null) {
-            if ($request->isMethod('POST')) {
-                $file = $request->file('file');
-                if ($file->isValid()) {
-                    $ext = $file->getClientOriginalExtension();
-                    $realpath = $file->getRealPath();
-                    $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
-                    Storage::disk('public')->put($filename, file_get_contents($realpath));
-                }
-            } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
-        }
         if ($table == 'team') {
+            $this->validate($request,[
+                'file'=>'size:557*234',
+            ]);
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        Storage::disk('public')->put($filename, file_get_contents($realpath));
+                    }
+                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+            }
             $team=new Team();
             $team->name = $request->input('name');
             $team->text = $request->input('text');
@@ -211,7 +262,8 @@ class ManagerController extends Controller
             $team->group = $request->input('group');
             $team->duty = $request->input('duty');
             $team->tag = $request->input('tag');
-            $team->pic = $request->file('file')->getFilename();
+            $filename=$request->file('file')->getFilename();
+            $team->pic = '/storage/app/public/'.$filename;
             $team->type = $request->input('optionsRadios');
             if($request->input('optionsRadios')!=null)
             {
@@ -230,12 +282,26 @@ class ManagerController extends Controller
             }
         }
         if ($table == 'projects') {
+            $this->validate($request,[
+                'file'=>'size:557*234',
+            ]);
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        Storage::disk('public')->put($filename, file_get_contents($realpath));
+                    }
+                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+            }
             $projects=new Project();
             $projects->name = $request->input('name');
             $projects->desc = $request->input('desc');
             $projects->link = $request->input('link');
             $filename=$request->file('file')->getFilename();
-            $projects->pic ='/storage/app/Qrcode'.$filename;
+            $projects->pic ='/storage/app/Qrcode/'.$filename;
             if($request->input('type')!=null)
             {
                 $projects->type = $request->input('type');
@@ -252,11 +318,26 @@ class ManagerController extends Controller
             }
         }
         if($table=='members'){
+            $this->validate($request,[
+                'file'=>'size:557*234',
+            ]);
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        Storage::disk('public')->put($filename, file_get_contents($realpath));
+                    }
+                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+            }
             $member=new Member();
             $member->name = $request->input('name');
             $member->group = $request->input('group');
             $member->major = $request->input('major');
-            $member->pic = $request->file('file')->getFilename();
+            $filename=$request->file('file')->getFilename();
+            $member->pic = '/storage/app/public/'.$filename;
             $member->grade = $request->input('grade');
             $bool =  $member->save();
             if ($bool) {

@@ -30,6 +30,11 @@
                                     <label>选择照片（为了保持照片比列，请尽量上传1：1的照片哦）</label>
                                     <input type="file" name="file" value="" required>
                                 </div>
+                                @if($errors->first('file') !=null)
+                                    <div class="alert alert-success">
+                                        {{ $errors->first('file') }}
+                                    </div>
+                                @endif
                                     <button type="submit" class="btn btn-default">提交</button>
                                     <button type="reset" class="btn btn-default"value="Reset">重置</button>
                             </form>

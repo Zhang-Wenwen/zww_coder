@@ -28,6 +28,11 @@
                                         <label>选择照片（请上传557*234大小的图片哦）</label>
                                         <input type="file" type="text" name="file">
                                     </div>
+                                    @if($errors->first('file') !=null)
+                                        <div class="alert alert-success">
+                                            {{ $errors->first('file') }}
+                                        </div>
+                                    @endif
                                     <div class="form-group">
                                         <label>选择类型（1 为web，0 为app， 3 为两者都是）</label>
                                         <select class="form-control" name="type" required>

@@ -37,7 +37,7 @@
                     <a class="nav-link" href="/manager/member">member</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="manager/team">team</a>
+                    <a class="nav-link" href="/manager/team">team</a>
                 </li>
                 {{--<li class="nav-item">--}}
                     {{--<a class="nav-link" href="#">Contact</a>--}}
@@ -65,7 +65,7 @@
         @foreach($team as $key=>$value)
         <div class="col-lg-4 col-sm-6 text-center mb-4">
             {{--<img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">--}}
-            <a href="{{url('manager/update_team')}}{{'/'.$value->id}}">
+            <a href="{{url('/manager/update_team')}}{{'/'.$value->id}}">
             <img style="height:200px; width:200px; " class="rounded-circle img-fluid d-block mx-auto" src="/storage/app/public/{{$value->pic}}" alt="">
                 </a>
             <h3>{{$value->name}}
@@ -73,11 +73,11 @@
             </h3>
 {{--            <small>{{$value->text}}</small>--}}
             <p>{{$value->text}}</p>
-            <a href="{{url('manager/delete/team')}}{{'/'.$value->id}}">删除</a>
+            <a href="{{url('/manager/delete/team')}}{{'/'.$value->id}}" onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;
         </div>
             @endforeach
         <div class="col-lg-4 col-sm-6 text-center mb-4">
-            <a href="{{url('manager/add/team')}}">
+            <a href="{{url('/manager/add/team')}}">
             <img style="height:200px; width:200px; "  class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">
                 </a>
             <h3>Add more

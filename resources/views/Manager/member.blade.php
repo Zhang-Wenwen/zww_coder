@@ -23,7 +23,6 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,9 +39,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/manager/team">team</a>
                 </li>
-                {{--<li class="nav-item">--}}
-                    {{--<a class="nav-link" href="#">Contact</a>--}}
-                {{--</li>--}}
             </ul>
         </div>
     </div>
@@ -62,7 +58,6 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <h2 class="my-4">Our Members</h2>
-        </div>
         @foreach($team as $key=>$value)
             <div class="col-lg-4 col-sm-6 text-center mb-4">
                 {{--<img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">--}}
@@ -74,7 +69,7 @@
                 </h3>
                 {{--            <small>{{$value->text}}</small>--}}
                 <p>{{$value->major}}</p>
-                <a href="{{url('manager/delete/members')}}{{'/'.$value->id}}">删除</a>
+                <a href="{{url('manager/delete/members')}}{{'/'.$value->id}}" onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;
             </div>
         @endforeach
         <div class="col-lg-4 col-sm-6 text-center mb-4">
@@ -85,6 +80,7 @@
                 <small>Welcome</small>
             </h3>
             <p>who is the new member?</p>
+            </div>
         </div>
     </div>
 </div>
