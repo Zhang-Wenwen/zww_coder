@@ -18,7 +18,6 @@ use Illuminate\Support\Facades\DB;
 //use Illuminate\Auth;
 //use Illuminate\Support\Facades\Storage;
 //use Illuminate\Support\Facades\Validator;
-
 class CoderController  extends Controller
 {
     public function member(){
@@ -59,5 +58,9 @@ class CoderController  extends Controller
     public function Qrcode(){
         $Qrcodes=DB::table('qrcode')->get();
         return response()->json($Qrcodes);
+    }
+    public function advertise(){
+        $advertise=DB::table('advertise')->get();
+        return response()->json($advertise);
     }
 }

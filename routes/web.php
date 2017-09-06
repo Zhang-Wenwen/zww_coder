@@ -21,6 +21,7 @@ Route::group(['middleware'=>['Core']],function () {
     Route::get('/milestones', 'CoderController@milestones');
     Route::get('/introduce', 'CoderController@introduce');
     Route::get('/Qrcode', 'CoderController@Qrcode');
+    Route::get('/advertise', 'CoderController@advertise');
     Route::get('/form', function () {
         return view('form');
     });
@@ -75,6 +76,12 @@ Route::group(['middleware'=>['Core']],function () {
         Route::get('/Qrcode', 'ManagerController@Qrcode');
 
         Route::get('/delete_Qrcode/{id}', 'ManagerController@delete_Qrcode');
+
+        Route::get('/advertise', 'ManagerController@advertise');
+        Route::get('/add_advertise', function (){
+            return view('manager.add_advertise');
+        });
+
     });
 
         Auth::routes();

@@ -121,7 +121,7 @@ class ManagerController extends Controller
         }
         if ($table == 'team') {
             $this->validate($request,[
-                'file'=>'size:557*234',
+                'file'=>'dimensions:width=688,height=565',
             ]);
             if ($request->file('file') != null) {
                 if ($request->isMethod('POST')) {
@@ -163,7 +163,7 @@ class ManagerController extends Controller
          }
         if ($table=="members"){
             $this->validate($request,[
-                'file'=>'size:557*234',
+                'file'=>'dimensions:width=218,height=218',
             ]);
             if ($request->file('file') != null) {
                 if ($request->isMethod('POST')) {
@@ -199,7 +199,7 @@ class ManagerController extends Controller
         }
         if ($table=="projects") {
             $this->validate($request,[
-                'file'=>'size:557*234',
+                'file'=>'dimensions:width=557,height=342',
             ]);
             if ($request->file('file') != null) {
                 if ($request->isMethod('POST')) {
@@ -242,7 +242,7 @@ class ManagerController extends Controller
     public function add(Request $request,$table){
         if ($table == 'team') {
             $this->validate($request,[
-                'file'=>'size:557*234',
+                'file'=>'dimensions:width=688,height=565',
             ]);
             if ($request->file('file') != null) {
                 if ($request->isMethod('POST')) {
@@ -283,7 +283,7 @@ class ManagerController extends Controller
         }
         if ($table == 'projects') {
             $this->validate($request,[
-                'file'=>'size:557*234',
+                'file'=>'dimensions:width=557,height=342',
             ]);
             if ($request->file('file') != null) {
                 if ($request->isMethod('POST')) {
@@ -319,7 +319,7 @@ class ManagerController extends Controller
         }
         if($table=='members'){
             $this->validate($request,[
-                'file'=>'size:557*234',
+                'file'=>'dimensions:width=218,height=218',
             ]);
             if ($request->file('file') != null) {
                 if ($request->isMethod('POST')) {
@@ -346,6 +346,7 @@ class ManagerController extends Controller
                 abort('哎呀呀，出错啦，再来一次吧');
             }
         }
+
     }
     public function add_np(Request $request,$table){
         if($table=='milestones'){
@@ -353,6 +354,20 @@ class ManagerController extends Controller
             $milestones->year=$request->input('year');
             $milestones->events=$request->input('events');
             $bool=$milestones->save();
+            if ($bool) {
+                return redirect()->action('ManagerController@milestones');
+            } else {
+                abort("添加未成功，请稍后重试");
+//                return redirect()->action('ManagerController@milestones');
+            }
+        }
+        if ($table=='advertise'){
+          $bool=DB::table('advertise')->insert([
+              'title'=>$request->input('title'),
+              'desc'=>$request->input('desc'),
+              'place'=>$request->input('place'),
+              'created_at'=>date('Y-m-d')
+          ]);
             if ($bool) {
                 return redirect()->action('ManagerController@milestones');
             } else {
@@ -398,7 +413,7 @@ class ManagerController extends Controller
         $link=$request->input('link');
         $name=$request->input('name');
         $desc=$request->input('desc');
-        QrCode::format('png')->size(94)->color(0,161,233)->generate($link,public_path('/storage/app/Qrcode'.'/'.$name.'.'.'png'));
+        QrCode::format('png')->size(94)->color(0,161,233)->generate($link,storage_path('/app/Qrcode'.'/'.$name.'.'.'png'));
         $Qrcode='/storage/app/Qrcode'.'/'.$name.'.'.'png';
         DB::table('qrcode')->insert([
             'name'=>$name,
@@ -423,5 +438,11 @@ class ManagerController extends Controller
             return redirect()->back()->withInput()->withErrors('删除成功！');
         }
         else   return redirect()->back()->withInput()->withErrors('删除失败！');
+    }
+    public function advertise(){
+        $advertise=DB::table('advertise')->oderBy('created_at,desc')->paginate(6);
+        return view('Manager.advertise',[
+            'advertise'=>$advertise
+        ]);
     }
 }

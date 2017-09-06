@@ -100,6 +100,10 @@
                         <a href="{{url('/manager/Aregister')}}"><i class="fa fa-files-o fa-fw"></i> Register<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>
+                    <li>
+                        <a href="{{url('/manager/advertise')}}"><i class="fa fa-files-o fa-fw"></i> advertise<span class="fa arrow"></span></a>
+                        <!-- /.nav-second-level -->
+                    </li>
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->
