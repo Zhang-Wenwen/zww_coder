@@ -10,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Coder 管理后台</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/sb-admin/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,14 +42,23 @@
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
             <a class="navbar-brand" href="#">Coder 管理后台</a>
         </div>
+        <ul class="nav navbar-top-links navbar-right">
+            <!-- /.dropdown -->
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    {{ Auth::user()->name }} <i class="fa fa-caret-down"> </i>
+                </a>
+                <ul class="dropdown-menu dropdown-user">
+                    <li><a href="http://127.0.0.1:1024/logout" onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();"><i class="fa fa-user fa-fw"></i>   Logout</a>
+                    </li>
+                </ul>
+                <!-- /.dropdown-user -->
+            </li>
+            <!-- /.dropdown -->
+        </ul>
         <!-- /.navbar-header -->
 
         <!-- /.navbar-top-links -->
