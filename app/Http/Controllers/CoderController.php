@@ -56,11 +56,17 @@ class CoderController  extends Controller
         return response()->json($message);
     }
     public function Qrcode(){
-        $Qrcodes=DB::table('qrcode')->get();
-        return response()->json($Qrcodes);
+        $name=DB::table('qrcode')->value('name');
+        $desc=DB::table('qrcode')->value('desc');
+        $Qrcode=DB::table('qrcode')->value('Qrcode');
+        return response()->json([
+            'title'=>$name,
+            'desc'=>$desc,
+            'Qrcode'=>$Qrcode
+        ]);
     }
     public function advertise(){
-        $advertise=DB::table('advertise')->get();
-        return response()->json($advertise);
+        $activity=DB::table('advertise')->get();
+        return response()->json($activity);
     }
 }
