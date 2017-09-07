@@ -27,7 +27,7 @@
                                         <label class="control-label" for="inputError">年级</label>
                                         <input type="text" class="form-control" id="inputError" name="grade" value=""required>
                                     </div>
-                                    <label>选择照片（为了保持照片比列，请尽量上传1：1的照片哦）</label>
+                                    <label>选择照片（请上传218*218大小的图片）</label>
                                     <input type="file" name="file" value="" required>
                                 </div>
                                 @if($errors->first('file') !=null)

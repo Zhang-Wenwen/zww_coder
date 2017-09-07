@@ -24,7 +24,7 @@
                                     <td>{{$value->name}}</td>
                                     <td>{{$value->link}}</td>
                                     <td>{{$value->desc}}</td>
-                                    <td><a href="{{url('manager/delete_Qrcode')}}{{'/'.$value->id}}">点击删除</a></td>
+                                    <td><a href="{{url('manager/delete_Qrcode')}}{{'/'.$value->id}}"onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;</td>
                                     @endforeach
                                         <div class="alert alert-info">
                                             <div style="text-align: center ;font-size: large"class="panel-heading">

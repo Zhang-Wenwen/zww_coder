@@ -24,14 +24,14 @@
                                     <td>{{$value->title}}</td>
                                     <td>{{$value->desc}}</td>
                                     <td>{{$value->place}}</td>
-                                    <td><a href="{{url('manager/delete_np/advertise')}}{{'/'.$value->id}}">点击删除</a></td>
+                                    <td><a href="{{url('manager/delete_np/advertise')}}{{'/'.$value->id}}"onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;
                                     @endforeach
-                                    <div class="alert alert-info">
-                                        <div style="text-align: center ;font-size: large"class="panel-heading">
-                                            <a  href="{{url('manager/add_advertise')}}">添加链接</a>
-                                        </div>
-                                    </div>
                                 </tr>
+                                <div class="alert alert-info">
+                                    <div style="text-align: center ;font-size: large"class="panel-heading">
+                                        <a  href="{{url('manager/add_advertise')}}">添加链接</a>
+                                    </div>
+                                </div>
                             </tbody>
                         </table>
                         {{$advertise->links()}}

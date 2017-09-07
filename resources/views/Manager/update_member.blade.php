@@ -27,7 +27,7 @@
                                         <label class="control-label" for="inputSuccess">年级</label>
                                         <input type="text" class="form-control" id="inputSuccess" name="grade" value="{{$member->grade}}">
                                     </div>
-                                    <label>选择照片（为了保持照片比列，请尽量上传1：1的照片哦）</label>
+                                    <label>选择照片（请上传218*218的照片哦）</label>
                                     <input type="file" name="file" value="{{$member->pic}}">
                                 </div>
                                 @if($errors->first('file') !=null)

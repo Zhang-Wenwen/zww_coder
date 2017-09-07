@@ -31,25 +31,25 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
     <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="/manager/home">HOME</a>
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="/manager/home">主界面</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="/manager/home">Home
+                    <a class="nav-link text-uppercase text-expanded" href="/manager/home">主界面
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="/manager/member">Member</a>
+                    <a class="nav-link text-uppercase text-expanded" href="/manager/member">我们的团队</a>
                 </li>
                 <li class="nav-item active px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="/manager/projects">Projects</a>
+                    <a class="nav-link text-uppercase text-expanded" href="/manager/projects">产品管理</a>
                 </li>
                 <li class="nav-item px-lg-4">
-                    <a class="nav-link text-uppercase text-expanded" href="/manager/milestones">Milestones</a>
+                    <a class="nav-link text-uppercase text-expanded" href="/manager/milestones">天外天大事记</a>
                 </li>
             </ul>
         </div>
@@ -61,7 +61,7 @@
     @foreach($projects as $key=>$value)
     <div class="bg-faded p-4 my-4">
         <div class="card card-inverse">
-            <img class="card-img img-fluid w-100" style="height: 450px;width: 600px" src="/storage/app/public/{{$value->pic}}" alt="">
+            <img class="card-img img-fluid w-100" style="height: 557px;width: 342px" src="{{$value->pic}}" alt="">
             <div class="card-img-overlay bg-overlay">
                 <h2 class="card-title text-shadow text-white text-uppercase mb-0">{{$value->name}}</h2>
                 <h4 class="text-shadow text-white">(0 为web， 1 为app ，3 为都是) <br>此产品为：{{$value->type}}</h4>
@@ -70,7 +70,7 @@
                 <br>
                 <br>
                 <a href="{{url('manager/update/projects')}}{{'/'.$value->id}}" class="btn btn-secondary" >修改内容</a>
-                <a href="{{url('manager/delete/projects')}}{{'/'.$value->id}}" class="btn btn-secondary">删除</a>
+                <a href="{{url('manager/delete/projects')}}{{'/'.$value->id}}" class="btn btn-secondary"onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;
             </div>
         </div>
     </div>

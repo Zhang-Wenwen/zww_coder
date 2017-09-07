@@ -29,15 +29,15 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/manager/home">Home
+                    <a class="nav-link" href="/manager/home">主页面
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/manager/member">member</a>
+                    <a class="nav-link" href="/manager/member">我们的成员</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/manager/team">team</a>
+                    <a class="nav-link" href="/manager/team">我们的团队</a>
                 </li>
                 {{--<li class="nav-item">--}}
                     {{--<a class="nav-link" href="#">Contact</a>--}}
@@ -51,11 +51,11 @@
 <div class="container">
 
     <!-- Introduction Row -->
-    <h1 class="my-4">About Us
+    <h1 class="my-4">我们的团队
         <small>It's Nice to Meet You!</small>
     </h1>
   <p>
-      Delete,add or edit Team members as needed;
+      点击照片即可编辑
       </p>
     <!-- Team Members Row -->
     <div class="row">
@@ -66,12 +66,11 @@
         <div class="col-lg-4 col-sm-6 text-center mb-4">
             {{--<img class="rounded-circle img-fluid d-block mx-auto" src="http://placehold.it/200x200" alt="">--}}
             <a href="{{url('/manager/update_team')}}{{'/'.$value->id}}">
-            <img style="height:200px; width:200px; " class="rounded-circle img-fluid d-block mx-auto" src="/storage/app/public/{{$value->pic}}" alt="">
+            <img style="height:200px; width:200px; " class="rounded-circle img-fluid d-block mx-auto" src="{{$value->pic}}" alt="">
                 </a>
             <h3>{{$value->name}}
                 <small>{{$value->now}}</small>
             </h3>
-{{--            <small>{{$value->text}}</small>--}}
             <p>{{$value->text}}</p>
             <a href="{{url('/manager/delete/team')}}{{'/'.$value->id}}" onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;
         </div>

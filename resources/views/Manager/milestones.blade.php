@@ -28,11 +28,12 @@
                                 <div style="text-align: center ;font-size: large"class="panel-heading">
                                     <a  href="{{url('manager/add/events')}}">添加时间和事件</a>
                                 </div>
-                                    </div>
+                                </div>
                             </tr>
                             </tbody>
                         </table>
 
+                        {{$milestones->links()}}
                     </div>
                     <!-- /.table-responsive -->
 

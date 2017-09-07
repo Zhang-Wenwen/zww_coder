@@ -252,34 +252,34 @@ class ManagerController extends Controller
                         $realpath = $file->getRealPath();
                         $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
                         Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        $team=new Team();
+                        $team->name = $request->input('name');
+                        $team->text = $request->input('text');
+                        $team->now = $request->input('now');
+                        $team->group = $request->input('group');
+                        $team->duty = $request->input('duty');
+                        $team->tag = $request->input('tag');
+                        $team->pic = '/storage/app/public/'.$filename;
+                        $team->type = $request->input('optionsRadios');
+                        if($request->input('optionsRadios')!=null)
+                        {
+                            $team->type = $request->input('optionsRadios');
+                        }
+                        else
+                        {
+                            $team->type = -1;
+                        }
+                        $bool = $team->save();
+                        if ($bool) {
+                            return redirect()->action('ManagerController@team');
+                        } else {
+                            abort("添加未成功，请稍后重试");
+//                return redirect()->action('ManagerController@team');
+                        }
                     }
                 } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
             }
-            $team=new Team();
-            $team->name = $request->input('name');
-            $team->text = $request->input('text');
-            $team->now = $request->input('now');
-            $team->group = $request->input('group');
-            $team->duty = $request->input('duty');
-            $team->tag = $request->input('tag');
-            $filename=$request->file('file')->getFilename();
-            $team->pic = '/storage/app/public/'.$filename;
-            $team->type = $request->input('optionsRadios');
-            if($request->input('optionsRadios')!=null)
-            {
-                $team->type = $request->input('optionsRadios');
-            }
-            else
-            {
-                $team->type = -1;
-            }
-            $bool = $team->save();
-            if ($bool) {
-                return redirect()->action('ManagerController@team');
-            } else {
-                abort("添加未成功，请稍后重试");
-//                return redirect()->action('ManagerController@team');
-            }
+
         }
         if ($table == 'projects') {
             $this->validate($request,[
@@ -293,28 +293,27 @@ class ManagerController extends Controller
                         $realpath = $file->getRealPath();
                         $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
                         Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        $projects=new Project();
+                        $projects->name = $request->input('name');
+                        $projects->desc = $request->input('desc');
+                        $projects->link = $request->input('link');
+                        $projects->pic ='/storage/app/public/'.$filename;
+                        if($request->input('type')!=null)
+                        {
+                            $projects->type = $request->input('type');
+                        }
+                        else
+                        {
+                            $projects->type = 1;
+                        }
+                        $bool =  $projects->save();
+                        if ($bool) {
+                            return redirect()->action('ManagerController@projects');
+                        } else {
+                            abort('哎呀呀，出错啦，再来一次吧');
+                        }
                     }
                 } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
-            }
-            $projects=new Project();
-            $projects->name = $request->input('name');
-            $projects->desc = $request->input('desc');
-            $projects->link = $request->input('link');
-            $filename=$request->file('file')->getFilename();
-            $projects->pic ='/storage/app/Qrcode/'.$filename;
-            if($request->input('type')!=null)
-            {
-                $projects->type = $request->input('type');
-            }
-            else
-            {
-                $projects->type = 1;
-            }
-            $bool =  $projects->save();
-            if ($bool) {
-                return redirect()->action('ManagerController@projects');
-            } else {
-                abort('哎呀呀，出错啦，再来一次吧');
             }
         }
         if($table=='members'){
@@ -329,21 +328,20 @@ class ManagerController extends Controller
                         $realpath = $file->getRealPath();
                         $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
                         Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        $member=new Member();
+                        $member->name = $request->input('name');
+                        $member->group = $request->input('group');
+                        $member->major = $request->input('major');
+                        $member->pic = '/storage/app/public/'.$filename;
+                        $member->grade = $request->input('grade');
+                        $bool =  $member->save();
+                        if ($bool) {
+                            return redirect()->action('ManagerController@member');
+                        } else {
+                            abort('哎呀呀，出错啦，再来一次吧');
+                        }
                     }
                 } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
-            }
-            $member=new Member();
-            $member->name = $request->input('name');
-            $member->group = $request->input('group');
-            $member->major = $request->input('major');
-            $filename=$request->file('file')->getFilename();
-            $member->pic = '/storage/app/public/'.$filename;
-            $member->grade = $request->input('grade');
-            $bool =  $member->save();
-            if ($bool) {
-                return redirect()->action('ManagerController@member');
-            } else {
-                abort('哎呀呀，出错啦，再来一次吧');
             }
         }
 
@@ -440,7 +438,7 @@ class ManagerController extends Controller
         else   return redirect()->back()->withInput()->withErrors('删除失败！');
     }
     public function advertise(){
-        $advertise=DB::table('advertise')->oderBy('created_at,desc')->paginate(6);
+        $advertise=DB::table('advertise')->orderBy('created_at','desc')->paginate(6);
         return view('Manager.advertise',[
             'advertise'=>$advertise
         ]);

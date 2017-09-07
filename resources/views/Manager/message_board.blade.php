@@ -37,7 +37,7 @@
                                 <i class="fa fa-gear"></i> <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" role="menu">
-                                <li><a href="{{url('/manager/delete_np/message_board')}}{{'/'.$value->id}}">删除</a>
+                                <li><a href="{{url('/manager/delete_np/message_board')}}{{'/'.$value->id}}"onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;
                                 </li>
                             </ul>
                         </div>

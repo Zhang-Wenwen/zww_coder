@@ -31,7 +31,7 @@
                                         <label class="control-label" for="inputWarning">工作室职务</label>
                                         <input type="text" class="form-control" id="inputWarning" name="duty" value="{{$team->duty}}">
                                     </div>
-                                    <label>选择照片（为了保持照片比列，请尽量上传1：1的照片哦）</label>
+                                    <label>选择照片（请上传668*565的照片哦）</label>
                                     <input type="file" name="file" value="{{$team->pic}}">
                                 </div>
                                 @if($errors->first('file') !=null)

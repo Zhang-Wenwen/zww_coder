@@ -67,41 +67,41 @@
             <div class="sidebar-nav navbar-collapse">
                 <ul class="nav" id="side-menu">
                     <li>
-                        <a href="{{url('/manager')}}"><i class="fa fa-table fa-fw"></i> Home</a>
+                        <a href="{{url('/manager')}}"><i class="fa fa-table fa-fw"></i>主页面</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> admin team and member<span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> 管理成员<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             <li>
-                                <a href="/manager/team"><i class="fa fa-dashboard fa-fw"></i> Our Team_menber</a>
+                                <a href="/manager/team"><i class="fa fa-dashboard fa-fw"></i> 我们的团队</a>
                             </li>
                             <li>
-                                <a href="/manager/member"><i class="fa fa-dashboard fa-fw"></i>working members</a>
+                                <a href="/manager/member"><i class="fa fa-dashboard fa-fw"></i>我们的成员</a>
                             </li>
                         </ul>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="{{url('/manager/message_board')}}"><i class="fa fa-edit fa-fw"></i> Message_board</a>
+                        <a href="{{url('/manager/message_board')}}"><i class="fa fa-edit fa-fw"></i> 留言板</a>
                     </li>
                     <li>
-                        <a href="{{url('/manager/milestones')}}"><i class="fa fa-wrench fa-fw"></i>Milestones<span class="fa arrow"></span></a>
+                        <a href="{{url('/manager/milestones')}}"><i class="fa fa-wrench fa-fw"></i>天外天大事记<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="{{url('/manager/projects')}}"><i class="fa fa-sitemap fa-fw"></i>Projects<span class="fa arrow"></span></a>
+                        <a href="{{url('/manager/projects')}}"><i class="fa fa-sitemap fa-fw"></i>产品管理<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="{{url('/manager/Qrcode')}}"><i class="fa fa-files-o fa-fw"></i> Qrcodes<span class="fa arrow"></span></a>
+                        <a href="{{url('/manager/Qrcode')}}"><i class="fa fa-files-o fa-fw"></i> 二维码<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="{{url('/manager/Aregister')}}"><i class="fa fa-files-o fa-fw"></i> Register<span class="fa arrow"></span></a>
+                        <a href="{{url('/manager/Aregister')}}"><i class="fa fa-files-o fa-fw"></i> 注册新管理员<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="{{url('/manager/advertise')}}"><i class="fa fa-files-o fa-fw"></i> advertise<span class="fa arrow"></span></a>
+                        <a href="{{url('/manager/advertise')}}"><i class="fa fa-files-o fa-fw"></i> 活动预告<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>
                 </ul>

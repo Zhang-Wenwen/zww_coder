@@ -25,7 +25,7 @@
                                         <input class="form-control" placeholder="Enter text" type="text" name="link" required>
                                     </div>
                                     <div class="form-group">
-                                        <label>选择照片（请上传557*234大小的图片哦）</label>
+                                        <label>选择照片（请上传557*342大小的图片哦）</label>
                                         <input type="file" type="text" name="file"required>
                                     </div>
                                     @if($errors->first('file') !=null)
