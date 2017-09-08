@@ -52,8 +52,12 @@ class CoderController  extends Controller
         $message->name=$request->input('name');
         $message->email=$request->input('email');
         $message->text=$request->input('text');
-        $message->save();
-        return response()->json($message);
+       $bool= $message->save();
+        if ($bool)
+        {
+            return response()->json('ok');
+        }
+
     }
     public function Qrcode(){
         $name=DB::table('qrcode')->value('name');
