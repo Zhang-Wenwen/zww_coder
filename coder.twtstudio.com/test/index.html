@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>第二次作业</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="iconfont.css">
+	<style type="text/css">
+		html,body{background-color: #f1f1f1;margin: 0;padding: 0;}
+		a{text-decoration: none;}
+		#main{height: 350px;width: 500px;margin: auto;margin-top: 300px;overflow: hidden;position: relative;}
+		#back{height: 300px;width: 500px;}
+		#float{position: absolute;left: 0;top: 0;text-align: center;width: 500px;height: 300px;background-color: #000;filter:alpha(Opacity=50);-moz-opacity:0.5;opacity: 0.5;line-height: 250px;display: none;}
+		#float span{font-size: 48px;color: #fff;letter-spacing: 10px;}
+		#float span:hover{color: blue;cursor: pointer;}
+		#buttom{margin: 0;padding: 10px 30px;height: 30px;width: 440px;background-color: #e3f9fd;}
+		#buttom span{font-size: 24px;color: #808080;cursor: pointer;}
+		#fav{display: inline-block;float: left;}
+		#share{font-size: 24px;float: right;display: inline-block;margin: 0;padding: 0;color: #4b5cc4;font-weight: 700;cursor: pointer;}
+	</style>
+	</head>
+<body>
+	<div id="main">
+		<div id="back" onmouseover="float()">
+			<img src="main.png" id="img_1">
+		</div>
+		<div id="float" onmouseleave="removediv()">
+			<span class="iconfont icon-mark"></span>
+			<span class="iconfont icon-search"></span>
+			<span class="iconfont icon-share"></span>
+		</div>
+		<div id="buttom" onmouseover="removediv()">
+			<div id="fav">
+
+			</div>
+			<div id="share">
+				share
+			</div>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="jquery-2.2.1.min.js"></script>
+	<script type="text/javascript">
+		function float() {
+			document.getElementById('float').style.display="block";
+		}
+		function removediv() {
+			document.getElementById('float').style.display="none";
+		}
+		var ischoose = 0;
+		function create_heart(tagid){
+			for(var i = 0;i<tagid;i++){
+				var id = i+1;
+				$("#fav").append("<span class='iconfont icon-likefill' id='fav_"+i+"' onmouseleave='color_out(5)' onmouseover='color_in("+id+",1)' onclick='color_nav("+id+",1)' title='"+id+"分'></span>");
+			}
+		}
+		create_heart(5);
+		function color_nav(tagid){
+			color_change(5,0);
+			color_change(tagid,1);
+			ischoose = 1;
+			alert(tagid+"分");
+		}
+		function color_in(tagid){
+			color_change(5,0);
+			color_change(tagid,1);
+		}
+		function color_change(tagid,type){
+			for(var i=0;i<tagid;i++){
+				if(type==0){
+					$("#fav_"+i).css("color","#808080");
+				}else if(type==1){
+					$("#fav_"+i).css("color","#ff461f");
+				}
+			}
+		}
+		function color_out(tagid){
+			if(ischoose==0){
+				for(var i=0;i<tagid;i++){
+					$("#fav_"+i).css("color","#808080");
+				}
+			}
+		}			
+	</script>
+</html>

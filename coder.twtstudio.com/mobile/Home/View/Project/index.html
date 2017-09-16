@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>天外天工作室-项目成果</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="/Public/mobile/public.css">
+
+	<script type="text/javascript" src="/Public/mobile/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.nav').click(function () {
+                //点击的导航栏编号
+                var no = parseInt($(this).attr('id').substr(3,2).trim());
+
+                //添加切换动画
+                $('.show1').addClass('disappear');
+                //动画结束事件效果
+                $('.disappear').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function () {
+                    $('.show1').removeClass('disappear');
+                    var prev_no = parseInt($('.show1').attr('class').substr(3, 2).trim());
+                    for (var i = 0; i < 5; i++) {
+
+                        var temp = (prev_no + i) ;
+                        if(temp != 10){
+                            temp = (prev_no + i) % 10;
+                        }
+
+                        var temp2 = (no + i);
+                        if(temp2 != 10){
+                            temp2 = (no + i) % 10;
+                        } 
+                        
+                       
+                        
+                        $(".pic" + temp).removeClass('show' + (i + 1));
+
+                        $(".pic" + temp2).addClass('show' + (i + 1));
+
+                    }
+                });
+            });
+        })
+    </script>
+</head>
+<body>
+	<header>
+		<img src="/Public/mobile/images/logo.png">
+	</header>
+	<div class="project-content">
+	  <div class="picture">
+        <ul>
+           <volist name='data1' id='vo'>
+
+                <li class="pic{$vo.project_show_id} show{$vo.project_show_id}">
+
+                    <a href="{$vo.project_pic_link}" target="_blank"><img src="/Public{$vo.project_pic_loc}"></a>
+
+                </li>
+
+            </volist>
+
+            <volist name='data2' id='vo'>
+
+                <li class="pic{$vo.project_show_id} ">
+
+                    <a href="{$vo.project_pic_link}" target="_blank"><img src="/Public{$vo.project_pic_loc}"></a>
+
+                </li>
+
+            </volist>
+       
+            
+        </ul>
+      </div>
+      <div class="project-item">
+      	<table border="0">
+         
+      		<tr>
+           
+
+      			<td><a class="nav" id="nav{$data[0].project_show_id}" href="#">{$data[0].project_title}</a></td>
+      			<td><a class="nav white" id="nav{$data[1].project_show_id}" href="#">{$data[1].project_title}</a></td>
+      			<td><a class="nav " id="nav{$data[2].project_show_id}" href="#">{$data[2].project_title}</a></td>
+      			<td><a class="nav white" id="nav{$data[3].project_show_id}" href="#">{$data[3].project_title}</a></td>
+      		</tr>
+      		<tr>
+      			<td><a class="nav white" id="nav{$data[4].project_show_id}" href="#">{$data[4].project_title}</a></td>
+      			<td><a class="n nav" id="nav{$data[5].project_show_id}" href="#">{$data[5].project_title}</a></td>
+      			<td><a class="nav white" id="nav{$data[6].project_show_id}" href="#">{$data[6].project_title}</a></td>
+      			<td><a class="nav" id="nav{$data[7].project_show_id}" href="#">{$data[7].project_title}</a></td>
+      		</tr>
+      		<tr>
+      			<td><a href="#"></a></td>
+      			<td><a class="nav white" id="nav{$data[8].project_show_id}" href="#">{$data[8].project_title}</a></td>
+      			<td><a class="nav" id="nav{$data[9].project_show_id}" href="#">{$data[9].project_title}</a></td>
+      			<td><a class="nav white" href="#"></a></td>
+      		</tr>
+        
+      	</table>
+      </div>
+	</div>
+	<include file="./mobile/Home/View/Public/footer.html"/>
+</body>
+</html>

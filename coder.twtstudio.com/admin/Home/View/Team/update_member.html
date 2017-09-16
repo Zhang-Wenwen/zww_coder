@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html class="no-js">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>天外天Coder后台管理系统</title>
+
+    <meta name="description" content="这是一�?index 页面">
+
+    <meta name="keywords" content="index">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="renderer" content="webkit">
+
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <link rel="icon" type="image/png" href="/Public/amaze_assets/i/favicon.png">
+
+    <link rel="apple-touch-icon-precomposed" href="/Public/amaze_assets/i/app-icon72x72@2x.png">
+
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+
+    <link rel="stylesheet" href="/Public/amaze_assets/css/amazeui.min.css"/>
+
+    <link rel="stylesheet" href="/Public/amaze_assets/css/admin.css">
+    <style>
+            .error {
+                font-size: 18px;
+                font-weight: bold;
+                color: red;
+                margin:10px 0
+            }
+          
+            
+        </style>
+
+</head>
+
+<body>
+
+<!--[if lte IE 9]>
+
+<p class="browsehappy">你正在使�?strong>过时</strong>的浏览器，Amaze UI 暂不支持�?�?<a href="http://browsehappy.com/" target="_blank">升级浏览�?/a>
+
+    以获得更好的体验�?/p>
+
+<![endif]-->
+
+
+<!-- top start -->
+
+<header class="am-topbar admin-header">
+
+    <include file="./admin/Home/View/Public/top.html"/>
+
+</header>
+
+<!-- top end -->
+
+
+<div class="am-cf admin-main">
+
+    <!-- sidebar start -->
+
+    <include file="./admin/Home/View/Public/left.html"/>
+
+</div>
+
+<!-- sidebar end -->
+
+
+<!-- content start -->
+
+<div class="admin-content">
+
+    <div class="am-cf am-padding">
+
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">更新成员信息</strong></div>
+
+    </div>
+
+
+    <hr/>
+
+
+    <div class="am-g">
+
+
+        <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
+
+
+        </div>
+
+
+        <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+
+            <form class="am-form am-form-horizontal"
+                  action="<?php echo teamAdminHtml_path ?>saveinfo?teamer_id={$ele.0.id}&grade={$ele.0.teamer_grade}"
+                  method="post" enctype="multipart/form-data" id="upload_form" >
+
+                <div class="am-form-group">
+
+                    <label for="user-name" class="am-u-sm-3 am-form-label">姓名 </label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_name" value="{$ele.0.teamer_name}">
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">组别</label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_group" value="{$ele.0.teamer_group}">
+
+                    </div>
+
+                </div>
+
+
+                <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">学院</label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_school" value="{$ele.0.teamer_school}">
+
+                    </div>
+
+                </div>
+                
+                 <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">毕业去向</label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_go" value="{$ele.0.teamer_go}">
+
+                    </div>
+
+                </div>
+
+                <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">个人主页</label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_mainpage_link" value="{$ele.0.teamer_mainpage_link}">
+
+                    </div>
+
+                </div>
+
+
+                <div class="am-form-group">
+
+                    <label class="am-u-sm-3 am-form-label">年级 </label>
+
+                    <div class="am-u-sm-9">
+
+                        <input type="text" name="teamer_grade" value="{$ele.0.teamer_grade}">
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="am-form-group">
+
+
+                    <label class="am-u-sm-3 am-form-label">更改头像</label>
+
+                    <div class="am-u-sm-9">
+
+                    <input type="hidden" id="x1" name="x1"autocomplete="off" />
+                    <input type="hidden" id="y1" name="y1" autocomplete="off"/>
+                    <input type="hidden" id="x2" name="x2"autocomplete="off" />
+                    <input type="hidden" id="y2" name="y2"autocomplete="off" />
+                    
+                    <input type="file" name="image_file" id="image_file" onchange="fileSelectHandler()" />
+
+                    <div class="error">注意：上传前，先截图</div>
+                    <div class="step2">
+                        <img id="preview" />
+                            <div class="info">
+                            <ul>
+                                <li><label>文件大小</label> <input type="text" id="filesize" name="filesize" class="input" autocomplete="off" /></li>
+                                <input type="hidden" id="filetype" name="filetype" class="input"autocomplete="off"/>
+                                 <input type="hidden" id="filedim" name="filedim" class="input"autocomplete="off"/>
+                                <input type="hidden" id="w" name="w" class="input"autocomplete="off"/>
+                                 <input type="hidden" id="h" name="h" class="input"autocomplete="off"/>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                  </div>
+
+
+                    </div>
+
+
+                
+
+
+                <div class="am-form-group">
+
+                    <div class="am-u-sm-9 am-u-sm-push-3">
+
+                        <input type="submit" class="am-btn am-btn-primary" value="修改">
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+<!-- content end -->
+
+
+<!--[if lt IE 9]>
+
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+
+<script src="/Public/amaze_assets/js/amazeui.ie8polyfill.min.js"></script>
+
+<![endif]-->
+
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+
+<script src="/Public/amaze_assets/js/jquery.min.js"></script>
+
+<!--<![endif]-->
+
+<script src="/Public/amaze_assets/js/amazeui.min.js"></script>
+
+<script src="/Public/amaze_assets/js/app.js"></script>
+<script type="text/javascript" src="http://www.sucaihuo.com/Public/js/other/jquery.js"></script> 
+<script src="<?php echo crop_path ; ?>js/jquery.Jcrop.min.js"></script>
+<script src="<?php echo crop_path ; ?>js/script.js"></script>
+
+</body>
+
+</html>
+
+
+

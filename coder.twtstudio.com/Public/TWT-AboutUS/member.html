@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=2.0,user-scalable=yes">
+    <link rel="stylesheet" type="text/css" href="public.css">
+    <link rel="stylesheet" type="text/css" href="member.css">
+
+    <script type="text/javascript" src="./iscroll.js"></script>
+    <title>天外天工作室-项目成果</title>
+
+    <script src="./jquery-1.11.3.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".pic").mouseover(function () {
+                var id = parseInt($(this).attr('id').substr(5));
+                $("#info" + id).show();
+
+                $(this).mouseout(function () {
+                    $("#info" + id).hide();
+                })
+                $("#info" + id).mouseover(function () {
+                    $("#info" + id).show();
+                });
+
+                $("#info" + id).mouseout(function () {
+                    $("#info" + id).hide();
+                });
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+<div class="nav">
+    <img src="images\logo.png">
+
+    <div class="navlist">
+        <ul>
+            <li><a href="#">首页</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#">项目成果</a></li>
+            <li><a href="#">团队分工</a></li>
+            <li><a href="#">成员介绍</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="content">
+
+    <div class="list">
+        <ul>
+            <li>2013</li>
+            <li><span class="triangle-right"></span>
+                <span class="select-year">2014</span></li>
+            <li>2015</li>
+        </ul>
+    </div>
+
+    <div class="member">
+        <table>
+            <tbody>
+            <tr>
+                <td>
+                    <div id="info1" class="hidden">
+                        <p class="info-left">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+
+                        <p class="info-left-text">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+                    </div>
+                    <img src="images\member1.png" id="photo1" class="pic">
+
+
+                </td>
+                <td>
+                    <div id="info2" class="hidden">
+                        <p class="info-right">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+
+                        <p class="info-right-text">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+                    </div>
+                    <img src="images\member2.png" id="photo2" class="pic">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div id="info3" class="hidden">
+                        <p class="info-left">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+
+                        <p class="info-left-text">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+                    </div>
+                    <img src="images\member3.png" id="photo3" class="pic">
+
+
+                </td>
+                <td>
+                    <div id="info4" class="hidden">
+                        <p class="info-right">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+
+                        <p class="info-right-text">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+                    </div>
+                    <img src="images\member4.png" id="photo4" class="pic">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div id="info5" class="hidden">
+                        <p class="info-left">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+
+                        <p class="info-left-text">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+                    </div>
+                    <img src="images\member5.png" id="photo5" class="pic">
+
+
+                </td>
+                <td>
+                    <div id="info6" class="hidden">
+                        <p class="info-right">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+
+                        <p class="info-right-text">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+                    </div>
+                    <img src="images\member6.png" id="photo6" class="pic">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div id="info7" class="hidden">
+                        <p class="info-left">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+
+                        <p class="info-left-text">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+                    </div>
+                    <img src="images\member7.png" id="photo7" class="pic">
+
+
+                </td>
+                <td>
+                    <div id="info8" class="hidden">
+                        <p class="info-right">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+
+                        <p class="info-right-text">程序 李建华<br>
+                            机械工程学院<br>
+                            <a href="#">个人主页</a>
+                        </p>
+                    </div>
+                    <img src="images\member8.png" id="photo8" class="pic">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><img src="images\line.png"></td>
+            </tr>
+            <tr class="button">
+                <td style="text-align:right">
+                    <a href="#"><img src="images\prev.png"></a>
+                </td>
+                <td style="text-align:left">
+                    <a href="#"><img src="images\next.png"></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+
+<div class="pub_footer">
+    <a href="#" class="http">http://www.twt.edu.cn/</a>
+    <a href="#" class="img"><img src="images\footer.png"></a>
+
+    <p>天外天工作室©2000-2015 津 ICP 备000017号</p>
+</div>
+
+</body>
+</html>

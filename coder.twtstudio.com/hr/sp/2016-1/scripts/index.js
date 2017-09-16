@@ -1,0 +1,1 @@
+window.location.href="/hr/2016_spring.html"

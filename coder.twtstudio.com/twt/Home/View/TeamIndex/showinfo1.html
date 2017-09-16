@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=0.5,maximum-scale=2.0,user-scalable=yes">
+
+
+    <script type="text/javascript" src="/Public/Js/iscroll.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/Public/Css/member.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Css/public.css">
+
+    <title>天外天工作室-成员介绍</title>
+
+    <style>
+
+        <!--
+        .na a {
+            text-decoration: none;
+        }
+
+        -->
+    </style>
+
+    <script src="/Public/Js/jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+
+            $(".pic").mouseover(function () {
+
+                var id = parseInt($(this).attr('id').substr(5));
+
+                $("#info" + id).show();
+
+
+                $(this).mouseout(function () {
+
+                    $("#info" + id).hide();
+
+                })
+
+                $("#info" + id).mouseover(function () {
+
+                    $("#info" + id).show();
+
+                });
+
+
+                $("#info" + id).mouseout(function () {
+
+                    $("#info" + id).hide();
+
+                });
+
+            });
+
+
+        });
+
+    </script>
+
+</head>
+
+
+<body>
+
+<div class="nav">
+
+    <!-- top start -->
+
+    <header class="am-topbar admin-header">
+
+        <include file="./twt/Home/View/Public/header.html"/>
+
+    </header>
+
+    <!-- top end -->
+
+</div>
+
+
+<div class="content">
+
+
+    <div class="list">
+
+        <ul>
+          <if condition="($cur_type eq 1) ">
+            <li><a  href="<?php echo teamIndex_path ;?>showinfo1?grade={$cur_grade-1}">{$cur_grade-1}</a>
+            </li>
+            <p>
+            <li><a  href="<?php echo teamIndex_path ;?>showinfo1?grade={$cur_grade}">{$cur_grade}</a>
+            </li>
+          </p>
+            <li><a  href="<?php echo teamIndex_path ;?>showinfo1?grade={$cur_grade+1}">{$cur_grade+1}</a>
+            </li>
+
+            <elseif condition="($cur_type eq 2)"/>
+
+            <for start="0" end="$grade_num">
+
+                <if condition="($show_grade[$i] eq $cur_grade) ">
+                    <if condition="($i-1 egt 0) and ($i+1 lt $grade_num) ">
+                        <div class="na">
+                            <li><a class="na" href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade[$i-1]}">{$show_grade[$i-1]}</a>
+                            </li>
+                            <li><p>
+                                <span class="select-year"><a class="na"
+                                                             href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade.$i}">{$show_grade[$i]}</a></span></p>
+                            </li>
+                            <li><a class="na" href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade[$i+1]}">{$show_grade[$i+1]}</a>
+                            </li>
+
+                        </div>
+
+                        <elseif condition="($i-1 lt 0)"/>
+
+                        <div class="na">
+                            <li>
+                                <p>
+                                <span class="select-year"><a href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade[$i]}">{$show_grade[$i]}</a></span></p>
+                            </li>
+                            <li><a
+                                        href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade[$i+1]}">{$show_grade[$i+1]}</a>
+                            </li>
+                            <li><a href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade[$i+2]}">{$show_grade[$i+2]}</a>
+                            </li>
+
+                        </div>
+
+                        <elseif condition="($i+1 egt $grade_num)"/>
+
+                        <div class="na">
+                            <li><a href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade[$i-2]}">{$show_grade[$i-2]}</a>
+                            </li>
+                            <li><a
+                                        href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade[$i-1]}">{$show_grade[$i-1]}</a>
+                            </li>
+                            <li>
+                                <p>
+                                <span class="select-year"><a href="<?php echo teamIndex_path ;?>showinfo1?grade={$show_grade[$i]}">{$show_grade[$i]}</a></span></p>
+                            </li>
+                        </div>
+
+
+                    </if>
+                </if>
+
+            </for>
+         </if>
+        </ul>
+
+    </div>
+
+    <div class="member">
+
+        <table>
+
+            <tbody>
+
+
+            <for start="0" end="$page_num" step="2">
+
+
+                <tr>
+
+                    <if condition="($list[$i]['teamer_name'] neq '') ">
+
+                        <td>
+
+                            <div id="info{$i+1}" class="hidden">
+
+                                <p class="info-left">{$obj.teamer_group} &nbsp{$obj.teamer_name}<br>
+                 
+                                    {$obj.teamer_school}<br>
+                                     {$obj.teamer_go}<br>
+
+                                   
+
+                                </p>
+
+                                <p class="info-left-text">{$list[$i]['teamer_group']}  {$list[$i]['teamer_name']}<br>
+                       
+                                    {$list[$i]['teamer_school']}<br>
+                                    {$list[$i]['teamer_go']}<br>
+
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="<?php echo member_Photo_path ; ?>/{$list[$i]['teamer_photo_loc']}"
+                                 id="photo{$i+1}" class="pic" style="margin:1px auto;
+
+                         width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        <else/>
+
+
+                        <td>
+
+
+                            <img src="/Public/Images/TeamPic/null.png" style="margin:0px auto;
+
+                         width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:0px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 0px #ccc;
+
+box-shadow:0 0 0px #ccc;">
+
+
+                        </td>
+
+
+                    </if>
+
+
+                    <if condition="($list[$i+1]['teamer_name'] neq '') ">
+
+                        <td>
+
+                            <div id="info{$i+2}" class="hidden">
+
+                                <p class="info-right">{$obj.teamer_group} &nbsp {$obj.teamer_name}<br>
+
+                                    {$obj.teamer_school}<br>
+                                    {$obj.teamer_go}<br>
+
+
+                                  
+
+                                </p>
+
+                                <p class="info-right-text">{$list[$i+1]['teamer_group']}{$list[$i+1]['teamer_name']}<br>
+
+                                    {$list[$i+1]['teamer_school']}<br>
+                                    {$list[$i+1]['teamer_go']}<br>
+                                    
+
+                                </p>
+
+                            </div>
+
+                            <img src="<?php echo member_Photo_path ; ?>/{$list[$i+1]['teamer_photo_loc']}"
+                                 id="photo{$i+2}" class="pic" style="margin:1px auto;
+
+width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:2px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 3px #ccc;
+
+box-shadow:0 0 3px #ccc;">
+
+
+                        </td>
+
+                        <else/>
+
+
+                        <td>
+
+
+                            <img src="/Public/Images/TeamPic/null.png" style="margin:0px auto;
+
+                         width:100px;
+
+height:100px;
+
+border-radius:100px;
+
+border:0px solid #fff;
+
+overflow:hidden;
+
+-webkit-box-shadow:0 0 0px #ccc;
+
+box-shadow:0 0 0px #ccc;">
+
+
+                        </td>
+
+                    </if>
+
+                </tr>
+
+            </for>
+
+
+            <tr>
+
+                <td colspan="2"><img src="/Public/Images/Frontend/line.png"></td>
+
+            </tr>
+
+            <!--
+
+                 <tr>
+
+                     <td colspan="2"><img src="/myphp/THINKPHP/Public/TWT-AboutUS/images\line.png"></td>
+
+                 </tr> -->
+
+            <!--	<tr class="button">
+
+
+
+                    <td style="text-align:right">
+
+
+
+                        <a href="#"><img src="/myphp/THINKPHP/Public/TWT-AboutUS/images\prev.png"></a>
+
+                    </td>
+
+                    <td style="text-align:left">
+
+                        <a href="#"><img src="/myphp/THINKPHP/Public/TWT-AboutUS/images\next.png"></a>
+
+                    </td>
+
+                </tr> -->
+
+
+            <tr class="button">
+
+                <td style="text-align:right ; left:50px;">
+
+
+                    {$page}
+                </td>
+
+            </tr>
+
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div class="member-group">                
+     <if condition="($check_group eq 1) ">
+            <table>
+        <tbody>
+                <tr>         
+                    <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='程序组'" class="active">程序</a></td>
+          </tr>
+
+          <tr>
+                    <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='产品组'" >产品</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='前端组'">前端</a></td>
+          </tr>
+
+          <tr>
+                    <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='设计组'">设计</a></td>
+                </tr>
+
+            </tbody>
+      </table>
+       <elseif condition="($check_group eq 2) " />
+        
+         <table>
+        <tbody>
+           <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='程序组'" >程序</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='产品组'" class="active">产品</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='前端组'">前端</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='设计组'">设计</a></td>
+          </tr>
+</tbody>
+      </table>
+
+<elseif condition="($check_group eq 3) " />
+          <table>
+        <tbody>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='程序组'" >程序</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='产品组'">产品</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='前端组'" class="active">前端</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='设计组'" >设计</a></td>
+          </tr>
+</tbody>
+      </table>
+
+ <elseif condition="($check_group eq 4) " />
+           <table>
+        <tbody>
+           <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='程序组'" >程序</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='产品组'">产品</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='前端组'">前端</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='设计组'" class="active">设计</a></td>
+          </tr>
+          </tbody>
+      </table>
+       <elseif condition="($check_group eq 0) " />
+        
+         <table>
+        <tbody>
+           <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='程序组'" >程序</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='产品组'" >产品</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='前端组'">前端</a></td>
+          </tr>
+          <tr>
+            <td><a href="<?php echo teamIndex_path ;?>showinfo2?teamer_group='设计组'">设计</a></td>
+          </tr>
+</tbody>
+      </table>
+         </if>
+
+
+    </div>
+
+
+</div>
+
+
+<!-- footer start -->
+<include file="./twt/Home/View/Public/footer.html"/>
+<!-- footer end -->
+
+
+</body>
+
+</html>

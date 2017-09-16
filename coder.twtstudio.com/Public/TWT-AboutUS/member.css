@@ -1,0 +1,160 @@
+.body {
+    background-color: #eeeeee;
+}
+
+.pub_footer {
+    margin-top: 3%;
+}
+
+.content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.list {
+    float: left;
+    margin-top: 150px;
+    margin-left: 14%;
+    line-height: 90px;
+}
+
+.list ul {
+    overflow: hidden;
+}
+
+.list li {
+    list-style-type: none;
+    color: #8b8b8b;
+    font-size: 17px;
+    text-align: right;
+}
+
+.triangle-right {
+    width: 0px;
+    height: 0px;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #2f2f2f;
+    font-size: 0px;
+    line-height: 0px;
+    margin-right: 10px;
+}
+
+.select-year {
+    font-size: 20px;
+    color: #282828;
+}
+
+.member {
+    float: left;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.member img {
+    width: 55%;
+}
+
+.member td {
+
+    text-align: center;
+    position: relative;
+}
+
+.button img {
+    width: 20%;
+
+}
+
+.button a {
+    padding: 30px 20px;
+    background-position: 50% bottom;
+    color: #0061de;
+    margin: 0 3px 0 3px;
+    text-decoration: none;
+
+}
+
+.button a.next {
+    margin: 0px 0px 0px 10px;
+}
+
+.button a.prev {
+    margin: 0px 10px 0px 0px;
+}
+
+.info-left {
+    color: #59bcda;
+    font-size: 14px;
+    background-color: #59bcda;
+    border: 1px solid #59bcda;
+    border-radius: 50px 0px 0px 50px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: -100px;
+    width: 160px;
+    z-index: -1;
+    padding: 10px;
+}
+
+.info-left-text {
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 50px 0px 0px 50px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: -100px;
+    width: 160px;
+    padding: 10px;
+}
+
+.info-right {
+    color: #59bcda;
+    font-size: 14px;
+    background-color: #59bcda;
+    border: 1px solid #59bcda;
+    border-radius: 0px 50px 50px 0px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    width: 160px;
+    z-index: -1;
+    padding: 10px;
+}
+
+.info-right-text {
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 0px 50px 50px 0px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 120px;
+    width: 160px;
+    padding: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.info-left a, .info-right a {
+    color: #59bcda;
+}
+
+.info-right-text a, .info-left-text a {
+    color: #ffffff;
+}
+
+/*.wrapper{
+    border-radius: 50px 0px 0px 50px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: -100px;
+    width: 160px;
+
+}*/
