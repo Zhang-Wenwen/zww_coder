@@ -35,7 +35,7 @@ class CoderController  extends Controller
     }
     public function message_board(){
         $message_board=new Message_board();
-        $message_board=$message_board->orderBy('created_at','desc')->get();
+        $message_board=$message_board->orderBy('created_at','desc')->where('is_examined',1)->get();
         return response()->json($message_board);
     }
     public function milestones(){

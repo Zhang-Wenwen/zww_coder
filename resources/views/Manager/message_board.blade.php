@@ -12,9 +12,21 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <i class="fa fa-clock-o fa-fw"></i> 首页寄语管理
+            @if($type==1)
+                （已通过留言）
+                @endif
+            @if($type==0)
+                待审核留言
+            @endif
+            @if($type==-1)
+                未通过留言
+            @endif
         </div>
         <!-- /.panel-heading -->
         <div class="panel-body">
+                <div class="alert alert-danger">
+                    {!! implode('<br>', $errors->all()) !!}
+                </div>
             <ul class="timeline">
                 @foreach($messages as $key=>$value)
                     @if($key%2==0)
@@ -32,6 +44,7 @@
                           留言内容： {{$value->text}}
                         </div>
                         <hr>
+                        @if($type==1)
                         <div class="btn-group">
                             <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-gear"></i> <span class="caret"></span>
@@ -41,6 +54,18 @@
                                 </li>
                             </ul>
                         </div>
+                            @endif
+                        @if($type==0||$type==-1)
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-gear"></i> <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="{{url('/manager/pass/message_board')}}{{'/'.$value->id}}"onclick= "javascript:return confirm('您确定要通过此留言吗?')">通过</a>&nbsp;&nbsp;
+                                    </li>
+                                </ul>
+                            </div>
+                        @endif
                     </div>
                 </li>
                     @endif

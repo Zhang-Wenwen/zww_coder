@@ -8,6 +8,12 @@
         <div class="panel-body">
             <div class="row">
                 <div class="col-lg-16">
+                    @if (count($errors) > 0)
+                        <div class="alert alert-danger">
+                            <strong>删除失败，请稍后重试</strong> <br><br>
+                            {!! implode('<br>', $errors->all()) !!}
+                        </div>
+                    @endif
                     <div class="table-responsive">
                         <table class="table table-bordered table-hover table-striped">
                             <thead>

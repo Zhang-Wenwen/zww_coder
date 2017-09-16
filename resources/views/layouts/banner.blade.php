@@ -82,8 +82,21 @@
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
-                        <a href="{{url('/manager/message_board')}}"><i class="fa fa-edit fa-fw"></i> 留言板</a>
+                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> 留言板<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li>
+                                <a href="{{url('/manager/message_board/1')}}"><i class="fa fa-edit fa-fw"></i>已通过留言</a>
+                            </li>
+                            <li>
+                                <a href="{{url('/manager/message_board/-1')}}"><i class="fa fa-edit fa-fw"></i>未通过留言</a>
+                            </li>
+                            <li>
+                                <a href="{{url('/manager/message_board/0')}}"><i class="fa fa-edit fa-fw"></i>未审核留言</a>
+                            </li>
+                        </ul>
+                        <!-- /.nav-second-level -->
                     </li>
+
                     <li>
                         <a href="{{url('/manager/milestones')}}"><i class="fa fa-wrench fa-fw"></i>天外天大事记<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
@@ -104,6 +117,7 @@
                         <a href="{{url('/manager/advertise')}}"><i class="fa fa-files-o fa-fw"></i> 活动预告<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>
+
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->

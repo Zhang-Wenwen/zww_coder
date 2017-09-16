@@ -29,12 +29,31 @@ class ManagerController extends Controller
             'introduce'=>$introduce
         ]);
     }
-    public function message(){
-        $message_board=new Message_board();
-        $message_board=$message_board->orderBy('created_at','desc')->paginate(6);
+    public function message($type){
+        if ($type==1)   //已通过留言
+        {
+            $message_board=Message_board::where('is_examined',1)->orderBy('created_at','desc')->paginate(6);
+        }
+        if ($type==0)  //待审核留言
+        {
+            $message_board=Message_board::where('is_examined',0)->orderBy('created_at','desc')->paginate(6);
+        }
+        if ($type==-1)  //未通过留言
+        {
+            $message_board=Message_board::where('is_examined',-1)->orderBy('created_at','desc')->paginate(6);
+        }
         return view('manager.message_board',[
             'messages'=>$message_board,
+            'type'=>$type
         ]);
+    }
+    public function message_pass($id){
+        $bool=Message_board::where('id',$id)->update(['is_examined'=>1]);
+        if($bool)
+        {
+            return redirect()->back()->withInput()->withErrors('通过成功！');
+        }
+        else   return redirect()->back()->withInput()->withErrors('操作失败！');
     }
     public function delete_np($table,$id){
         $bool=DB::table($table)->where('id',$id)->delete();

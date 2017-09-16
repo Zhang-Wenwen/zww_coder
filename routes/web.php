@@ -33,7 +33,9 @@ Route::group(['middleware'=>['Core']],function () {
 
         Route::get('/home','ManagerController@index');
 
-        Route::get('/message_board', 'ManagerController@message');
+        Route::get('/message_board/{type}', 'ManagerController@message');
+
+        Route::get('/pass/message_board/{id}', 'ManagerController@message_pass');
 
         Route::get('/team','ManagerController@team');
 
