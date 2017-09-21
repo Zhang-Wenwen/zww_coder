@@ -19,7 +19,7 @@ class CreateMessageBoardTable extends Migration
             $table->char('name',20);
             $table->char('email',50);
             $table->char('text',50);
-            $table->unsignedInteger('is_examined',2)->default(0);
+            $table->Integer('is_examined',2)->default(0)->unsigned();
         });
     }
 
