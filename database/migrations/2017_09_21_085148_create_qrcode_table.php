@@ -16,7 +16,6 @@ class CreateQrcodeTable extends Migration
         Schema::create('qrcode', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name',255);
-            $table->unsignedInteger('id');
             $table->string('desc',255);
             $table->string('Qrcode',255);
             $table->string('link',255);

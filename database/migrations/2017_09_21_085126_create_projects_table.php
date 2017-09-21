@@ -17,7 +17,6 @@ class CreateProjectsTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->char('name',50);
-            $table->unsignedInteger('id');
             $table->char('desc',50);
             $table->unsignedInteger('type',11);
             $table->string('link',50);

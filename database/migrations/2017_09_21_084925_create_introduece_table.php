@@ -17,7 +17,6 @@ class CreateIntrodueceTable extends Migration
             $table->increments('id');
             $table->char('Model',50);
             $table->string('content',200);
-            $table->unsignedInteger('id');
         });
     }
 

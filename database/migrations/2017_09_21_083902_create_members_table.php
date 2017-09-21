@@ -15,10 +15,8 @@ class CreateMembersTable extends Migration
     {
         Schema::create('members', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->timestamps();
             $table->char('name',50);
-            $table->unsignedInteger('id');
             $table->char('group',50);
             $table->char('major',50);
             $table->char('grade',50);

@@ -17,11 +17,10 @@ class CreateTeamTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->char('name',50);
-            $table->unsignedInteger('id');
             $table->string('pic',500);
             $table->char('now',50);
             $table->char('group',50);
-            $table->char('duty',500);
+            $table->char('duty',500)->nullable();
             $table->unsignedInteger('type');
             $table->char('tag',50);
 
