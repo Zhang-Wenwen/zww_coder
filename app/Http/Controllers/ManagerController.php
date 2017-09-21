@@ -7,6 +7,7 @@
  */
 
 namespace App\Http\Controllers;
+use App\Activity;
 use App\Project;
 use App\Member;
 use App\Team;
@@ -257,6 +258,42 @@ class ManagerController extends Controller
                 return redirect()->action('ManagerController@projects');
             }
         }
+        if ($table=='activities'){
+            $this->validate($request,[
+                'file'=>'dimensions:width=557,height=342',
+            ]);
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $originfile=DB::table($table)->value('pic');
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        if ($bool)
+                        {
+                            Storage::disk('public')->delete($originfile);
+                        }
+                        $path='/storage/app/public/'.$filename;
+                        DB::table($table)->where('id', $id)
+                            ->update(['pic' => $path]);
+                    }
+                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+            }
+            $activities = Activity::find($id);
+            $activities->name = $request->input('name');
+            $activities->time = $request->input('time');
+            $activities->content = $request->input('editor');
+            $activities->summary = $request->input('summary');
+            $bool = $activities->save();
+            if ($bool) {
+                return redirect('/activities');
+            } else {
+                abort("修改未成功，请稍后重试");
+                return redirect('/activities');
+            }
+        }
     }
     public function add(Request $request,$table){
         if ($table == 'team') {
@@ -363,7 +400,34 @@ class ManagerController extends Controller
                 } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
             }
         }
-
+        if ($table=='activities'){
+            $this->validate($request,[
+                'file'=>'dimensions:width=557,height=342',
+            ]);
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        $activities=new Activity();
+                        $activities->name = $request->input('name');
+                        $activities->time = $request->input('time');
+                        $activities->content = $request->input('editor');
+                        $activities->pic= '/storage/app/public/'.$filename;
+                        $activities->summary = $request->input('summary');
+                        $bool =  $activities->save();
+                        if ($bool) {
+                            return redirect('/activities');
+                        } else {
+                            abort('哎呀呀，出错啦，再来一次吧');
+                        }
+                    }
+                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+            }
+        }
     }
     public function add_np(Request $request,$table){
         if($table=='milestones'){

@@ -117,7 +117,10 @@
                         <a href="{{url('/manager/advertise')}}"><i class="fa fa-files-o fa-fw"></i> 活动预告<span class="fa arrow"></span></a>
                         <!-- /.nav-second-level -->
                     </li>
-
+                    <li>
+                        <a href="{{url('/manager/activities')}}"><i class="fa fa-files-o fa-fw"></i>活动详情<span class="fa arrow"></span></a>
+                        <!-- /.nav-second-level -->
+                    </li>
                 </ul>
             </div>
             <!-- /.sidebar-collapse -->

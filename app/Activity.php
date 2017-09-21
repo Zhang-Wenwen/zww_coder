@@ -7,9 +7,11 @@
  */
 
 namespace App;
+use App\Http\Controllers\Controller;
+use Illuminate\Database\Eloquent\Model;
 
-
-class Activity
+class Activity extends Model
 {
-
+    protected  $table='activities';
+    public $timestamps=true;
 }

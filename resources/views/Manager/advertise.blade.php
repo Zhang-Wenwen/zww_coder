@@ -15,7 +15,7 @@
                                 <th>活动名称</th>
                                 <th>活动描述</th>
                                 <th>活动地点</th>
-                                <th>删除</th>
+                                <th>操作</th>
                             </tr>
                             </thead>
                             <tbody>
