@@ -85,16 +85,16 @@ Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
 
     Route::get('/advertise', 'ManagerController@advertise');
     Route::get('/add_advertise', function (){
-        return view('manager.add_advertise');
+        return view('Manager.add_advertise');
     });
     Route::get('/activities', function (){
         $activities=DB::table('activities')->paginate(4);
-        return view('manager.activities',[
+        return view('Manager.activities',[
             'activities'=>$activities
         ]);
     });
     Route::get('/add_activities', function (){
-        return view('manager.add_activities');
+        return view('Manager.add_activities');
     });
     Route::get('/update_activities/{id}', function ($id){
         $activities=DB::table('activities')->where('id',$id)->first();
