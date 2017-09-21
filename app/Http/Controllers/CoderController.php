@@ -73,4 +73,12 @@ class CoderController  extends Controller
         $activity=DB::table('advertise')->get();
         return response()->json($activity);
     }
+    public function activity(){
+        $activity=DB::table('activities')->get();
+        foreach ($activity as $key=>$value)
+        {
+//            $activities[$key]=$value=>
+        }
+        return response()->json([]);
+    }
 }

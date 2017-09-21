@@ -28,6 +28,9 @@ Route::group(['middleware'=>['Core']],function () {
     });
 
     Route::post('/form', 'CoderController@form');
+
+    Route::get('/activity','CoderController@activity');
+
 });
 Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
     Route::get('/','ManagerController@index');

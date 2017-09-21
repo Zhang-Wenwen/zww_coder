@@ -17,7 +17,6 @@ class CreateAdvertiseTable extends Migration
             $table->increments('id');
             $table->timestamp('created_at');
             $table->string('title',255);
-            $table->unsignedInteger('id');
             $table->string('desc');
             $table->string('place',255);
         });
