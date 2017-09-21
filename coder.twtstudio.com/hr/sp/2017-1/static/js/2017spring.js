@@ -1,5 +1,0 @@
-$(function(){function i(n,t,a){n.eq(0).animate(t,a||"normal",function(){n.eq(1)&&i(n.slice(1,n.length),t,a)})}$("#warpper").fullpage({navigation:!0,afterLoad:function(n,t){if(2===t){var a=$(this).find("img").slice(0,7).parent(),e=$(this).find("img").slice(7,14).parent()
-i(a,{opacity:1},500),i(e,{opacity:1},500)}if(3===t){var o=$(this).find("img").slice(1,5).parent()
-i(o,{opacity:1},550)}if(4===t){var c=$(this).find("img").slice(2,5).parent(),s=$(this).find("img").slice(5,11).parent()
-i(c,{opacity:1},600),setTimeout(function(){i(s,{opacity:1},300)},1800)}if(5===t){var f=$(this).find("img").slice(0,2).parent(),m=$(this).find("img").slice(2,8).parent()
-i(f,{opacity:1},600),setTimeout(function(){i(m,{opacity:1},400)},1200),$(".coder-desc-1").css({"opacity":1,"animation":"typing 1.1s steps(11, end)"}),setTimeout(function(){$(".coder-desc-1").css({'border':0}),$(".coder-desc-2").css({"animation":"typing 1.6s steps(16, end)","opacity":"1"})},1500)}}})})

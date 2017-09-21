@@ -1,3 +1,0 @@
-RewriteEngine On
-
-RewriteRule ^((?!index\.php|assets|op).+)$ index.php?sname=$1 [NC,L]
