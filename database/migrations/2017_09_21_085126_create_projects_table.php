@@ -18,7 +18,7 @@ class CreateProjectsTable extends Migration
             $table->timestamps();
             $table->char('name',50);
             $table->char('desc',50);
-            $table->integer('type',11);
+            $table->integer('type');
             $table->string('link',50);
             $table->string('pic',500);
         });
