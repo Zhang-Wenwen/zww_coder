@@ -16,13 +16,13 @@ class CreateTeamTable extends Migration
         Schema::create('team', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->char('name',50);
-            $table->string('pic',500);
-            $table->char('now',50);
-            $table->char('group',50);
-            $table->char('duty',500)->nullable();
+            $table->string('name');
+            $table->string('pic');
+            $table->string('now');
+            $table->string('group');
+            $table->string('duty')->nullable();
             $table->integer('type');
-            $table->char('tag',50);
+            $table->string('tag');
         });
     }
 
