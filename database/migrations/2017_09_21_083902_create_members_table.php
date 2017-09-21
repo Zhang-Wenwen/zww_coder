@@ -23,7 +23,6 @@ class CreateMembersTable extends Migration
             $table->string('pic',500);
         });
     }
-
     /**
      * Reverse the migrations.
      *
