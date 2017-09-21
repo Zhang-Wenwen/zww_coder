@@ -7,6 +7,7 @@
  */
 
 namespace App\Http\Controllers;
+use App\Activity;
 use App\Project;
 use App\Member;
 use App\Team;
@@ -74,11 +75,16 @@ class CoderController  extends Controller
         return response()->json($activity);
     }
     public function activity(){
-        $activity=DB::table('activities')->get();
-        foreach ($activity as $key=>$value)
-        {
-//            $activities[$key]=$value=>
-        }
-        return response()->json([]);
+        $activity=DB::table('activities')->select('id','name','time','pic')->get()->toArray();
+        return response()->json([$activity]);
+    }
+
+    /**
+     * @return string
+     */
+    public function activity_detail($id)
+    {
+        $activity=Activity::find($id);
+        return response()->json([$activity]);
     }
 }

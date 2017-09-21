@@ -31,6 +31,8 @@ Route::group(['middleware'=>['Core']],function () {
 
     Route::get('/activity','CoderController@activity');
 
+    Route::get('/activity_detail/{id}','CoderController@activity_detail');
+
 });
 Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
     Route::get('/','ManagerController@index');

@@ -33,7 +33,11 @@ Route::group(['middleware'=>['Core']],function () {
     Route::get('/form', function () {
         return view('form');
     });
+
     Route::post('/form', 'CoderController@form');
+
     Route::get('/activity','CoderController@activity');
-    Route::get('/activity_detail','CoderController@activity_detail');
+
+    Route::get('/activity_detail/{id}','CoderController@activity_detail');
+
 });
