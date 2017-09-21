@@ -5,3 +5,4 @@ php artisan cache:clear
 php artisan optimize
 php artisan config:cache
 php artisan key:generate
+php artisan migrate
