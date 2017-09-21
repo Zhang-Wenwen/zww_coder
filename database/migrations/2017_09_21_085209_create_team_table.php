@@ -23,7 +23,6 @@ class CreateTeamTable extends Migration
             $table->char('duty',500)->nullable();
             $table->integer('type');
             $table->char('tag',50);
-
         });
     }
 
