@@ -21,7 +21,7 @@ class CreateTeamTable extends Migration
             $table->char('now',50);
             $table->char('group',50);
             $table->char('duty',500)->nullable();
-            $table->integer('type')->unsigned();
+            $table->integer('type');
             $table->char('tag',50);
 
         });
