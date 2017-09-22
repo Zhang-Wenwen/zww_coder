@@ -1,4 +1,8 @@
-<meta name="csrf-token" content="{{ csrf_token() }}">
+
+@extends('layouts.banner')
+<link rel="stylesheet" href="/Trumbowyg/dist/ui/trumbowyg.min.css">
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="/Trumbowyg/dist/trumbowyg.js"></script>
 <script>
     $.ajaxSetup({
         headers: {
@@ -6,10 +10,6 @@
         }
     });
 </script>
-@extends('layouts.banner')
-<link rel="stylesheet" href="/Trumbowyg/dist/ui/trumbowyg.min.css">
-<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="/Trumbowyg/dist/trumbowyg.js"></script>
 <script type="text/javascript">
     window.jQuery || document.write("<script src='public/js/jquery1x.min.js'>"+"<"+"/script>");
 </script>
@@ -50,7 +50,7 @@
                                         </textarea>
                                         <br>
                                     </div>
-                                    <label>选择照片（请上传557*234大小的图片）</label>
+                                    <label>此图片用于详情封面（请上传557*234大小的图片）</label>
                                     <input type="file" name="file" value=" {{$activities->pic}}" >
                                 </div>
                                 <button type="submit" class="btn btn-primary">提交</button>

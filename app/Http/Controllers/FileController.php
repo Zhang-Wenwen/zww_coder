@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Config;
 use Mockery\Exception;
 class FileController extends Controller
 {
-    public function file_upload($id,Request $request)
+    public function file_update($id,Request $request)
     {
         if ($request->file('upload') != null) {
             if ($request->isMethod('POST')) {
