@@ -43,7 +43,7 @@ class ManagerController extends Controller
         {
             $message_board=Message_board::where('is_examined',-1)->orderBy('created_at','desc')->paginate(6);
         }
-        return view('manager.message_board',[
+        return view('Manager.message_board',[
             'messages'=>$message_board,
             'type'=>$type
         ]);

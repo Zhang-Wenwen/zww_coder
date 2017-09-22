@@ -76,7 +76,7 @@ Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
     Route::post('/Aregister', 'RegisterController@register');
 
     Route::get('/add_Qrcode', function (){
-        return view('manager.add_Qrcode');
+        return view('Manager.add_Qrcode');
     });
 
     Route::post('/add_Qrcode', 'ManagerController@add_Qrcode');
@@ -100,11 +100,11 @@ Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
     });
     Route::get('/update_activities/{id}', function ($id){
         $activities=DB::table('activities')->where('id',$id)->first();
-        return view('manager.update_activities',[
+        return view('Manager.update_activities',[
             'activities'=>$activities
         ]);
     });
-    Route::post('/file','FileController@file');
+    Route::post('/file_update/{id}','FileController@file_upate');
 });
 
 Auth::routes();

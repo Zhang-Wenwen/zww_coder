@@ -1,16 +1,24 @@
+<meta name="csrf-token" content="{{ csrf_token() }}">
+<script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
 @extends('layouts.banner')
 <link rel="stylesheet" href="/Trumbowyg/dist/ui/trumbowyg.min.css">
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="/Trumbowyg/dist/trumbowyg.js"></script>
 <script type="text/javascript">
-    window.jQuery || document.write("<script src='../js/jquery1x.min.js'>"+"<"+"/script>");
+    window.jQuery || document.write("<script src='public/js/jquery1x.min.js'>"+"<"+"/script>");
 </script>
 @section('content')
     <div class="row">
         <div class="col-lg-12">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    新增
+                    修改
                 </div>
                 <div class="panel-body">
                     <div class="row">
@@ -23,7 +31,7 @@
                                             {{ $errors->first('file') }}
                                         </div>
                                     @endif
-                                    <h1> 添加活动详情</h1>
+                                    <h1> 修改活动详情</h1>
                                     <label class="control-label" for="inputSuccess">活动名称</label>
                                     <input type="text" class="form-control" id="inputSuccess" name="name" value="{{$activities->name}}"required>
                                     <div class="form-group has-error">
@@ -74,7 +82,7 @@
                                         ],
                                         plugins: {
                                             upload: {
-                                                serverPath: '/manager/file',
+                                                serverPath: '/manager/file_update/{{$activities->id}}',
                                                 fileFieldName: 'upload'
                                             }
                                         },
