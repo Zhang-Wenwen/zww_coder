@@ -43,7 +43,7 @@
                                         </textarea>
                                         <br>
                                     </div>
-                                    <label>此图片用于详情封面（请上传不大于557*234大小的图片）</label>
+                                    <label>此图片用于详情封面（请上传557*234大小的图片）</label>
                                     <input type="file" name="file" value=" {{$activities->pic}}" >
                                 </div>
                                 <button type="submit" class="btn btn-primary">提交</button>

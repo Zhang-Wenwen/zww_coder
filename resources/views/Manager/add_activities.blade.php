@@ -50,7 +50,7 @@
                                         </textarea>
                                         <br>
                                     </div>
-                                    <label>此图片用于封面小图（请上传不大于557*342大小的图片）</label>
+                                    <label>此图片用于封面小图（请上传557*342大小的图片）</label>
                                     <input type="file" name="file" value="" required >
                                 </div>
                                 <button type="submit" class="btn btn-primary">提交</button>
