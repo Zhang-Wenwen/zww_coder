@@ -22,6 +22,9 @@ class FileController extends Controller
             if ($request->isMethod('POST')) {
                 $file = $request->file('upload');
                 if ($file->isValid()) {
+                    $this->validate($request,[
+                        'file'=>'max:557*342',
+                    ]);
                     $ext = $file->getClientOriginalExtension();
                     $realpath = $file->getRealPath();
                     $originfile=DB::table('files')->value('pic');
@@ -48,6 +51,9 @@ class FileController extends Controller
             if ($request->isMethod('POST')) {
                 $file = $request->file('upload');
                 if ($file->isValid()) {
+                    $this->validate($request,[
+                        'file'=>'max:557*342',
+                    ]);
                     $ext = $file->getClientOriginalExtension();
                     $realpath = $file->getRealPath();
                     $originfile=DB::table('files')->value('pic');
