@@ -3,13 +3,6 @@
 <link rel="stylesheet" href="/Trumbowyg/dist/ui/trumbowyg.min.css">
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="/Trumbowyg/dist/trumbowyg.js"></script>
-<script>
-    $.ajaxSetup({
-        headers: {
-            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
-        }
-    });
-</script>
 <script type="text/javascript">
     window.jQuery || document.write("<script src='public/js/jquery1x.min.js'>"+"<"+"/script>");
 </script>
@@ -55,40 +48,6 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary">提交</button>
                                 <button type="reset" class="btn btn-primary"value="Reset">重置</button>
-                                <script src="/Trumbowyg/dist/trumbowyg.js"></script>
-                                <script src="/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js"></script>
-                                <script>
-                                    $('#editor').trumbowyg({
-                                        btnsDef: {
-                                            // 设置上传的3种方法，远程上传，本地上传，图片64位加密
-                                            image: {
-                                                dropdown: [ 'upload'],
-                                                ico: 'insertImage'
-                                            }
-                                        },
-                                        btns: [
-                                            ['viewHTML'],
-                                            ['formatting'],
-                                            'btnGrp-design',
-                                            ['superscript', 'subscript'],
-                                            'image',
-                                            'btnGrp-justify',
-                                            'btnGrp-lists',
-                                            ['horizontalRule'],
-                                            ['table'],
-                                            ['foreColor', 'backColor'],
-                                            ['removeformat'],
-                                            ['fullscreen']
-                                        ],
-                                        plugins: {
-                                            upload: {
-                                                serverPath: '/manager/file_update/{{$activities->id}}',
-                                                fileFieldName: 'upload'
-                                            }
-                                        },
-                                        autogrow: true
-                                    });
-                                </script>
                             </form>
                         </div>
                         <!-- /.col-lg-6 (nested) -->
@@ -102,3 +61,40 @@
         <!-- /.col-lg-12 -->
     </div>
 @stop
+
+@section('func')
+    <script src="/Trumbowyg/dist/trumbowyg.js"></script>
+    <script src="/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js"></script>
+    <script>
+        $('#editor').trumbowyg({
+            btnsDef: {
+                // 设置上传的3种方法，远程上传，本地上传，图片64位加密
+                image: {
+                    dropdown: [ 'upload'],
+                    ico: 'insertImage'
+                }
+            },
+            btns: [
+                ['viewHTML'],
+                ['formatting'],
+                'btnGrp-design',
+                ['superscript', 'subscript'],
+                'image',
+                'btnGrp-justify',
+                'btnGrp-lists',
+                ['horizontalRule'],
+                ['table'],
+                ['foreColor', 'backColor'],
+                ['removeformat'],
+                ['fullscreen']
+            ],
+            plugins: {
+                upload: {
+                    serverPath: '/manager/file_update/{{$activities->id}}',
+                    fileFieldName: 'upload'
+                }
+            },
+            autogrow: true
+        });
+    </script>
+@endsection

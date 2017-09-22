@@ -104,7 +104,10 @@ Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
             'activities'=>$activities
         ]);
     });
-    Route::post('/file_update/{id}','FileController@file_upate');
+    Route::post('/file_update/{id}','FileController@file_update');
+
+    Route::post('/file_add','FileController@file_add');
+
 });
 
 Auth::routes();

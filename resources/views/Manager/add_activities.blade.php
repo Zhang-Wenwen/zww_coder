@@ -55,47 +55,13 @@
                                 </div>
                                 <button type="submit" class="btn btn-primary">提交</button>
                                 <button type="reset" class="btn btn-primary"value="Reset">重置</button>
-                                <script src="/Trumbowyg/dist/trumbowyg.js"></script>
-                                <script src="/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js"></script>
-                                <script src="/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js"></script>
-                                <script>
-                                    $('#editor').trumbowyg({
-                                        btnsDef: {
-                                            // 设置上传的3种方法，远程上传，本地上传，图片64位加密
-                                            image: {
-                                                dropdown: [ 'upload'],
-                                                ico: 'insertImage'
-                                            }
-                                        },
-                                        btns: [
-                                            ['viewHTML'],
-                                            ['formatting'],
-                                            'btnGrp-design',
-                                            ['superscript', 'subscript'],
-                                            'image',
-                                            'btnGrp-justify',
-                                            'btnGrp-lists',
-                                            ['horizontalRule'],
-                                            ['table'],
-                                            ['foreColor', 'backColor'],
-                                            ['removeformat'],
-                                            ['fullscreen']
-                                        ],
-                                        plugins: {
-                                            upload: {
-                                                serverPath: '/manager/file',
-                                                fileFieldName: 'upload'
-                                            }
-                                        },
-                                        autogrow: true
-                                    });
-                                </script>
                             </form>
                         </div>
                         <!-- /.col-lg-6 (nested) -->
                     </div>
                     <!-- /.row (nested) -->
                 </div>
+
                 <!-- /.panel-body -->
             </div>
             <!-- /.panel -->
@@ -103,3 +69,40 @@
         <!-- /.col-lg-12 -->
     </div>
 @stop
+
+@section('func')
+    <script src="/Trumbowyg/dist/trumbowyg.js"></script>
+    <script src="/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js"></script>
+    <script>
+        $('#editor').trumbowyg({
+            btnsDef: {
+                // 设置上传的3种方法，远程上传，本地上传，图片64位加密
+                image: {
+                    dropdown: [ 'upload'],
+                    ico: 'insertImage'
+                }
+            },
+            btns: [
+                ['viewHTML'],
+                ['formatting'],
+                'btnGrp-design',
+                ['superscript', 'subscript'],
+                'image',
+                'btnGrp-justify',
+                'btnGrp-lists',
+                ['horizontalRule'],
+                ['table'],
+                ['foreColor', 'backColor'],
+                ['removeformat'],
+                ['fullscreen']
+            ],
+            plugins: {
+                upload: {
+                    serverPath: '/manager/file_add',
+                    fileFieldName: 'upload'
+                }
+            },
+            autogrow: true
+        });
+    </script>
+@endsection
