@@ -288,10 +288,10 @@ class ManagerController extends Controller
             $activities->summary = $request->input('summary');
             $bool = $activities->save();
             if ($bool) {
-                return redirect('/activities');
+                return redirect('/manager/activities');
             } else {
                 abort("修改未成功，请稍后重试");
-                return redirect('/activities');
+                return redirect('/manager/activities');
             }
         }
     }
@@ -420,12 +420,16 @@ class ManagerController extends Controller
                         $activities->summary = $request->input('summary');
                         $bool =  $activities->save();
                         if ($bool) {
-                            return redirect('/activities');
+                            return redirect('/manager/activities');
                         } else {
                             abort('哎呀呀，出错啦，再来一次吧');
                         }
                     }
-                } else abort('哎呀呀，文件上传出错啦，请再试一次吧');
+                } else
+                {
+                    abort('哎呀呀，文件上传出错啦，请再试一次吧');
+                return redirect('/manager/add_activities');
+                }
             }
         }
     }
