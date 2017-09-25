@@ -156,7 +156,7 @@ class ManagerController extends Controller
                         {
                             Storage::disk('public')->delete($originfile);
                         }
-                        $path='/storage/app/public/'.$filename;
+                        $path='/storage'.$filename;
                         DB::table($table)->where('id', $id)
                             ->update(['pic' => $path]);
                     }
@@ -198,7 +198,7 @@ class ManagerController extends Controller
                         {
                             Storage::disk('public')->delete($originfile);
                         }
-                        $path='/storage/app/public/'.$filename;
+                        $path='/storage'.$filename;
                         DB::table($table)->where('id', $id)
                             ->update(['pic' => $path]);
                     }
@@ -234,7 +234,7 @@ class ManagerController extends Controller
                         {
                             Storage::disk('public')->delete($originfile);
                         }
-                        $path='/storage/app/public/'.$filename;
+                        $path='/storage'.$filename;
                         DB::table($table)->where('id', $id)
                             ->update(['pic' => $path]);
                     }
@@ -275,7 +275,7 @@ class ManagerController extends Controller
                         {
                             Storage::disk('public')->delete($originfile);
                         }
-                        $path='/storage/app/public/'.$filename;
+                        $path='/storage'.$filename;
                         DB::table($table)->where('id', $id)
                             ->update(['pic' => $path]);
                     }
@@ -315,7 +315,7 @@ class ManagerController extends Controller
                         $team->group = $request->input('group');
                         $team->duty = $request->input('duty');
                         $team->tag = $request->input('tag');
-                        $team->pic = '/storage/app/public/'.$filename;
+                        $team->pic = '/storage'.$filename;
                         $team->type = $request->input('optionsRadios');
                         if($request->input('optionsRadios')!=null)
                         {
@@ -353,7 +353,7 @@ class ManagerController extends Controller
                         $projects->name = $request->input('name');
                         $projects->desc = $request->input('desc');
                         $projects->link = $request->input('link');
-                        $projects->pic ='/storage/app/public/'.$filename;
+                        $projects->pic ='/storage'.$filename;
                         if($request->input('type')!=null)
                         {
                             $projects->type = $request->input('type');
@@ -388,7 +388,7 @@ class ManagerController extends Controller
                         $member->name = $request->input('name');
                         $member->group = $request->input('group');
                         $member->major = $request->input('major');
-                        $member->pic = '/storage/app/public/'.$filename;
+                        $member->pic = '/storage'.$filename;
                         $member->grade = $request->input('grade');
                         $bool =  $member->save();
                         if ($bool) {
@@ -416,7 +416,7 @@ class ManagerController extends Controller
                         $activities->name = $request->input('name');
                         $activities->time = $request->input('time');
                         $activities->content = $request->input('editor');
-                        $activities->pic= '/storage/app/public/'.$filename;
+                        $activities->pic= '/storage'.$filename;
                         $activities->summary = $request->input('summary');
                         $bool =  $activities->save();
                         if ($bool) {

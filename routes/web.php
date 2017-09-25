@@ -33,6 +33,11 @@ Route::group(['middleware'=>['Core']],function () {
 
     Route::get('/activity_detail/{id}','CoderController@activity_detail');
 
+    Route::get('/',function(){
+        return 'welcome';
+    });
+
+
 });
 Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
     Route::get('/','ManagerController@index');
