@@ -16,9 +16,9 @@ class CreateAdvertiseTable extends Migration
         Schema::create('advertise', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamp('created_at');
-            $table->string('title',255);
+            $table->string('title');
             $table->string('desc');
-            $table->string('place',255);
+            $table->string('place');
         });
     }
 

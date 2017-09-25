@@ -15,9 +15,9 @@ class CreateMessageBoardTable extends Migration
     {
         Schema::create('message_board', function (Blueprint $table) {
             $table->increments('id');
-            $table->char('name',20);
-            $table->char('email',50);
-            $table->char('text',50);
+            $table->string('name');
+            $table->string('email');
+            $table->text('text');
             $table->integer('is_examined')->default(0);
             $table->timestamps();
         });

@@ -15,8 +15,8 @@ class CreateMilestonesTable extends Migration
     {
         Schema::create('milestones', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('events',50);
-            $table->string('year',50);
+            $table->string('events');
+            $table->string('year');
         });
     }
 
