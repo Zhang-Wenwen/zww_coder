@@ -1,6 +1,6 @@
 @extends('layouts.banner')
     <link rel="stylesheet" href="/Trumbowyg/dist/ui/trumbowyg.min.css">
-    <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="/Trumbowyg/dist/trumbowyg.js"></script>
     <script type="text/javascript">
 window.jQuery || document.write("<script src='../js/jquery1x.min.js'>"+"<"+"/script>");
