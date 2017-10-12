@@ -24,7 +24,7 @@
                                     <td>{{$value->title}}</td>
                                     <td>{{$value->desc}}</td>
                                     <td>{{$value->place}}</td>
-                                    <td><a href="{{url('manager/delete_np/advertise')}}{{'/'.$value->id}}"onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;
+                                    <td><a href="{{url('manager/delete/advertise')}}{{'/'.$value->id}}"onclick= "javascript:return confirm('您确定要删除吗?')">删除</a>&nbsp;&nbsp;
                                     @endforeach
                                 </tr>
                                 <div class="alert alert-info">

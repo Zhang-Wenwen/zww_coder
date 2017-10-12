@@ -28,6 +28,14 @@
                                         <input type="text" class="form-control" id="inputSuccess" name="tag" value="{{$team->tag}}">
                                     </div>
                                     <div class="form-group has-warning">
+                                        <label class="control-label" for="inputWarning">年级</label>
+                                        <input type="text" class="form-control" id="inputWarning" name="grade" value="{{$team->grade}}">
+                                    </div>
+                                    <div class="form-group has-warning">
+                                        <label class="control-label" for="inputWarning">学院</label>
+                                        <input type="text" class="form-control" id="inputWarning" name="school" value="{{$team->school}}">
+                                    </div>
+                                    <div class="form-group has-warning">
                                         <label class="control-label" for="inputWarning">工作室职务</label>
                                         <input type="text" class="form-control" id="inputWarning" name="duty" value="{{$team->duty}}">
                                     </div>

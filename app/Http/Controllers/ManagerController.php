@@ -24,12 +24,12 @@ class ManagerController extends Controller
     public function __construct(){
         $this->middleware('auth');
     }
-    public function index(){
-        $introduce=DB::table('introduce')->paginate(3);
-        return view('Manager.home',[
-            'introduce'=>$introduce
-        ]);
-    }
+//    public function index(){
+//        $introduce=DB::table('introduce')->paginate(3);
+//        return view('Manager.home',[
+//            'introduce'=>$introduce
+//        ]);
+//    }
     public function message($type){
         if ($type==1)   //已通过留言
         {
@@ -66,7 +66,10 @@ class ManagerController extends Controller
     }
     public function delete($table,$id){
         $filename= DB::table($table)->where('id', $id)->value('pic');
-        storage::disk('public')->delete($filename);
+        $filename=substr($filename,9,-1);
+//        $bool=storage::disk('public')->delete($filename);
+        $bool=Storage::delete($filename);
+        dd($bool);
         DB::table($table)->where('id', $id)->delete();
         return redirect()->back()->withInput()->withErrors('删除成功');
     }
@@ -136,7 +139,6 @@ class ManagerController extends Controller
                 return redirect()->action('ManagerController@milestones');
             } else {
                 abort("修改未成功，请稍后重试");
-//                return redirect()->action('ManagerController@milestones');
             }
         }
         if ($table == 'team') {
@@ -154,6 +156,7 @@ class ManagerController extends Controller
                         $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
                         if ($bool)
                         {
+                            $originfile=substr($originfile,9,-1);
                             Storage::disk('public')->delete($originfile);
                         }
                         $path='/storage/'.$filename;
@@ -196,6 +199,7 @@ class ManagerController extends Controller
                         $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
                         if ($bool)
                         {
+                            $originfile=substr($originfile,9,-1);
                             Storage::disk('public')->delete($originfile);
                         }
                         $path='/storage/'.$filename;
@@ -232,7 +236,11 @@ class ManagerController extends Controller
                         $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
                         if ($bool)
                         {
-                            Storage::disk('public')->delete($originfile);
+                            $originfile=substr($originfile,9,-1);
+//                            dd($originfile);
+//                            $bool=Storage::delete($originfile);
+                            $bool=Storage::disk('public')->delete($originfile);
+                            dd($bool);
                         }
                         $path='/storage/'.$filename;
                         DB::table($table)->where('id', $id)
@@ -273,6 +281,7 @@ class ManagerController extends Controller
                         $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
                         if ($bool)
                         {
+                            $originfile=substr($originfile,9,-1);
                             Storage::disk('public')->delete($originfile);
                         }
                         $path='/storage/'.$filename;
@@ -315,6 +324,8 @@ class ManagerController extends Controller
                         $team->group = $request->input('group');
                         $team->duty = $request->input('duty');
                         $team->tag = $request->input('tag');
+                        $team->grade = $request->input('grade');
+                        $team->school = $request->input('school');
                         $team->pic = '/storage/'.$filename;
                         $team->type = $request->input('optionsRadios');
                         if($request->input('optionsRadios')!=null)
@@ -432,6 +443,35 @@ class ManagerController extends Controller
                 }
             }
         }
+        if ($table=='advertise'){
+            if ($request->file('file') != null) {
+                if ($request->isMethod('POST')) {
+                    $file = $request->file('file');
+                    if ($file->isValid()) {
+                        $ext = $file->getClientOriginalExtension();
+                        $realpath = $file->getRealPath();
+                        $filename = date('Y-m-d-H-i-s') . '-' . uniqid() . '.' . $ext;
+                        Storage::disk('public')->put($filename, file_get_contents($realpath));
+                        $bool=DB::table('advertise')->insert([
+                            'title'=>$request->input('title'),
+                            'desc'=>$request->input('desc'),
+                            'place'=>$request->input('place'),
+                            'created_at'=>date('Y-m-d'),
+                            'pic'=>'/storage/'.$filename
+                        ]);
+                        if ($bool) {
+                            return redirect('/manager/advertise');
+                        } else {
+                            abort('哎呀呀，出错啦，再来一次吧');
+                        }
+                    }
+                } else
+                {
+                    abort('哎呀呀，文件上传出错啦，请再试一次吧');
+                    return redirect('/manager/add_activities');
+                }
+            }
+        }
     }
     public function add_np(Request $request,$table){
         if($table=='milestones'){
@@ -439,20 +479,6 @@ class ManagerController extends Controller
             $milestones->year=$request->input('year');
             $milestones->events=$request->input('events');
             $bool=$milestones->save();
-            if ($bool) {
-                return redirect()->action('ManagerController@milestones');
-            } else {
-                abort("添加未成功，请稍后重试");
-//                return redirect()->action('ManagerController@milestones');
-            }
-        }
-        if ($table=='advertise'){
-          $bool=DB::table('advertise')->insert([
-              'title'=>$request->input('title'),
-              'desc'=>$request->input('desc'),
-              'place'=>$request->input('place'),
-              'created_at'=>date('Y-m-d')
-          ]);
             if ($bool) {
                 return redirect()->action('ManagerController@milestones');
             } else {
@@ -516,6 +542,7 @@ class ManagerController extends Controller
     }
     public function delete_Qrcode($id){
         $originfile=DB::table('qrcode')->value('Qrcode');
+        $originfile=substr($originfile,9,-1);
         $bool=Storage::disk('public')->delete($originfile);
         $bool=DB::table('qrcode')->where('id',$id)->delete();
         if($bool)

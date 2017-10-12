@@ -11,38 +11,38 @@ use Illuminate\Support\Facades\DB;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::group(['middleware'=>['Core']],function () {
-    Route::get('/member', 'CoderController@member');
-
-    Route::get('/personal_info', 'CoderController@personal_info');
-
-    Route::get('/project', 'CoderController@project');
-
-    Route::get('/message_board', 'CoderController@message_board');
-    Route::get('/milestones', 'CoderController@milestones');
-    Route::get('/introduce', 'CoderController@introduce');
-    Route::get('/Qrcode', 'CoderController@Qrcode');
-    Route::get('/advertise', 'CoderController@advertise');
-    Route::get('/form', function () {
-        return view('form');
-    });
-
-    Route::post('/form', 'CoderController@form');
-
-    Route::get('/activity','CoderController@activity');
-
-    Route::get('/activity_detail/{id}','CoderController@activity_detail');
-
-    Route::get('/',function(){
-        return 'welcome';
-    });
-
-
-});
+//Route::group(['middleware'=>['Core']],function () {
+//    Route::get('/member', 'CoderController@member');
+//
+//    Route::get('/personal_info', 'CoderController@personal_info');
+//
+//    Route::get('/project', 'CoderController@project');
+//
+//    Route::get('/message_board', 'CoderController@message_board');
+//    Route::get('/milestones', 'CoderController@milestones');
+//    Route::get('/introduce', 'CoderController@introduce');
+//    Route::get('/Qrcode', 'CoderController@Qrcode');
+//    Route::get('/advertise', 'CoderController@advertise');
+//    Route::get('/form', function () {
+//        return view('form');
+//    });
+//
+//    Route::post('/form', 'CoderController@form');
+//
+//    Route::get('/activity','CoderController@activity');
+//
+//    Route::get('/activity_detail/{id}','CoderController@activity_detail');
+//
+//    Route::get('/',function(){
+//        return 'welcome';
+//    });
+//
+//
+//});
 Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
-    Route::get('/','ManagerController@index');
+    Route::get('/','ManagerController@milestones');
 
-    Route::get('/home','ManagerController@index');
+    Route::get('/home','ManagerController@milestones');
 
     Route::get('/message_board/{type}', 'ManagerController@message');
 

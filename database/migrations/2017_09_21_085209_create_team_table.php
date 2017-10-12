@@ -23,6 +23,9 @@ class CreateTeamTable extends Migration
             $table->string('duty')->nullable();
             $table->integer('type');
             $table->string('tag');
+            $table->string('text');
+            $table->string('grade');
+            $table->string('school');
         });
     }
 

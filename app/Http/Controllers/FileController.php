@@ -34,7 +34,7 @@ class FileController extends Controller
                     {
                         Storage::disk('public')->delete($originfile);
                     }
-                    $path='/storage/app/public/'.$filename;
+                    $path='/storage/'.$filename;
                     DB::table('files')->where('id', $id)
                         ->update(['pic' => $path]);
                 }
@@ -63,7 +63,7 @@ class FileController extends Controller
                     {
                         Storage::disk('public')->delete($originfile);
                     }
-                    $path='/storage/app/public/'.$filename;
+                    $path='/storage/'.$filename;
                     DB::table('files')
                         ->insert(['pic' => $path]);
                 }
