@@ -48,6 +48,8 @@ Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
 
     Route::get('/pass/message_board/{id}', 'ManagerController@message_pass');
 
+    Route::get('/deny/message_board/{id}', 'ManagerController@message_deny');
+
     Route::get('/team','ManagerController@team');
 
     Route::get('/delete_np/{table}/{id}', 'ManagerController@delete_np');
@@ -112,6 +114,7 @@ Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
     Route::post('/file_update/{id}','FileController@file_update');
 
     Route::post('/file_add','FileController@file_add');
+
 
 });
 

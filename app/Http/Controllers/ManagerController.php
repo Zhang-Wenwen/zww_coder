@@ -56,6 +56,14 @@ class ManagerController extends Controller
         }
         else   return redirect()->back()->withInput()->withErrors('操作失败！');
     }
+    public function message_deny($id){
+        $bool=Message_board::where('id',$id)->update(['is_examined'=>-1]);
+        if($bool)
+        {
+            return redirect()->back()->withInput()->withErrors('不通过成功！');
+        }
+        else   return redirect()->back()->withInput()->withErrors('操作失败！');
+    }
     public function delete_np($table,$id){
         $bool=DB::table($table)->where('id',$id)->delete();
         if($bool)

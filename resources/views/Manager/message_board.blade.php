@@ -63,6 +63,8 @@
                                 <ul class="dropdown-menu" role="menu">
                                     <li><a href="{{url('/manager/pass/message_board')}}{{'/'.$value->id}}"onclick= "javascript:return confirm('您确定要通过此留言吗?')">通过</a>&nbsp;&nbsp;
                                     </li>
+                                    <li><a href="{{url('/manager/deny/message_board')}}{{'/'.$value->id}}"onclick= "javascript:return confirm('您确定不通过此留言吗?')">不通过</a>&nbsp;&nbsp;
+                                    </li>
                                 </ul>
                             </div>
                         @endif
