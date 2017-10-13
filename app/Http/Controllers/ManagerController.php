@@ -66,9 +66,8 @@ class ManagerController extends Controller
     }
     public function delete($table,$id){
         $filename= DB::table($table)->where('id', $id)->value('pic');
-        $filename=substr($filename,9,-1);
-//        $bool=storage::disk('public')->delete($filename);
-        $bool=Storage::delete($filename);
+        $filename=explode("/",$filename);
+        $bool=storage::disk('public')->delete($filename[2]);
         dd($bool);
         DB::table($table)->where('id', $id)->delete();
         return redirect()->back()->withInput()->withErrors('删除成功');
@@ -156,8 +155,8 @@ class ManagerController extends Controller
                         $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
                         if ($bool)
                         {
-                            $originfile=substr($originfile,9,-1);
-                            Storage::disk('public')->delete($originfile);
+                            $originfile=explode("/",$originfile);
+                            Storage::disk('public')->delete($originfile[2]);
                         }
                         $path='/storage/'.$filename;
                         DB::table($table)->where('id', $id)
@@ -199,8 +198,8 @@ class ManagerController extends Controller
                         $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
                         if ($bool)
                         {
-                            $originfile=substr($originfile,9,-1);
-                            Storage::disk('public')->delete($originfile);
+                            $originfile=explode("/",$originfile);
+                            Storage::disk('public')->delete($originfile[2]);
                         }
                         $path='/storage/'.$filename;
                         DB::table($table)->where('id', $id)
@@ -236,11 +235,8 @@ class ManagerController extends Controller
                         $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
                         if ($bool)
                         {
-                            $originfile=substr($originfile,9,-1);
-//                            dd($originfile);
-//                            $bool=Storage::delete($originfile);
-                            $bool=Storage::disk('public')->delete($originfile);
-                            dd($bool);
+                            $originfile=explode("/",$originfile);
+                            Storage::disk('public')->delete($originfile[2]);
                         }
                         $path='/storage/'.$filename;
                         DB::table($table)->where('id', $id)
@@ -281,8 +277,8 @@ class ManagerController extends Controller
                         $bool=Storage::disk('public')->put($filename, file_get_contents($realpath));
                         if ($bool)
                         {
-                            $originfile=substr($originfile,9,-1);
-                            Storage::disk('public')->delete($originfile);
+                            $originfile=explode("/",$originfile);
+                            Storage::disk('public')->delete($originfile[2]);
                         }
                         $path='/storage/'.$filename;
                         DB::table($table)->where('id', $id)
@@ -542,8 +538,8 @@ class ManagerController extends Controller
     }
     public function delete_Qrcode($id){
         $originfile=DB::table('qrcode')->value('Qrcode');
-        $originfile=substr($originfile,9,-1);
-        $bool=Storage::disk('public')->delete($originfile);
+        $originfile=explode("/",$originfile);
+        $bool=Storage::disk('public')->delete($originfile[2]);
         $bool=DB::table('qrcode')->where('id',$id)->delete();
         if($bool)
         {
