@@ -118,4 +118,8 @@ Route::group(['middleware'=>['auth'], 'prefix'=>'manager'],function () {
 
 });
 
+Route::get('/hr',function (){
+    return redirect('https://recruit.twtstudio.com/');
+});
+
 Auth::routes();
