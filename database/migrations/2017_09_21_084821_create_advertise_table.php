@@ -19,6 +19,7 @@ class CreateAdvertiseTable extends Migration
             $table->string('title');
             $table->string('desc');
             $table->string('place');
+            $table->string('pic');
         });
     }
 
