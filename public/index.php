@@ -1,5 +1,5 @@
 <?php
-
+echo '网站升级中，暂停使用';
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
