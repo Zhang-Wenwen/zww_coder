@@ -76,7 +76,7 @@ class ManagerController extends Controller
         $filename= DB::table($table)->where('id', $id)->value('pic');
         $filename=explode("/",$filename);
         $bool=storage::disk('public')->delete($filename[2]);
-        dd($bool);
+//        dd($bool);
         DB::table($table)->where('id', $id)->delete();
         return redirect()->back()->withInput()->withErrors('删除成功');
     }
