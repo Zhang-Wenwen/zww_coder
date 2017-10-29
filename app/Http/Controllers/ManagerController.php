@@ -529,7 +529,9 @@ class ManagerController extends Controller
         $name=$request->input('name');
         $desc=$request->input('desc');
         $name_pic= date('Y-m-d-H-i-s') . '-' . uniqid();
-        QrCode::format('png')->size(94)->color(0,161,233)->margin(0)->generate($link,storage_path('app/public'.'/'.$name_pic.'.'.'png'));
+        QrCode::format('png')->size(94)
+            ->backgroundColor(0,161,233)
+            ->margin(0)->generate($link,storage_path('app/public'.'/'.$name_pic.'.'.'png'));
         $Qrcode='/storage'.'/'.$name_pic.'.'.'png';
         DB::table('qrcode')->insert([
             'name'=>$name,

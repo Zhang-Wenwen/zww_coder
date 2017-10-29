@@ -98,7 +98,7 @@ class CoderController  extends Controller
         return response()->json($advertise);
     }
     public function activity(){
-        $activity=DB::table('activities')->select('id','name','time','pic')->get()->toArray();
+        $activity=DB::table('activities')->select('id','name','time','pic','summary')->get()->toArray();
         foreach ($activity as $key=>$value){
             $activity[$key]->pic=config('app.url').$value->pic;
         };
