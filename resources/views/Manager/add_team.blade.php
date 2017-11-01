@@ -60,12 +60,12 @@
                                     </div>
                                     <div class="radio">
                                         <label>
-                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">type 0    （无职务）
+                                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="0">type 0    （无职务）
                                         </label>
                                     </div>
                                     <div class="radio">
                                         <label>
-                                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">type -1   （原职务）
+                                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="-1">type -1   （原职务）
                                         </label>
                                     </div>
                                     <button type="submit" class="btn btn-default">提交</button>

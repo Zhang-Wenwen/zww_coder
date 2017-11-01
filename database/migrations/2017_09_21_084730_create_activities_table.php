@@ -17,10 +17,10 @@ class CreateActivitiesTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('name');
-            $table->date('time');
+            $table->string('time');
             $table->text('content');
             $table->string('pic');
-            $table->string('summary');
+            $table->text('summary');
         });
     }
 

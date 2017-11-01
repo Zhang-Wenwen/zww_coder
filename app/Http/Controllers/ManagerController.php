@@ -76,7 +76,7 @@ class ManagerController extends Controller
         $filename= DB::table($table)->where('id', $id)->value('pic');
         $filename=explode("/",$filename);
         $bool=storage::disk('public')->delete($filename[2]);
-        dd($bool);
+//        dd($bool);
         DB::table($table)->where('id', $id)->delete();
         return redirect()->back()->withInput()->withErrors('删除成功');
     }
@@ -528,8 +528,11 @@ class ManagerController extends Controller
         $link=$request->input('link');
         $name=$request->input('name');
         $desc=$request->input('desc');
-        QrCode::format('png')->size(94)->color(0,161,233)->generate($link,storage_path('/app/public'.'/'.$name.'.'.'png'));
-        $Qrcode='/storage'.'/'.$name.'.'.'png';
+        $name_pic= date('Y-m-d-H-i-s') . '-' . uniqid();
+        QrCode::format('png')->size(94)
+            ->backgroundColor(0,161,233)
+            ->margin(0)->generate($link,storage_path('app/public'.'/'.$name_pic.'.'.'png'));
+        $Qrcode='/storage'.'/'.$name_pic.'.'.'png';
         DB::table('qrcode')->insert([
             'name'=>$name,
             'link'=>$link,
