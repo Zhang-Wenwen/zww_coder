@@ -8,9 +8,9 @@ file_put_contents('.env', <<<EOF
 APP_NAME=Laravel
 APP_ENV=local
 APP_KEY=base64:bYNfPTUMwdqn+G+BSllxBVV/XGrCbY/vvwvmW7JJXm4=
-APP_DEBUG=true
+APP_DEBUG=false
 APP_LOG_LEVEL=debug
-APP_URL=http://localhost
+APP_URL=https://coder-api.twtstudio.com
 DB_CONNECTION=mysql
 DB_HOST={$env->DB_HOST}
 DB_PORT=3306
