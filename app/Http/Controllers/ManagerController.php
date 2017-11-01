@@ -179,6 +179,8 @@ class ManagerController extends Controller
             $team->group = $request->input('group');
             $team->duty = $request->input('duty');
             $team->tag = $request->input('tag');
+            $team->school = $request->input('school');
+            $team->grade = $request->input('grade');
             if($request->input('optionsRadios')!=null)
             {
                 $team->type = $request->input('optionsRadios');
